@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
+
+%:
+	dh $@ --with pkgkde_symbolshelper --list-missing --parallel
+
+override_dh_strip:
+	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
+	dh_strip --remaining-packages --dbg-package=qttools5-dbg
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz

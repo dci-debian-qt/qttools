@@ -1,0 +1,13 @@
+usr/bin/assistant
+usr/bin/qhelpgenerator
+usr/bin/qcollectiongenerator
+usr/bin/qhelpconverter
+usr/bin/pixeltool
+usr/bin/designer
+usr/bin/lconvert
+usr/bin/lupdate
+usr/bin/lrelease
+usr/bin/linguist
+usr/bin/qdbus
+usr/bin/qdbusviewer
+usr/share/qt5/phrasebooks/*.qph
