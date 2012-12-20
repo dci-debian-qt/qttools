@@ -10,13 +10,14 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Felix Geyer <fgeyer@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
-               qtbase5-private-dev
+               qtbase5-private-dev,
+               zlib1g-dev,
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtdoc.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtdoc.git;a=summary
 
-Package: libqtclucene5
+Package: libqt5clucene5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -27,7 +28,7 @@ Description: Qt 5 CLucene module
  .
  TODO
 
-Package: libqtdesigner5
+Package: libqt5designer5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -40,7 +41,7 @@ Description: Qt 5 designer module
  custom widget plugins for Qt Designer, and classes that enable you to access
  Qt Designer's components.
 
-Package: libqtdesignercomponents5
+Package: libqt5designercomponents5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -51,7 +52,7 @@ Description: Qt 5 designer components module
  .
  TODO
 
-Package: libqthelp5
+Package: libqt5help5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -66,10 +67,10 @@ Description: Qt 5 help module
 Package: qttools5-dev
 Architecture: any
 Section: libdevel
-Depends: libqtclucene5 (= ${binary:Version}),
-         libqtdesigner5 (= ${binary:Version}),
-         libqtdesignercomponents5 (= ${binary:Version}),
-         libqthelp5 (= ${binary:Version}),
+Depends: libqt5clucene5 (= ${binary:Version}),
+         libqt5designer5 (= ${binary:Version}),
+         libqt5designercomponents5 (= ${binary:Version}),
+         libqt5help5 (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -119,10 +120,10 @@ Package: qttools5-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: libqtclucene5 (= ${binary:Version}),
-         libqtdesigner5 (= ${binary:Version}),
-         libqtdesignercomponents5 (= ${binary:Version}),
-         libqthelp5 (= ${binary:Version}),
+Depends: libqt5clucene5 (= ${binary:Version}),
+         libqt5designer5 (= ${binary:Version}),
+         libqt5designercomponents5 (= ${binary:Version}),
+         libqt5help5 (= ${binary:Version}),
          qttools5-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools debugging symbols

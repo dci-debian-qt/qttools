@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: qtbase-opensource-src
-Source: http://releases.qt-project.org/qt5.0/
+Upstream-Name: qttools-opensource-src
+Source: http://releases.qt-project.org/qt5/5.0.0/submodules_tar/
 
 Files: *
 Copyright: 2012 Nokia Corporation and/or its subsidiary(-ies)
@@ -13,6 +13,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>,
            2012 Felix Geyer <fgeyer@debian.org>
+           2012 Timo Jyrinki <timo@debian.org>
 License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
 
 Files: tests/auto/cmake/test_modules/*
