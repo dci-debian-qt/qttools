@@ -7,12 +7,14 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Felix Geyer <fgeyer@debian.org>
+           Felix Geyer <fgeyer@debian.org>,
+           Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
+               qt5-default,
                qtbase5-private-dev,
                zlib1g-dev,
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtdoc.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtdoc.git;a=summary
@@ -20,7 +22,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtdoc.git;a=summary
 Package: libqt5clucene5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 CLucene module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -31,7 +33,7 @@ Description: Qt 5 CLucene module
 Package: libqt5designer5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 designer module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -44,7 +46,7 @@ Description: Qt 5 designer module
 Package: libqt5designercomponents5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 designer components module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -55,7 +57,7 @@ Description: Qt 5 designer components module
 Package: libqt5help5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 help module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -67,6 +69,7 @@ Description: Qt 5 help module
 Package: qttools5-dev
 Architecture: any
 Section: libdevel
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
@@ -82,6 +85,7 @@ Description: Qt 5 tools development files
 Package: qttools5-private-dev
 Architecture: any
 Section: libdevel
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: qttools5-dev (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools private development files
@@ -95,6 +99,7 @@ Description: Qt 5 tools private development files
 Package: qttools5-dev-tools
 Architecture: any
 Section: devel
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -109,6 +114,7 @@ Description: Qt 5 development tools
 Package: qttools5-examples
 Architecture: any
 Section: x11
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 tools examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -120,6 +126,7 @@ Package: qttools5-dbg
 Architecture: any
 Priority: extra
 Section: debug
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
@@ -137,6 +144,7 @@ Package: qttools5-examples-dbg
 Architecture: any
 Priority: extra
 Section: debug
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: qttools5-examples (= ${binary:Version}),
          qttools5-dbg (= ${binary:Version}),
          ${misc:Depends}
