@@ -94,7 +94,7 @@ usr/lib/*/qt5/examples/help/contextsensitivehelp/wateringconfigdialog.ui
 usr/lib/*/qt5/examples/help/contextsensitivehelp/helpbrowser.cpp
 usr/lib/*/qt5/examples/help/contextsensitivehelp/helpbrowser.h
 usr/lib/*/qt5/examples/help/contextsensitivehelp/main.cpp
-usr/lib/*/qt5/examples/help/remotecontrol/remotecontrol
+usr/lib/*/qt5/examples/assistant/remotecontrol/remotecontrol
 usr/lib/*/qt5/examples/linguist/README
 usr/lib/*/qt5/examples/linguist/linguist.pro
 usr/lib/*/qt5/examples/linguist/arrowpad/arrowpad.pro
