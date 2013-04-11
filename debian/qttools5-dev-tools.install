@@ -1,7 +1,6 @@
 usr/lib/*/qt5/bin/qhelpconverter
 usr/lib/*/qt5/bin/designer
 usr/lib/*/qt5/bin/lconvert
-usr/lib/*/qt5/bin/qdbus
 usr/lib/*/qt5/bin/lupdate
 usr/lib/*/qt5/bin/lrelease
 usr/lib/*/qt5/bin/assistant
