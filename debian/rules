@@ -13,6 +13,15 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 override_dh_auto_configure:
 	qmake 
 
+override_dh_autoinstall:
+	dh_autoinstall
+
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
+override_dh_install:
+	dh_install --fail-missing
+
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
 	dh_strip --remaining-packages --dbg-package=qttools5-dbg
