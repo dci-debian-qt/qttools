@@ -22,6 +22,21 @@ Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.c
 License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 Files: examples/*
+       src/linguist/linguist/doc/snippets/doc_src_linguist-manual.cpp
+       src/assistant/help/doc/snippets/doc_src_qthelp.cpp
+       src/assistant/assistant/doc/snippets/simpletextviewer/assistant.cpp
+       src/assistant/assistant/doc/snippets/simpletextviewer/mainwindow.cpp
+       src/assistant/assistant/doc/snippets/simpletextviewer/findfiledialog.cpp
+       src/designer/src/uitools/doc/snippets/quiloader/*
+       src/designer/src/designer/doc/snippets/manual/doc_src_designer-manual.cpp
+       src/designer/src/designer/doc/snippets/imagedialog/main.cpp
+       src/designer/src/designer/doc/snippets/multipleinheritance/*
+       src/designer/src/designer/doc/snippets/uitools/calculatorform/main.cpp
+       src/designer/src/designer/doc/snippets/singleinheritance/*
+       src/designer/src/designer/doc/snippets/noautoconnection/*
+       src/designer/src/designer/doc/snippets/plugins/doc_src_qtdesigner.cpp
+       src/designer/src/designer/doc/snippets/lib/*
+       src/designer/src/designer/doc/snippets/autoconnection/*
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
