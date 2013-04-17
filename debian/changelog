@@ -1,5 +1,5 @@
-qttools-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+qttools-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
 
- -- Felix Geyer <fgeyer@debian.org>  Thu, 04 Oct 2012 19:23:20 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 17 Apr 2013 18:17:59 -0300
