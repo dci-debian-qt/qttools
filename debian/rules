@@ -12,6 +12,8 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 %:
 	dh $@ --with pkgkde_symbolshelper --list-missing --parallel
 
+# We override qmake until https://bugreports.qt-project.org/browse/QTBUG-30735
+# gets solved (FTBFS with -nocache).
 override_dh_auto_configure:
 	qmake 
 
