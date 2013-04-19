@@ -1,11 +1,11 @@
-qttools-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qttools-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Timo Jyrinki ]
   * Add missing package descriptions.
   * Add multi-arch: same to examples.
   * More additions to copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Apr 2013 10:56:34 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 19 Apr 2013 14:14:04 -0300
 
 qttools-opensource-src (5.0.2-1) experimental; urgency=low
 
