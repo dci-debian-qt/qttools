@@ -1,6 +1,7 @@
 qttools-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not pass --list-missing. We are using --fail-missing in the exact rule.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 14:13:00 -0300
 
