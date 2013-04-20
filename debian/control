@@ -11,7 +11,6 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
-               qt5-default,
                qtbase5-private-dev (>= 5.0.2~),
                zlib1g-dev,
 Standards-Version: 3.9.4
