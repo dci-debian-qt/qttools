@@ -7,6 +7,7 @@ qttools-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * Fix build on Hurd; patch hurd-path_max.diff.
   * debian/control: remove unused ${misc:Pre-Depends} from qdbus-qt5,
     qttools5-dev, qttools5-private-dev and qttools5-dbg
+  * debian/qttools5-private-dev.install: use wildcards instead of the version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 12:24:52 -0300
 
