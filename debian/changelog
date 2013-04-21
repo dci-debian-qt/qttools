@@ -2,4 +2,4 @@ qttools-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 17 Apr 2013 18:17:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Apr 2013 23:25:12 -0300
