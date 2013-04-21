@@ -56,7 +56,7 @@ Description: Qt 5 Designer components module
 
 Package: qdbus-qt5
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 D-Bus tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -80,7 +80,7 @@ Description: Qt 5 help module
 Package: qttools5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
@@ -96,7 +96,7 @@ Description: Qt 5 tools development files
 Package: qttools5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qttools5-dev (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools private development files
@@ -138,7 +138,7 @@ Package: qttools5-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
