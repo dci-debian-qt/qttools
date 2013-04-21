@@ -1,22 +1,3 @@
-qttools-opensource-src (5.0.2-3) UNRELEASED; urgency=low
-
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Do not pass --list-missing. We are using --fail-missing in the exact rule.
-  * Export QT_SELECT=qt5 to avoid a FTBFS when the debhelper patch that makes
-    Qt4 as default get included.
-    - Remove qt5-default as B-D, as it's not really needed now.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 14:13:00 -0300
-
-qttools-opensource-src (5.0.2-2) experimental; urgency=low
-
-  [ Timo Jyrinki ]
-  * Add missing package descriptions.
-  * Add multi-arch: same to examples.
-  * More additions to copyright.
-
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 19 Apr 2013 14:14:04 -0300
-
 qttools-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
