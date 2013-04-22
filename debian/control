@@ -156,7 +156,7 @@ Package: qttools5-examples-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qttools5-examples (= ${binary:Version}),
          qttools5-dbg (= ${binary:Version}),
          ${misc:Depends}
