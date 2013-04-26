@@ -3,6 +3,9 @@ qttools-opensource-src (5.0.0-3) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * Use correct (and canonical) Vcs fields.
 
+  [ Pino Toscano ]
+  * debian/control: remove unused ${misc:Pre-Depends} from qttools5-dev-tools.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Apr 2013 13:36:19 +0400
 
 qttools-opensource-src (5.0.2-2) experimental; urgency=low

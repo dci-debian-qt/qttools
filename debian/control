@@ -110,7 +110,7 @@ Description: Qt 5 tools private development files
 Package: qttools5-dev-tools
 Architecture: any
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
