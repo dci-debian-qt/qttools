@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 hurd-i386 i386
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.0.2
@@ -43,11 +43,14 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN19QDesignerComponents21createObjectInspectorEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN19QDesignerComponents22createSignalSlotEditorEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetEnumValueEEEbv@Base 5.0.2
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetFlagValueEEEbv@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal24PropertySheetPixmapValueEEEbv@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal24PropertySheetStringValueEEEbv@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal28PropertySheetStringListValueEEEbv@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal29PropertySheetKeySequenceValueEEEbv@Base 5.0.2
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI29QDesignerOptionsPageInterface@Base 5.0.2
  _ZTI34QDesignerFormEditorPluginInterface@Base 5.0.2
  _ZTI34QDesignerFormWindowCursorInterface@Base 5.0.2
