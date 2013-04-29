@@ -1,4 +1,4 @@
-qttools-opensource-src (5.0.0-3) UNRELEASED; urgency=low
+qttools-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
   * Use correct (and canonical) Vcs fields.
