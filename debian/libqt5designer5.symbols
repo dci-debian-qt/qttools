@@ -1224,11 +1224,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16AddActionCommandD1Ev@Base 5.0.2
  _ZN18qdesigner_internal16AddActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal16DesignerMetaEnumC1ERK7QStringS3_S3_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal16DesignerMetaEnumC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal16DesignerMetaEnumC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal16DesignerMetaEnumC2ERK7QStringS3_S3_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal16DesignerMetaEnumC2ERKS0_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal16DesignerMetaEnumD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal16DesignerMetaEnumD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal16DesignerMetaEnumC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal16DesignerMetaEnumD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal16DesignerMetaEnumD2Ev@Base 5.0.2
  _ZN18qdesigner_internal16LayoutProperties17fromPropertySheetEPK28QDesignerFormEditorInterfaceP7QLayouti@Base 5.0.2
  _ZN18qdesigner_internal16LayoutProperties17visiblePropertiesEPK7QLayout@Base 5.0.2
  _ZN18qdesigner_internal16LayoutProperties5clearEv@Base 5.0.2
@@ -1313,11 +1313,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17DesignerIconCacheD1Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCacheD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerMetaFlagsC1ERK7QStringS3_S3_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal17DesignerMetaFlagsC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal17DesignerMetaFlagsC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal17DesignerMetaFlagsC2ERK7QStringS3_S3_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal17DesignerMetaFlagsC2ERKS0_@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal17DesignerMetaFlagsD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal17DesignerMetaFlagsD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal17DesignerMetaFlagsC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal17DesignerMetaFlagsD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal17DesignerMetaFlagsD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17DockWidgetCommand4initEP11QDockWidget@Base 5.0.2
  _ZN18qdesigner_internal17DockWidgetCommandC1ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal17DockWidgetCommandC2ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
@@ -1591,8 +1591,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC1Ev@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2ERK7QStringP31QDesignerPropertySheetExtensioni@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand19restoreDefaultValueEv@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand3addEP7QObjectRK7QString@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand4undoEv@Base 5.0.2
@@ -3128,8 +3128,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.0.2
- (optional=templinst)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 s390x)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 ppc64 s390x)_ZN8QVariant9fromValueIN18qdesigner_internal28PropertySheetStringListValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 ppc64 s390x)_ZN8QVariant9fromValueIN18qdesigner_internal29PropertySheetKeySequenceValueEEES_RKT_@Base 5.0.2
@@ -3900,7 +3900,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI12QFormBuilder@Base 5.0.2
  _ZTI12QTextBuilder@Base 5.0.2
  _ZTI13QDesignerMenu@Base 5.0.2
