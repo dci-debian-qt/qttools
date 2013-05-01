@@ -3,6 +3,9 @@ qttools-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files for armhf, ia64 and ppc64.
 
+  [ Timo Jyrinki ]
+  * Fix wrong paths in pkgconfig
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Apr 2013 09:19:39 -0300
 
 qttools-opensource-src (5.0.2-3) experimental; urgency=low
