@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 ppc64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc ppc64
 libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN11QHelpEngine11indexWidgetEv@Base 5.0.2
  _ZN11QHelpEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -197,7 +197,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN23QHelpSearchResultWidgetD0Ev@Base 5.0.2
  _ZN23QHelpSearchResultWidgetD1Ev@Base 5.0.2
  _ZN23QHelpSearchResultWidgetD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=gccinternal|arch=amd64)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZNK11QHelpEngine10indexModelEv@Base 5.0.2
  _ZNK11QHelpEngine10metaObjectEv@Base 5.0.2
  _ZNK11QHelpEngine12contentModelEv@Base 5.0.2
