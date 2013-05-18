@@ -2,6 +2,7 @@ qttools-opensource-src (5.0.2-6) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update symbols files.
+  * Make qttools5-dev-tools recommend libqt5sql5-sqlite (for assistant).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 May 2013 18:55:47 +0200
 

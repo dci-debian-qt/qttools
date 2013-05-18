@@ -113,6 +113,7 @@ Architecture: any
 Section: devel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libqt5sql5-sqlite
 Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
