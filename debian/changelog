@@ -1,4 +1,4 @@
-qttools-opensource-src (5.0.2-6) UNRELEASED; urgency=low
+qttools-opensource-src (5.0.2-6) experimental; urgency=low
 
   [ Pino Toscano ]
   * Update symbols files.
@@ -8,7 +8,7 @@ qttools-opensource-src (5.0.2-6) UNRELEASED; urgency=low
   * Update symbols files with amd64 build. Three symbols dissapeared, but the
     code hasn't changed and their where amd64-only symbols, so it seems safe.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 May 2013 18:55:47 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 18 May 2013 22:38:04 -0300
 
 qttools-opensource-src (5.0.2-5) experimental; urgency=low
 
