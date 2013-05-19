@@ -2551,11 +2551,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
- (arch=amd64)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
  _ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.0.2
- (arch=amd64)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
  _ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.0.2
- (arch=amd64)_ZN23QTabWidgetPropertySheet8PageDataaSERKS0_@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
