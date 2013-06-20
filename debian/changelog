@@ -1,6 +1,5 @@
-qttools-opensource-src (5.0.2-7) UNRELEASED; urgency=low
+qttools-opensource-src (5.0.2-7) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make every package that ships a binary managed by qtchooser depend on it.
   * Build the documentation shipped with this submodule as a build-indep task:
     - Add the necessary indep build dependencies:
@@ -9,7 +8,7 @@ qttools-opensource-src (5.0.2-7) UNRELEASED; urgency=low
     - Build and create packages for qch and HTML doc formats.
   * Confirm amd64 symbols with new compiler.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:33:23 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 20 Jun 2013 18:37:49 -0300
 
 qttools-opensource-src (5.0.2-6) experimental; urgency=low
 
