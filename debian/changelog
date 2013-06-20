@@ -8,7 +8,6 @@ qttools-opensource-src (5.0.2-7) UNRELEASED; urgency=low
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create packages for qch and HTML doc formats.
   * Confirm amd64 symbols with new compiler.
-  * Make qttools5-dbg M-A same, allowing co-installation of debugging symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:33:23 -0300
 
