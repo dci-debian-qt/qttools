@@ -140,6 +140,7 @@ Description: Qt 5 tools examples
 
 Package: qttools5-dbg
 Architecture: any
+Multi-Arch: same
 Priority: extra
 Section: debug
 Pre-Depends: dpkg (>= 1.15.6~)
