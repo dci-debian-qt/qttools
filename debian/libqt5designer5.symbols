@@ -3128,7 +3128,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armhf i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
+ (optional=inline|arch=amd64 armhf i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
  (optional=templinst|arch=!amd64 !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=!amd64 !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 s390x)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
