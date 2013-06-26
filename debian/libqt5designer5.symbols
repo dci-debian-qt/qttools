@@ -2206,7 +2206,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=gccinternal|arch=!alpha !amd64 !armhf !i386 !ia64 !powerpc !ppc64 !s390 !s390x)_ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
- (arch=amd64 i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=amd64 i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.0.2
  (optional=gccinternal|arch=!alpha !amd64 !armhf !i386 !ia64 !powerpc !ppc64 !s390 !s390x)_ZN18qdesigner_internal29PropertySheetTranslatableDataC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
  (optional=gccinternal|arch=!alpha !amd64 !armhf !i386 !ia64 !powerpc !ppc64 !s390 !s390x)_ZN18qdesigner_internal29PropertySheetTranslatableDataC2ERKS0_@Base 5.0.2
@@ -2552,8 +2552,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
- (arch=!amd64 !i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.0.2
- (arch=!amd64 !i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
@@ -3128,7 +3128,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (arch=amd64 armhf i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armhf i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
  (optional=templinst|arch=!amd64 !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=!amd64 !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 s390x)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
@@ -3226,7 +3226,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN9DomWidgetC2Ev@Base 5.0.2
  _ZN9DomWidgetD1Ev@Base 5.0.2
  _ZN9DomWidgetD2Ev@Base 5.0.2
- (arch=amd64 i386)_ZN9QGradientaSERKS_@Base 5.0.2
+ (optional=gccinternal|arch=amd64)_ZN9QGradientaSERKS_@Base 5.0.2
  (optional=gccinternal|arch=!alpha !amd64 !armhf !i386 !ia64 !powerpc !ppc64 !s390 !s390x)_ZN9QHashData8willGrowEv@Base 5.0.2
  (optional=gccinternal|arch=!alpha !amd64 !armhf !i386 !ia64 !powerpc !ppc64 !s390 !s390x)_ZN9QHashData9hasShrunkEv@Base 5.0.2
  _ZNK10DomInclude5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
