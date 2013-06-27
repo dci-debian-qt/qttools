@@ -140,6 +140,7 @@ Description: Qt 5 tools examples
 
 Package: qttools5-dbg
 Architecture: any
+Multi-Arch: same
 Priority: extra
 Section: debug
 Pre-Depends: dpkg (>= 1.15.6~)
@@ -147,7 +148,6 @@ Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
          libqt5help5 (= ${binary:Version}),
-         qttools5-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
