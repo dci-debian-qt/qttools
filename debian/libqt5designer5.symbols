@@ -1864,22 +1864,22 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22MoveToolBoxPageCommandD0Ev@Base 5.0.2
  _ZN18qdesigner_internal22MoveToolBoxPageCommandD1Ev@Base 5.0.2
  _ZN18qdesigner_internal22MoveToolBoxPageCommandD2Ev@Base 5.0.2
- (arch=!amd64 !i386 !ia64 !powerpc !ppc64)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386 !ia64 !powerpc !ppc64)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC1EiRKNS_16DesignerMetaEnumE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC1Ev@Base 5.0.2
- (arch=!amd64 !i386 !ia64 !powerpc !ppc64)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386 !ia64 !powerpc !ppc64)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC2EiRKNS_16DesignerMetaEnumE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC2Ev@Base 5.0.2
- (arch=alpha armhf powerpc s390 s390x)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.0.2
- (arch=alpha armhf powerpc s390 s390x)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.0.2
- (arch=!amd64 !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=alpha armhf powerpc s390 s390x)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=alpha armhf powerpc s390 s390x)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC1EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC1Ev@Base 5.0.2
- (arch=!amd64 !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC2EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC2Ev@Base 5.0.2
- (arch=alpha armhf powerpc ppc64 s390 s390x)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.0.2
- (arch=alpha armhf powerpc ppc64 s390 s390x)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=alpha armhf powerpc ppc64 s390 s390x)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=alpha armhf powerpc ppc64 s390 s390x)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetIconValue6assignERKS0_j@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetIconValue8setThemeERK7QString@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetIconValue9setPixmapEN5QIcon4ModeENS1_5StateERKNS_24PropertySheetPixmapValueE@Base 5.0.2
@@ -2876,8 +2876,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN4LineD0Ev@Base 5.0.2
  _ZN4LineD1Ev@Base 5.0.2
  _ZN4LineD2Ev@Base 5.0.2
- (arch=armhf)_ZN4QCss10StyleSheetD1Ev@Base 5.0.2
- (arch=armhf)_ZN4QCss10StyleSheetD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=armhf)_ZN4QCss10StyleSheetD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=armhf)_ZN4QCss10StyleSheetD2Ev@Base 5.0.2
  _ZN5DomUI15setElementClassERK7QString@Base 5.0.2
  _ZN5DomUI15setElementSlotsEP8DomSlots@Base 5.0.2
  _ZN5DomUI16setElementAuthorERK7QString@Base 5.0.2
