@@ -9,6 +9,7 @@ qttools-opensource-src (5.0.2-9) UNRELEASED; urgency=low
     - As a trade off of a muliple-binary debug package, remove the dependency
       on qttools5-dev-tools.
     - Mark qttools5-dbg as M-A same.
+  * Make qttools5-examples-dbg also M-A same, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 17:36:14 -0300
 
