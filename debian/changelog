@@ -5,6 +5,7 @@ qttools-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Update watch file.
   * Bump Qt5 build dependencies to 5.1.0.
   * Update install files.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jul 2013 12:34:09 -0300
 
