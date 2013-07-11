@@ -5,6 +5,7 @@ qttools-opensource-src (5.1.0-1) experimental; urgency=low
   * Bump Qt5 build dependencies to 5.1.0.
   * Update install files.
   * Update symbols files.
+  * Fix the description of qttools5-dev-tools.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 09 Jul 2013 18:34:42 -0300
 

@@ -120,11 +120,9 @@ Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the complete Qt 5 API documentation (new help format).
- .
- The documentation is provided in the new help format and manpage format;
- the new help format version can be viewed in conjunction with the Qt Assistant
- found in the qt5-dev-tools package.
+ This package contains a set of applications to browse the documentation,
+ translate applications, generate help files and other stuff that
+ helps in Qt development.
 
 Package: qttools5-examples
 Architecture: any
