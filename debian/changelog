@@ -1,5 +1,7 @@
 qttools-opensource-src (5.1.0-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update symbols files. (try to address #719339)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Aug 2013 16:24:54 +0200
 
