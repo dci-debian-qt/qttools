@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 armel i386 sh4 sparc
+# SymbolsHelper-Confirmed: 5.1.1 amd64
 libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN12QCLuceneHits2idEi@Base 5.0.2
  _ZN12QCLuceneHits5scoreEi@Base 5.0.2
@@ -82,7 +82,7 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN16QCLuceneDocument12removeFieldsERK7QString@Base 5.0.2
  _ZN16QCLuceneDocument3addEP13QCLuceneField@Base 5.0.2
  _ZN16QCLuceneDocument5clearEv@Base 5.0.2
- (subst|arch=armel)_ZN16QCLuceneDocument8setBoostE{qreal}@Base 5.1.0
+ (subst|arch=amd64 armel)_ZN16QCLuceneDocument8setBoostE{qreal}@Base 5.1.1
  _ZN16QCLuceneDocumentC1Ev@Base 5.0.2
  _ZN16QCLuceneDocumentC2Ev@Base 5.0.2
  _ZN16QCLuceneDocumentD1Ev@Base 5.0.2
@@ -145,7 +145,7 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN19QCLuceneIndexReader5closeEv@Base 5.0.2
  _ZN19QCLuceneIndexReader6unlockERK7QString@Base 5.0.2
  _ZN19QCLuceneIndexReader7setNormEiRK7QStringh@Base 5.0.2
- (subst|arch=armel)_ZN19QCLuceneIndexReader7setNormEiRK7QString{qreal}@Base 5.1.0
+ (subst|arch=amd64 armel)_ZN19QCLuceneIndexReader7setNormEiRK7QString{qreal}@Base 5.1.1
  _ZN19QCLuceneIndexReader8documentEiR16QCLuceneDocument@Base 5.0.2
  _ZN19QCLuceneIndexReader8hasNormsERK7QString@Base 5.0.2
  _ZN19QCLuceneIndexReader8isLockedERK7QString@Base 5.0.2
