@@ -1,5 +1,8 @@
 qttools-opensource-src (5.1.1-1) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 14:48:47 -0300
 
 qttools-opensource-src (5.1.0-3) unstable; urgency=low
