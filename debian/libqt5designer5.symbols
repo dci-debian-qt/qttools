@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha armel i386 s390 sparc
+# SymbolsHelper-Confirmed: 5.1.0 alpha armel i386 ia64 s390 s390x sparc
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -2023,9 +2023,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24PropertySheetPixmapValueC2Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValue8setValueERK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueC1ERK7QStringbS3_S3_@Base 5.0.2
- (optional=gccinternal|arch=!alpha !armel !armhf !ia64 !powerpc !ppc64 !s390 !sparc)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !armel !armhf !ia64 !powerpc !ppc64 !s390 !s390x !sparc)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueC2ERK7QStringbS3_S3_@Base 5.0.2
- (optional=gccinternal|arch=!alpha !armel !armhf !ia64 !powerpc !ppc64 !s390 !sparc)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !armel !armhf !ia64 !powerpc !ppc64 !s390 !s390x !sparc)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspector11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3863,6 +3863,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK8DomRectF5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK8DomSizeF5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK8DomSlots5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
+ (optional=templinst|arch=ia64)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.1.0
  _ZNK9DomAction5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomColumn5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomHeader5writeER16QXmlStreamWriterRK7QString@Base 5.0.2

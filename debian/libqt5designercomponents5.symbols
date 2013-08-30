@@ -1,16 +1,16 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64 armel armhf i386 s390 sparc
+# SymbolsHelper-Confirmed: 5.1.0 amd64 armel armhf i386 ia64 s390 s390x sparc
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD2Ev@Base 5.0.2
  (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.0.2
  (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.0.2
- (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.1.0
- (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.1.0
+ (arch=!amd64 !armel !armhf !i386 !ia64)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.1.0
+ (arch=!amd64 !armel !armhf !i386 !ia64)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.1.0
  (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.0.2
  (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.0.2
- (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.1.0
- (arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.1.0
+ (arch=!amd64 !armel !armhf !i386 !ia64)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.1.0
+ (arch=!amd64 !armel !armhf !i386 !ia64)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.1.0
  (arch=!armel !armhf !ia64)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
  (arch=!armel !armhf !ia64)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueD1Ev@Base 5.0.2
@@ -43,10 +43,10 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZN8QVariant8setValueI5QListI5QPairI7QStringjEEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 ppc64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal22PropertySheetIconValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 ppc64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetPixmapValueEEES_RKT_@Base 5.0.2
- (optional=templinst|arch=alpha s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 ppc64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal28PropertySheetStringListValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal29PropertySheetKeySequenceValueEEES_RKT_@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !armel !armhf !i386 !ia64 !s390x !sparc)_ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !amd64 !armel !armhf !i386 !ia64 !sparc)_ZN9QHashData8willGrowEv@Base 5.0.2
  (optional=templinst|arch=armel armhf i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  _ZTI29QDesignerOptionsPageInterface@Base 5.0.2
  _ZTI34QDesignerFormEditorPluginInterface@Base 5.0.2
