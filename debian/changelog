@@ -1,5 +1,8 @@
 qttools-opensource-src (5.1.1-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add README.source explaining how to bootstrap this package.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Sep 2013 09:36:13 -0300
 
 qttools-opensource-src (5.1.1-1) unstable; urgency=low
