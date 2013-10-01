@@ -2,6 +2,8 @@ qttools-opensource-src (5.1.1-2) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add README.source explaining how to bootstrap this package.
+  * Call 'make qmake_all' after building qttools, this way we can build the
+    arch-independent stuff without the need to recursively build-depend on us.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Sep 2013 09:36:13 -0300
 
