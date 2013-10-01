@@ -1,5 +1,9 @@
 qttools-opensource-src (5.1.1-3) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add cmake as a build dependency, it's used to run some tests against the
+    generated CMake files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2013 11:57:28 -0300
 
 qttools-opensource-src (5.1.1-2) unstable; urgency=low
