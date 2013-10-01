@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 amd64
+# SymbolsHelper-Confirmed: 5.1.1 alpha amd64 armhf hurd-i386 i386 ia64 s390 s390x sparc
 libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN12QCLuceneHits2idEi@Base 5.0.2
  _ZN12QCLuceneHits5scoreEi@Base 5.0.2
@@ -82,7 +82,7 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN16QCLuceneDocument12removeFieldsERK7QString@Base 5.0.2
  _ZN16QCLuceneDocument3addEP13QCLuceneField@Base 5.0.2
  _ZN16QCLuceneDocument5clearEv@Base 5.0.2
- (subst|arch=amd64 armel)_ZN16QCLuceneDocument8setBoostE{qreal}@Base 5.1.1
+ (subst)_ZN16QCLuceneDocument8setBoostE{qreal}@Base 5.1.1
  _ZN16QCLuceneDocumentC1Ev@Base 5.0.2
  _ZN16QCLuceneDocumentC2Ev@Base 5.0.2
  _ZN16QCLuceneDocumentD1Ev@Base 5.0.2
@@ -145,7 +145,7 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZN19QCLuceneIndexReader5closeEv@Base 5.0.2
  _ZN19QCLuceneIndexReader6unlockERK7QString@Base 5.0.2
  _ZN19QCLuceneIndexReader7setNormEiRK7QStringh@Base 5.0.2
- (subst|arch=amd64 armel)_ZN19QCLuceneIndexReader7setNormEiRK7QString{qreal}@Base 5.1.1
+ (subst)_ZN19QCLuceneIndexReader7setNormEiRK7QString{qreal}@Base 5.1.1
  _ZN19QCLuceneIndexReader8documentEiR16QCLuceneDocument@Base 5.0.2
  _ZN19QCLuceneIndexReader8hasNormsERK7QString@Base 5.0.2
  _ZN19QCLuceneIndexReader8isLockedERK7QString@Base 5.0.2
@@ -528,23 +528,23 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt6vectorIPhSaIS0_EE13_M_insert_auxIIRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 5.0.2
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Base 5.0.2
  (arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 5.1.0
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIPhSaIS0_EED1Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIPhSaIS0_EED2Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIPhSaIS0_EED1Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIPhSaIS0_EED2Ev@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt6vectorIPwSaIS0_EE13_M_insert_auxIIRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt6vectorIPwSaIS0_EE13_M_insert_auxIIS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 5.0.2
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Base 5.0.2
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIIS0_EEEvDpOT_@Base 5.0.2
  (arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 5.1.0
  (arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIJS0_EEEvDpOT_@Base 5.1.0
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIPwSaIS0_EED1Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIPwSaIS0_EED2Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIPwSaIS0_EED1Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIPwSaIS0_EED2Ev@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt6vectorIiSaIiEE13_M_insert_auxIIRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 5.0.2
  (optional=templinst|arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 5.0.2
  (arch=amd64 armel armhf hurd-i386 i386)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 5.1.0
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIiSaIiEED1Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt6vectorIiSaIiEED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_EN6lucene4util7Compare7QstringESaIS0_EE10_M_insert_IRKS0_EESt17_Rb_tree_iteratorIS0_EPKSt18_Rb_tree_node_baseSG_OT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_EN6lucene4util7Compare7QstringESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIiSaIiEED1Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt6vectorIiSaIiEED2Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_EN6lucene4util7Compare7QstringESaIS0_EE10_M_insert_IRKS0_EESt17_Rb_tree_iteratorIS0_EPKSt18_Rb_tree_node_baseSG_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_EN6lucene4util7Compare7QstringESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_EN6lucene4util7Compare7QstringESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PN6lucene5index18CompoundFileReader9FileEntryEESt10_Select1stIS8_ENS3_4util7Compare7QstringESaIS8_EE10_M_insert_IS1_IS0_S7_EEESt17_Rb_tree_iteratorIS8_EPKSt18_Rb_tree_node_baseSM_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PN6lucene5index18CompoundFileReader9FileEntryEESt10_Select1stIS8_ENS3_4util7Compare7QstringESaIS8_EE16_M_insert_uniqueIS1_IS0_S7_EEES1_ISt17_Rb_tree_iteratorIS8_EbEOT_@Base 5.0.2
@@ -558,22 +558,22 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PN6lucene5store7RAMFileEESt10_Select1stIS7_ENS3_4util7Compare7QstringESaIS7_EE16_M_insert_uniqueIS7_EES1_ISt17_Rb_tree_iteratorIS7_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PN6lucene5store7RAMFileEESt10_Select1stIS7_ENS3_4util7Compare7QstringESaIS7_EE17_M_insert_unique_IS7_EESt17_Rb_tree_iteratorIS7_ESt23_Rb_tree_const_iteratorIS7_EOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PN6lucene5store7RAMFileEESt10_Select1stIS7_ENS3_4util7Compare7QstringESaIS7_EE8_M_eraseEPSt13_Rb_tree_nodeIS7_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PvESt10_Select1stIS4_EN6lucene4util7Compare7QstringESaIS4_EE10_M_insert_IS1_IS0_S3_EEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PvESt10_Select1stIS4_EN6lucene4util7Compare7QstringESaIS4_EE10_M_insert_IS1_IS0_S3_EEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
  (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PvESt10_Select1stIS4_EN6lucene4util7Compare7QstringESaIS4_EE16_M_insert_uniqueIS1_IS0_S3_EEES1_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_PvESt10_Select1stIS4_EN6lucene4util7Compare7QstringESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPFvPN6lucene5index11IndexReaderEPvESt4pairIKS6_S4_ESt10_Select1stIS9_ENS2_20CloseCallbackCompareESaIS9_EE10_M_insert_IS7_IS6_S4_EEESt17_Rb_tree_iteratorIS9_EPKSt18_Rb_tree_node_baseSL_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPFvPN6lucene5index11IndexReaderEPvESt4pairIKS6_S4_ESt10_Select1stIS9_ENS2_20CloseCallbackCompareESaIS9_EE16_M_insert_uniqueIS7_IS6_S4_EEES7_ISt17_Rb_tree_iteratorIS9_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPFvPN6lucene5index11IndexReaderEPvESt4pairIKS6_S4_ESt10_Select1stIS9_ENS2_20CloseCallbackCompareESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPFvbES1_St9_IdentityIS1_EN6lucene4util7Compare4VoidIS0_EESaIS1_EE10_M_insert_IRKS1_EESt17_Rb_tree_iteratorIS1_EPKSt18_Rb_tree_node_baseSI_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPFvbES1_St9_IdentityIS1_EN6lucene4util7Compare4VoidIS0_EESaIS1_EE10_M_insert_IRKS1_EESt17_Rb_tree_iteratorIS1_EPKSt18_Rb_tree_node_baseSI_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPFvbES1_St9_IdentityIS1_EN6lucene4util7Compare4VoidIS0_EESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPFvbES1_St9_IdentityIS1_EN6lucene4util7Compare4VoidIS0_EESaIS1_EE8_M_eraseEPSt13_Rb_tree_nodeIS1_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE10_M_insert_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE10_M_insert_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
  (optional=templinst|arch=ia64 sh4)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS4_ESF_RS3_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE16_M_insert_uniqueIS2_IS1_iEEES2_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE17_M_insert_unique_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_ESt23_Rb_tree_const_iteratorIS4_EOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE16_M_insert_uniqueIS2_IS1_iEEES2_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE17_M_insert_unique_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_ESt23_Rb_tree_const_iteratorIS4_EOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare4CharESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwS1_St9_IdentityIS1_EN6lucene4util7Compare5TCharESaIS1_EE10_M_insert_IRKS1_EESt17_Rb_tree_iteratorIS1_EPKSt18_Rb_tree_node_baseSH_OT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwS1_St9_IdentityIS1_EN6lucene4util7Compare5TCharESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwS1_St9_IdentityIS1_EN6lucene4util7Compare5TCharESaIS1_EE10_M_insert_IRKS1_EESt17_Rb_tree_iteratorIS1_EPKSt18_Rb_tree_node_baseSH_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwS1_St9_IdentityIS1_EN6lucene4util7Compare5TCharESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwS1_St9_IdentityIS1_EN6lucene4util7Compare5TCharESaIS1_EE8_M_eraseEPSt13_Rb_tree_nodeIS1_E@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PN6lucene5index13SegmentReader4NormEESt10_Select1stIS9_ENS4_4util7Compare5TCharESaIS9_EE10_M_insert_IS2_IS1_S8_EEESt17_Rb_tree_iteratorIS9_EPKSt18_Rb_tree_node_baseSN_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PN6lucene5index13SegmentReader4NormEESt10_Select1stIS9_ENS4_4util7Compare5TCharESaIS9_EE16_M_insert_uniqueIS2_IS1_S8_EEES2_ISt17_Rb_tree_iteratorIS9_EbEOT_@Base 5.0.2
@@ -584,13 +584,13 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PN6lucene8analysis8AnalyzerEESt10_Select1stIS8_ENS4_4util7Compare5TCharESaIS8_EE10_M_insert_IS2_IS1_S7_EEESt17_Rb_tree_iteratorIS8_EPKSt18_Rb_tree_node_baseSM_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PN6lucene8analysis8AnalyzerEESt10_Select1stIS8_ENS4_4util7Compare5TCharESaIS8_EE16_M_insert_uniqueIS2_IS1_S7_EEES2_ISt17_Rb_tree_iteratorIS8_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PN6lucene8analysis8AnalyzerEESt10_Select1stIS8_ENS4_4util7Compare5TCharESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PhESt10_Select1stIS5_EN6lucene4util7Compare5TCharESaIS5_EE10_M_insert_IS2_IS1_S4_EEESt17_Rb_tree_iteratorIS5_EPKSt18_Rb_tree_node_baseSK_OT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PhESt10_Select1stIS5_EN6lucene4util7Compare5TCharESaIS5_EE16_M_insert_uniqueIS2_IS1_S4_EEES2_ISt17_Rb_tree_iteratorIS5_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PhESt10_Select1stIS5_EN6lucene4util7Compare5TCharESaIS5_EE10_M_insert_IS2_IS1_S4_EEESt17_Rb_tree_iteratorIS5_EPKSt18_Rb_tree_node_baseSK_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PhESt10_Select1stIS5_EN6lucene4util7Compare5TCharESaIS5_EE16_M_insert_uniqueIS2_IS1_S4_EEES2_ISt17_Rb_tree_iteratorIS5_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_PhESt10_Select1stIS5_EN6lucene4util7Compare5TCharESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE10_M_insert_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE10_M_insert_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_EPKSt18_Rb_tree_node_baseSJ_OT_@Base 5.0.2
  (optional=templinst|arch=ia64 sh4)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS4_ESF_RS3_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE16_M_insert_uniqueIS2_IS1_iEEES2_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE17_M_insert_unique_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_ESt23_Rb_tree_const_iteratorIS4_EOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE16_M_insert_uniqueIS2_IS1_iEEES2_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE17_M_insert_unique_IS2_IS1_iEEESt17_Rb_tree_iteratorIS4_ESt23_Rb_tree_const_iteratorIS4_EOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPKwSt4pairIKS1_iESt10_Select1stIS4_EN6lucene4util7Compare5TCharESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPN6lucene5index11IndexReaderESt4pairIKS3_PNS0_6search14FieldCacheImpl25fieldcacheCacheReaderTypeEESt10_Select1stISA_ENS0_4util7Compare4VoidIS2_EESaISA_EE10_M_insert_IS4_IS3_S9_EEESt17_Rb_tree_iteratorISA_EPKSt18_Rb_tree_node_baseSP_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPN6lucene5index11IndexReaderESt4pairIKS3_PNS0_6search14FieldCacheImpl25fieldcacheCacheReaderTypeEESt10_Select1stISA_ENS0_4util7Compare4VoidIS2_EESaISA_EE16_M_insert_uniqueIS4_IS3_S9_EEES4_ISt17_Rb_tree_iteratorISA_EbEOT_@Base 5.0.2
@@ -610,8 +610,8 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPN6lucene6search14FieldCacheImpl9FileEntryESt4pairIKS4_PNS1_18ScoreDocComparatorEESt10_Select1stIS9_ENS3_7CompareESaIS9_EE10_M_insert_IS5_IS4_S8_EEESt17_Rb_tree_iteratorIS9_EPKSt18_Rb_tree_node_baseSL_OT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPN6lucene6search14FieldCacheImpl9FileEntryESt4pairIKS4_PNS1_18ScoreDocComparatorEESt10_Select1stIS9_ENS3_7CompareESaIS9_EE16_M_insert_uniqueIS5_IS4_S8_EEES5_ISt17_Rb_tree_iteratorIS9_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPN6lucene6search14FieldCacheImpl9FileEntryESt4pairIKS4_PNS1_18ScoreDocComparatorEESt10_Select1stIS9_ENS3_7CompareESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPwS0_St9_IdentityIS0_EN6lucene4util7Compare5TCharESaIS0_EE10_M_insert_IS0_EESt17_Rb_tree_iteratorIS0_EPKSt18_Rb_tree_node_baseSE_OT_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armel !armhf !i386)_ZNSt8_Rb_treeIPwS0_St9_IdentityIS0_EN6lucene4util7Compare5TCharESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPwS0_St9_IdentityIS0_EN6lucene4util7Compare5TCharESaIS0_EE10_M_insert_IS0_EESt17_Rb_tree_iteratorIS0_EPKSt18_Rb_tree_node_baseSE_OT_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNSt8_Rb_treeIPwS0_St9_IdentityIS0_EN6lucene4util7Compare5TCharESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeIPwS0_St9_IdentityIS0_EN6lucene4util7Compare5TCharESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeImSt4pairIKmPN6lucene4util15ThreadLocalBaseEESt10_Select1stIS6_ESt4lessImESaIS6_EE15_M_insert_equalIS6_EESt17_Rb_tree_iteratorIS6_EOT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390 s390x sh4 sparc)_ZNSt8_Rb_treeImSt4pairIKmPN6lucene4util15ThreadLocalBaseEESt10_Select1stIS6_ESt4lessImESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 5.0.2

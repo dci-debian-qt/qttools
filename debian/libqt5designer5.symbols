@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha armel i386 ia64 s390 s390x sparc
+# SymbolsHelper-Confirmed: 5.1.1 hurd-i386
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -1858,10 +1858,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22PropertySheetEnumValueC2Ev@Base 5.0.2
  (optional=gccinternal|arch=alpha powerpc s390 s390x sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.0.2
  (optional=gccinternal|arch=alpha powerpc s390 s390x sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC1EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC1Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !armel !armhf !i386)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC2EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC2Ev@Base 5.0.2
  (optional=gccinternal|arch=alpha powerpc ppc64 s390 s390x sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.0.2
@@ -2185,7 +2183,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Base 5.0.2
  (arch=armhf)_ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.0.2
@@ -2531,9 +2529,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
  (optional=gccinternal|arch=armel armhf)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.0.2
  (optional=gccinternal|arch=armel armhf)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
@@ -3107,7 +3103,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (optional=inline|arch=amd64 armel armhf i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
+ (optional=inline|arch=amd64 armel armhf hurd-i386 i386)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.0.2
  (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 s390x sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
@@ -3205,7 +3201,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN9DomWidgetC2Ev@Base 5.0.2
  _ZN9DomWidgetD1Ev@Base 5.0.2
  _ZN9DomWidgetD2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armel i386)_ZN9QGradientaSERKS_@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armel hurd-i386 i386)_ZN9QGradientaSERKS_@Base 5.0.2
  _ZNK10DomInclude5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK10DomPalette5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK11DomDateTime5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
