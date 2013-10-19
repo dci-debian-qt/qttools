@@ -1,3 +1,10 @@
+qttools-opensource-src (5.2.0~alpha1-1) UNRELEASED; urgency=low
+
+  [ Dmitry Shachnev ]
+  * New upstream alpha release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Oct 2013 11:45:57 +0400
+
 qttools-opensource-src (5.1.1-2) unstable; urgency=low
 
   * Add README.source explaining how to bootstrap this package.
