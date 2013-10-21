@@ -3,6 +3,7 @@ qttools-opensource-src (5.2.0~alpha1-1) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * New upstream alpha release.
   * Update qtbase build-dependencies to 5.2.0.
+  * Remove .qmake.cache in clean target.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Oct 2013 11:45:57 +0400
 
