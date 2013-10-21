@@ -9,6 +9,7 @@ usr/lib/*/qt5/bin/qcollectiongenerator
 usr/lib/*/qt5/bin/qdbusviewer
 usr/lib/*/qt5/bin/qhelpconverter
 usr/lib/*/qt5/bin/qhelpgenerator
+usr/lib/*/qt5/bin/qtpaths
 usr/share/qt5/phrasebooks/danish.qph
 usr/share/qt5/phrasebooks/dutch.qph
 usr/share/qt5/phrasebooks/finnish.qph

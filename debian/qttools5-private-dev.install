@@ -27,7 +27,6 @@ usr/include/qt5/QtDesigner/*/QtDesigner/private/csshighlighter_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/deviceprofile_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/dialoggui_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/extensionfactory_p.h
-usr/include/qt5/QtDesigner/*/QtDesigner/private/filterwidget_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formbuilderextra_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formlayoutmenu_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formwindowbase_p.h
