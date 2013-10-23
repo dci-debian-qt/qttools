@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 hurd-i386
+# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -830,30 +830,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal12ActionEditorD0Ev@Base 5.0.2
  _ZN18qdesigner_internal12ActionEditorD1Ev@Base 5.0.2
  _ZN18qdesigner_internal12ActionEditorD2Ev@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget11checkButtonERK7QString@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget11qt_metacastEPKc@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget11resizeEventEP12QResizeEvent@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget13filterChangedERK7QString@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget14setRefuseFocusEb@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget16staticMetaObjectE@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidget5resetEv@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidgetC1EP7QWidgetNS0_10LayoutModeE@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidgetC2EP7QWidgetNS0_10LayoutModeE@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidgetD0Ev@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidgetD1Ev@Base 5.0.2
- _ZN18qdesigner_internal12FilterWidgetD2Ev@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit11qt_metacastEPKc@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit12focusInEventEP11QFocusEvent@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit14setRefuseFocusEb@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit15mousePressEventEP11QMouseEvent@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEdit16staticMetaObjectE@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEditC1EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEditC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEditD0Ev@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEditD1Ev@Base 5.0.2
- _ZN18qdesigner_internal12HintLineEditD2Ev@Base 5.0.2
  _ZN18qdesigner_internal12IconSelector11checkPixmapERK7QStringNS0_9CheckModeEPS1_@Base 5.0.2
  _ZN18qdesigner_internal12IconSelector11iconChangedERKNS_22PropertySheetIconValueE@Base 5.0.2
  _ZN18qdesigner_internal12IconSelector11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -2183,7 +2159,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.0.2
+ (arch=amd64)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.2.0~alpha1
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Base 5.0.2
  (arch=armhf)_ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.0.2
@@ -3354,11 +3330,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK18qdesigner_internal12ActionEditor4coreEv@Base 5.0.2
  _ZNK18qdesigner_internal12ActionEditor6filterEv@Base 5.0.2
  _ZNK18qdesigner_internal12ActionEditor9actionNewEv@Base 5.0.2
- _ZNK18qdesigner_internal12FilterWidget10metaObjectEv@Base 5.0.2
- _ZNK18qdesigner_internal12FilterWidget11refuseFocusEv@Base 5.0.2
- _ZNK18qdesigner_internal12FilterWidget4textEv@Base 5.0.2
- _ZNK18qdesigner_internal12HintLineEdit10metaObjectEv@Base 5.0.2
- _ZNK18qdesigner_internal12HintLineEdit11refuseFocusEv@Base 5.0.2
  _ZNK18qdesigner_internal12IconSelector10metaObjectEv@Base 5.0.2
  _ZNK18qdesigner_internal12IconSelector4iconEv@Base 5.0.2
  _ZNK18qdesigner_internal12ListContents14createTreeItemEPNS_17DesignerIconCacheE@Base 5.0.2
@@ -3871,7 +3842,20 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
+ _ZSt11stable_sortIPiEvT_S1_@Base 5.2.0~alpha1
+ _ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.2.0~alpha1
+ (subst)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.2.0~alpha1
+ _ZSt16__insertion_sortIPiEvT_S1_@Base 5.2.0~alpha1
+ (subst)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.2.0~alpha1
+ (subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.2.0~alpha1
+ (subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.2.0~alpha1
+ (subst)_ZSt20get_temporary_bufferIP7QWidgetESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.2.0~alpha1
+ _ZSt21__inplace_stable_sortIPiEvT_S1_@Base 5.2.0~alpha1
+ (subst)_ZSt22__merge_without_bufferIPi{ssize_t}EvT_S1_S1_T0_S2_@Base 5.2.0~alpha1
+ (subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.2.0~alpha1
+ _ZSt24__merge_sort_with_bufferIPiS0_EvT_S1_T0_@Base 5.2.0~alpha1
  (optional=templinst|arch=!alpha !amd64 !ia64 !powerpc !ppc64 !s390 !s390x !sparc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ _ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.2.0~alpha1
  _ZTI12QFormBuilder@Base 5.0.2
  _ZTI12QTextBuilder@Base 5.0.2
  _ZTI13QDesignerMenu@Base 5.0.2
@@ -3932,8 +3916,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTIN18qdesigner_internal11ActionModelE@Base 5.0.2
  _ZTIN18qdesigner_internal11OrderDialogE@Base 5.0.2
  _ZTIN18qdesigner_internal12ActionEditorE@Base 5.0.2
- _ZTIN18qdesigner_internal12FilterWidgetE@Base 5.0.2
- _ZTIN18qdesigner_internal12HintLineEditE@Base 5.0.2
  _ZTIN18qdesigner_internal12IconSelectorE@Base 5.0.2
  _ZTIN18qdesigner_internal12MetaDataBaseE@Base 5.0.2
  _ZTIN18qdesigner_internal13LayoutCommandE@Base 5.0.2
@@ -4108,8 +4090,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTSN18qdesigner_internal11ActionModelE@Base 5.0.2
  _ZTSN18qdesigner_internal11OrderDialogE@Base 5.0.2
  _ZTSN18qdesigner_internal12ActionEditorE@Base 5.0.2
- _ZTSN18qdesigner_internal12FilterWidgetE@Base 5.0.2
- _ZTSN18qdesigner_internal12HintLineEditE@Base 5.0.2
  _ZTSN18qdesigner_internal12IconSelectorE@Base 5.0.2
  _ZTSN18qdesigner_internal12MetaDataBaseE@Base 5.0.2
  _ZTSN18qdesigner_internal13LayoutCommandE@Base 5.0.2
@@ -4284,8 +4264,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal11ActionModelE@Base 5.0.2
  _ZTVN18qdesigner_internal11OrderDialogE@Base 5.0.2
  _ZTVN18qdesigner_internal12ActionEditorE@Base 5.0.2
- _ZTVN18qdesigner_internal12FilterWidgetE@Base 5.0.2
- _ZTVN18qdesigner_internal12HintLineEditE@Base 5.0.2
  _ZTVN18qdesigner_internal12IconSelectorE@Base 5.0.2
  _ZTVN18qdesigner_internal12MetaDataBaseE@Base 5.0.2
  _ZTVN18qdesigner_internal13LayoutCommandE@Base 5.0.2
@@ -4480,10 +4458,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to qdesigner_internal::ActionEditor::~ActionEditor()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::CodeDialog::~CodeDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::ConnectionEdit::~ConnectionEdit()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::FilterWidget::~FilterWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::FormWindowBase::~FormWindowBase()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::GridPanel::~GridPanel()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::HintLineEdit::~HintLineEdit()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::IconSelector::~IconSelector()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::IconThemeEditor::~IconThemeEditor()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::InvisibleWidget::~InvisibleWidget()@Base" 5.0.2
