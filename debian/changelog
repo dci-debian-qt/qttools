@@ -6,6 +6,7 @@ qttools-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * Remove .qmake.cache in clean target.
   * Update .install files for new upstream release.
   * Update libqt5designer5.symbols.
+  * Add copyright info for qtpaths to debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Oct 2013 11:45:57 +0400
 
