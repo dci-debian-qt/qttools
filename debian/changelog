@@ -1,4 +1,4 @@
-qttools-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
+qttools-opensource-src (5.2.0~beta1-1) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * New upstream beta release.
@@ -8,7 +8,7 @@ qttools-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * Update libqt5designer5.symbols.
   * Add copyright info for qtpaths to debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Oct 2013 11:45:57 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 12 Nov 2013 13:27:17 -0300
 
 qttools-opensource-src (5.1.1-2) unstable; urgency=low
 
