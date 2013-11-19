@@ -1,10 +1,10 @@
-qttools-opensource-src (5.2.0~beta1-2) UNRELEASED; urgency=low
+qttools-opensource-src (5.2.0~beta1-2) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * Update libqt5designer5.symbols for armhf, ia64, powerpc, s390* and sparc.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Nov 2013 13:28:29 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 19 Nov 2013 19:20:36 -0300
 
 qttools-opensource-src (5.2.0~beta1-1) experimental; urgency=low
 
