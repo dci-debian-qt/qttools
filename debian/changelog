@@ -1,3 +1,8 @@
+qttools-opensource-src (5.2.0~beta1-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 21:49:14 -0300
+
 qttools-opensource-src (5.2.0~beta1-2) experimental; urgency=low
 
   [ Dmitry Shachnev ]
