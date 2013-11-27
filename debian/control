@@ -58,6 +58,7 @@ Description: Qt 5 Designer components module
 
 Package: qdbus-qt5
 Architecture: any
+Section: utils
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 D-Bus tool
