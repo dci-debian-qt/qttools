@@ -7,6 +7,7 @@ qttools-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
     - with buildds' logs.
     - with current build. Deeleted symbols where all added in beta1.
   * Update install files.
+  * Adjust Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 21:49:14 -0300
 
