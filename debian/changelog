@@ -1,6 +1,5 @@
-qttools-opensource-src (5.2.0-1) UNRELEASED; urgency=low
+qttools-opensource-src (5.2.0-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Change the section of qdbus-qt5 to utils (Closes: #730141).
   * Update symbols files:
@@ -9,7 +8,7 @@ qttools-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   * Update install files.
   * Adjust Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 21:49:14 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 12 Dec 2013 21:27:23 -0300
 
 qttools-opensource-src (5.2.0~beta1-2) experimental; urgency=low
 
