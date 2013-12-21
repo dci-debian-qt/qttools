@@ -102,6 +102,8 @@ Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qttools5-dev (= ${binary:Version}), ${misc:Depends}
+Breaks: qttools5-dev (<< 5.2.0-3~)
+Replaces: qttools5-dev (<< 5.2.0-3~)
 Description: Qt 5 tools private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
