@@ -1,3 +1,8 @@
+qttools-opensource-src (5.2.0-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 12:00:57 +0100
+
 qttools-opensource-src (5.2.0-2) experimental; urgency=low
 
   * Adjust Qt build dependencies to 5.2.0+dfsg~, or it picks the beta versions.
