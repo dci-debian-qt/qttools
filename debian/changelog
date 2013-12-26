@@ -1,5 +1,9 @@
 qttools-opensource-src (5.2.0-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files again. All differences seems to come from sparc, ia64
+    and powerpc having an older gcc.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Dec 2013 14:20:43 -0300
 
 qttools-opensource-src (5.2.0-3) experimental; urgency=low
