@@ -7,6 +7,9 @@ qttools-opensource-src (5.2.0-3) UNRELEASED; urgency=low
   * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
     in Squeeze already.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 12:00:57 +0100
 
 qttools-opensource-src (5.2.0-2) experimental; urgency=low
