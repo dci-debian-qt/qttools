@@ -1,4 +1,4 @@
-qttools-opensource-src (5.2.0-3) UNRELEASED; urgency=low
+qttools-opensource-src (5.2.0-3) experimental; urgency=low
 
   [ Pino Toscano ]
   * Install the private qmake stuff in qttools5-private-dev, not in
@@ -10,7 +10,7 @@ qttools-opensource-src (5.2.0-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' and current logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 12:00:57 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Dec 2013 12:13:08 -0300
 
 qttools-opensource-src (5.2.0-2) experimental; urgency=low
 
