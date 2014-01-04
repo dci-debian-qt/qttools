@@ -1,3 +1,7 @@
+qttools-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jan 2014 11:24:35 -0300
+
 qttools-opensource-src (5.2.0-4) experimental; urgency=medium
 
   * Update symbols files again. All differences seems to come from sparc, ia64
