@@ -2602,9 +2602,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN27QToolBoxWidgetPropertySheet23toolBoxPropertyFromNameERK7QString@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet5resetEi@Base 5.0.2
  (optional=gccinternal|arch=armel armhf mips mipsel ppc64 s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (arch=armel s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC1Ev@Base 5.2.0
  (optional=gccinternal|arch=armel armhf mips mipsel ppc64 s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
- (arch=armel s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC2Ev@Base 5.2.0
  _ZN27QToolBoxWidgetPropertySheetC1EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC2EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetD0Ev@Base 5.0.2
@@ -3844,7 +3842,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst|arch=s390x)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
  (optional=templinst|arch=ia64 powerpc s390 sparc|subst)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  _ZSt11stable_sortIPiEvT_S1_@Base 5.2.0~alpha1
  _ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.2.0~alpha1
