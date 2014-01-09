@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.0 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD2Ev@Base 5.0.2
- (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.2.0
- (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.2.0
+ (arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.2.0
+ (arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.2.0
  (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.2.0
  (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.2.0
  (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.2.0
@@ -39,8 +39,8 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN19QDesignerComponents20createResourceEditorEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN19QDesignerComponents21createObjectInspectorEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN19QDesignerComponents22createSignalSlotEditorEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN8QVariant8setValueI4QMapIi5QIconEEEvRKT_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN8QVariant8setValueI5QListI5QPairI7QStringjEEEEvRKT_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN8QVariant8setValueI4QMapIi5QIconEEEvRKT_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZN8QVariant8setValueI5QListI5QPairI7QStringjEEEEvRKT_@Base 5.2.0
  (optional=templinst|arch=alpha ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal22PropertySheetIconValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetPixmapValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
@@ -58,25 +58,25 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  (optional=templinst|arch=powerpc sparc)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorEiS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorExS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt13__heap_selectIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListI11QModelIndexE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiPFbRKS2_S6_EEvT_S9_T0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListIP7QObjectE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListI11QModelIndexE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorES2_PFbRKS2_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListIP7QObjectE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt22__final_insertion_sortIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt25__unguarded_linear_insertIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt25__unguarded_linear_insertIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt13__heap_selectIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__insertion_sortIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListI11QModelIndexE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiPFbRKS2_S6_EEvT_S9_T0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt16__introsort_loopIN5QListIP7QObjectE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt19__move_median_firstIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListI11QModelIndexE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorES2_PFbRKS2_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListIP7QObjectE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt22__final_insertion_sortIN5QListIP7QObjectE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt25__unguarded_linear_insertIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt25__unguarded_linear_insertIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_T0_@Base 5.2.0
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  (optional=templinst|arch=powerpc)_ZSt9make_heapIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt9make_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_T0_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZSt9make_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEPFbRKS2_S6_EEvT_S9_T0_@Base 5.2.0
  _ZTI29QDesignerOptionsPageInterface@Base 5.0.2
  _ZTI34QDesignerFormEditorPluginInterface@Base 5.0.2
  _ZTI34QDesignerFormWindowCursorInterface@Base 5.0.2

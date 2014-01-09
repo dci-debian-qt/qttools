@@ -1,7 +1,7 @@
 qttools-opensource-src (5.2.0-6) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Update symbols files to fix s390x build failure.
+  * Update symbols files to fix build failure on armel and s390x.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Jan 2014 21:47:26 +0400
 
