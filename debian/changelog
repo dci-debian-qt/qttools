@@ -1,9 +1,8 @@
-qttools-opensource-src (5.2.0-6) UNRELEASED; urgency=medium
+qttools-opensource-src (5.2.0-6) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files to fix build failure on armel, armhf and s390x.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Jan 2014 21:47:26 +0400
+ -- Dmitry Shachnev <mitya57@gmail.com>  Thu, 09 Jan 2014 17:56:04 +0400
 
 qttools-opensource-src (5.2.0-5) experimental; urgency=medium
 
