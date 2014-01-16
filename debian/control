@@ -186,5 +186,5 @@ Description: Qt 5 tools HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the HTML documentation for the Qt 5 XML tools
+ This package contains the HTML documentation for the Qt 5 tools
  libraries and binaries.
