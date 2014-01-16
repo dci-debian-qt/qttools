@@ -4,6 +4,10 @@ qttools-opensource-src (5.2.0-7) UNRELEASED; urgency=medium
   * Correct qttools5-doc-html package description: these are not XML
     tools.
 
+  [ Sune Vuorela ]
+  * Update description of the dev tools package to mention some of the
+    tools available in there.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Jan 2014 22:19:32 +0400
 
 qttools-opensource-src (5.2.0-6) experimental; urgency=medium
