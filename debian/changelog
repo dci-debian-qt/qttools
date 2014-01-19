@@ -3,6 +3,8 @@ qttools-opensource-src (5.2.0-7) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Correct qttools5-doc-html package description: these are not XML
     tools.
+  * Build qtbase5-doc in this source package, based on HTML files from
+    qtbase5-doc-html package.
 
   [ Sune Vuorela ]
   * Update description of the dev tools package to mention some of the

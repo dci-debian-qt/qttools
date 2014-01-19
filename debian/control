@@ -15,6 +15,7 @@ Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.2.0+dfsg~),
                zlib1g-dev
+Build-Depends-Indep: qtbase5-doc-html
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qttools.git
@@ -169,6 +170,17 @@ Description: Qt 5 tools examples debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 tools examples.
+
+Package: qtbase5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
 
 Package: qttools5-doc
 Priority: extra
