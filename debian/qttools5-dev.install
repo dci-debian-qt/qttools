@@ -145,6 +145,6 @@ usr/lib/*/pkgconfig/Qt5Designer.pc
 usr/lib/*/pkgconfig/Qt5DesignerComponents.pc
 usr/lib/*/pkgconfig/Qt5Help.pc
 usr/lib/*/pkgconfig/Qt5UiTools.pc
-usr/share/qt5/mkspecs/modules/qt_lib_designer.pri
-usr/share/qt5/mkspecs/modules/qt_lib_help.pri
-usr/share/qt5/mkspecs/modules/qt_lib_uitools.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_designer.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_help.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_uitools.pri

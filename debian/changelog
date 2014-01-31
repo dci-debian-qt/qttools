@@ -2,6 +2,8 @@ qttools-opensource-src (5.2.0-8) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildd's logs.
+  * Move mkspec files to their new location.
+    - B-D on qtbase 5.2.0+dfsg-7~, which introduces the new location.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jan 2014 13:25:58 -0300
 
