@@ -1,3 +1,89 @@
+qttools-opensource-src (5.2.0-7) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Correct qttools5-doc-html package description: these are not XML
+    tools.
+  * Build qtbase5-doc in this source package, based on HTML files from
+    qtbase5-doc-html package.
+
+  [ Sune Vuorela ]
+  * Update description of the dev tools package to mention some of the
+    tools available in there.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 19 Jan 2014 11:41:42 -0300
+
+qttools-opensource-src (5.2.0-6) experimental; urgency=medium
+
+  * Update symbols files to fix build failure on armel, armhf and s390x.
+
+ -- Dmitry Shachnev <mitya57@gmail.com>  Thu, 09 Jan 2014 17:56:04 +0400
+
+qttools-opensource-src (5.2.0-5) experimental; urgency=medium
+
+  * Update symbols files with buildd's logs.
+  * Update Standards-Version to 3.9.5, no changes needed.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 04 Jan 2014 16:41:46 -0300
+
+qttools-opensource-src (5.2.0-4) experimental; urgency=medium
+
+  * Update symbols files again. All differences seems to come from sparc, ia64
+    and powerpc having an older gcc.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Dec 2013 14:31:28 -0300
+
+qttools-opensource-src (5.2.0-3) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Install the private qmake stuff in qttools5-private-dev, not in
+    qttools5-dev.
+  * Simplify qttools5-examples.install.
+  * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
+    in Squeeze already.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' and current logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Dec 2013 12:13:08 -0300
+
+qttools-opensource-src (5.2.0-2) experimental; urgency=low
+
+  * Adjust Qt build dependencies to 5.2.0+dfsg~, or it picks the beta versions.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 12 Dec 2013 23:42:13 -0300
+
+qttools-opensource-src (5.2.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Change the section of qdbus-qt5 to utils (Closes: #730141).
+  * Update symbols files:
+    - with buildds' logs.
+    - with current build. Deeleted symbols where all added in beta1.
+  * Update install files.
+  * Adjust Qt build dependencies.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 12 Dec 2013 21:27:23 -0300
+
+qttools-opensource-src (5.2.0~beta1-2) experimental; urgency=low
+
+  [ Dmitry Shachnev ]
+  * Update libqt5designer5.symbols for armhf, ia64, powerpc, s390* and sparc.
+  * Add myself to Uploaders.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 19 Nov 2013 19:20:36 -0300
+
+qttools-opensource-src (5.2.0~beta1-1) experimental; urgency=low
+
+  [ Dmitry Shachnev ]
+  * New upstream beta release.
+  * Update qtbase build-dependencies to 5.2.0.
+  * Remove .qmake.cache in clean target.
+  * Update .install files for new upstream release.
+  * Update libqt5designer5.symbols.
+  * Add copyright info for qtpaths to debian/copyright.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 12 Nov 2013 13:27:17 -0300
+
 qttools-opensource-src (5.1.1-3) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]

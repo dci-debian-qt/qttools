@@ -27,7 +27,6 @@ usr/include/qt5/QtDesigner/*/QtDesigner/private/csshighlighter_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/deviceprofile_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/dialoggui_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/extensionfactory_p.h
-usr/include/qt5/QtDesigner/*/QtDesigner/private/filterwidget_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formbuilderextra_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formlayoutmenu_p.h
 usr/include/qt5/QtDesigner/*/QtDesigner/private/formwindowbase_p.h
@@ -118,3 +117,8 @@ usr/include/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_p.h
 usr/include/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexwriter_clucene_p.h
 usr/include/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexwriter_default_p.h
 usr/include/qt5/QtUiTools/*/QtUiTools/private/quiloader_p.h
+usr/share/qt5/mkspecs/modules/qt_lib_clucene_private.pri
+usr/share/qt5/mkspecs/modules/qt_lib_designer_private.pri
+usr/share/qt5/mkspecs/modules/qt_lib_designercomponents_private.pri
+usr/share/qt5/mkspecs/modules/qt_lib_help_private.pri
+usr/share/qt5/mkspecs/modules/qt_lib_uitools_private.pri

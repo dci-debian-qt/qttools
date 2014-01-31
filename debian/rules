@@ -18,6 +18,10 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake 
 
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -fv .qmake.cache
+
 override_dh_auto_build-arch:
 	# This override may seem futile, but it helps us make sure that the tools
 	# needed for building the docs are built before calling them.
@@ -40,9 +44,24 @@ override_dh_auto_install-arch:
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+	set -ex; for subdir in qdoc qmake qtconcurrent qtcore qtdbus qtgui qtnetwork \
+	                       qtopengl qtprintsupport qtsql qttestlib qtwidgets qtxml; do \
+		LD_LIBRARY_PATH=$(CURDIR)/lib $(CURDIR)/bin/qhelpgenerator \
+			/usr/share/qt5/doc/$$subdir/$$subdir.qhp -o \
+			$(CURDIR)/debian/tmp/usr/share/qt5/doc/$$subdir.qch; \
+	done
 
 override_dh_install:
 	dh_install --fail-missing
+
+override_dh_installdocs-indep:
+	dh_installdocs -i
+	# We want to use the qtbase copyright in qtbase5-doc
+	rm -v debian/qtbase5-doc/usr/share/doc/qtbase5-doc/copyright
+	cp /usr/share/doc/qtbase5-doc-html/copyright \
+		debian/qtbase5-doc/usr/share/doc/qtbase5-doc/
+	cp /usr/share/doc/qtbase5-doc-html/LGPL_EXCEPTION.txt \
+		debian/qtbase5-doc/usr/share/doc/qtbase5-doc/
 
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
