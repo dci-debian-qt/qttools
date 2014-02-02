@@ -1,9 +1,9 @@
-qttools-opensource-src (5.2.0-9) UNRELEASED; urgency=medium
+qttools-opensource-src (5.2.0-9) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files. (Closes: #737358)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Feb 2014 23:18:56 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 02 Feb 2014 10:46:48 -0300
 
 qttools-opensource-src (5.2.0-8) unstable; urgency=medium
 
