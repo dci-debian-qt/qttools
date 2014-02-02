@@ -3,21 +3,21 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.0.2
  _ZN18qdesigner_internal18QEditorFormBuilderD2Ev@Base 5.0.2
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.2.0
- (arch=!alpha !armel !armhf !hppa !ia64 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
- (arch=!alpha !armel !armhf !hppa !ia64 !mips !mipsel !ppc64 !s390x)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD2Ev@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.2.0
+ (arch=!alpha !armel !armhf !hppa !ia64 !mips !mipsel !powerpc !ppc64 !s390x)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
+ (arch=!alpha !armel !armhf !hppa !ia64 !mips !mipsel !powerpc !ppc64 !s390x)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueD2Ev@Base 5.0.2
- (arch=powerpc sparc)_ZN18qdesigner_internal28PropertySheetStringListValueC1ERKS0_@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal28PropertySheetStringListValueC2ERKS0_@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal28PropertySheetStringListValueC1ERKS0_@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal28PropertySheetStringListValueC2ERKS0_@Base 5.2.0
  (arch=!ia64)_ZN18qdesigner_internal28PropertySheetStringListValueD1Ev@Base 5.0.2
  (arch=!ia64)_ZN18qdesigner_internal28PropertySheetStringListValueD2Ev@Base 5.0.2
- (arch=powerpc sparc)_ZN18qdesigner_internal28PropertySheetStringListValueaSERKS0_@Base 5.2.0
+ (arch=sparc)_ZN18qdesigner_internal28PropertySheetStringListValueaSERKS0_@Base 5.2.0
  (arch=!ia64)_ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERKS0_@Base 5.0.2
  (arch=!ia64)_ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
@@ -42,20 +42,18 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal28PropertySheetStringListValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal29PropertySheetKeySequenceValueEEES_RKT_@Base 5.0.2
- (arch=powerpc)_ZN9QHashData8willGrowEv@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorExS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt11__push_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorExS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorExS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt13__adjust_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorEiS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN18qdesigner_internal13DeviceProfileEE8iteratorExS2_PFbRKS2_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorEiS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorEiS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorExS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
- (optional=templinst|arch=powerpc)_ZSt9make_heapIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
  _ZTI29QDesignerOptionsPageInterface@Base 5.0.2
  _ZTI34QDesignerFormEditorPluginInterface@Base 5.0.2
  _ZTI34QDesignerFormWindowCursorInterface@Base 5.0.2

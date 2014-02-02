@@ -1824,14 +1824,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22PropertySheetEnumValueC1Ev@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC2EiRKNS_16DesignerMetaEnumE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetEnumValueC2Ev@Base 5.0.2
- (optional=gccinternal|arch=ia64 powerpc s390 sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.2.0~beta1
+ (optional=gccinternal|arch=ia64 s390 sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC1ERKS0_@Base 5.2.0~beta1
  _ZN18qdesigner_internal22PropertySheetFlagValueC1EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC1Ev@Base 5.0.2
- (optional=gccinternal|arch=ia64 powerpc s390 sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.2.0~beta1
+ (optional=gccinternal|arch=ia64 s390 sparc)_ZN18qdesigner_internal22PropertySheetFlagValueC2ERKS0_@Base 5.2.0~beta1
  _ZN18qdesigner_internal22PropertySheetFlagValueC2EiRKNS_17DesignerMetaFlagsE@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetFlagValueC2Ev@Base 5.0.2
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.2.0
- (arch=powerpc sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.2.0
+ (optional=gccinternal|arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD1Ev@Base 5.2.0
+ (optional=gccinternal|arch=sparc)_ZN18qdesigner_internal22PropertySheetFlagValueD2Ev@Base 5.2.0
  _ZN18qdesigner_internal22PropertySheetIconValue6assignERKS0_j@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetIconValue8setThemeERK7QString@Base 5.0.2
  _ZN18qdesigner_internal22PropertySheetIconValue9setPixmapEN5QIcon4ModeENS1_5StateERKNS_24PropertySheetPixmapValueE@Base 5.0.2
