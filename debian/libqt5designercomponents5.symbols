@@ -53,7 +53,7 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorEiS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIP7QObjectE8iteratorExS2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  _ZTI29QDesignerOptionsPageInterface@Base 5.0.2
  _ZTI34QDesignerFormEditorPluginInterface@Base 5.0.2
  _ZTI34QDesignerFormWindowCursorInterface@Base 5.0.2
