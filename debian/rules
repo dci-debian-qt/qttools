@@ -46,7 +46,7 @@ override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 	set -ex; for subdir in qdoc qmake qtconcurrent qtcore qtdbus qtgui qtnetwork \
 	                       qtopengl qtprintsupport qtsql qttestlib qtwidgets qtxml \
-	                       qml quick quickdialogs; do \
+	                       qtqml qtquick qtquickdialogs; do \
 		LD_LIBRARY_PATH=$(CURDIR)/lib $(CURDIR)/bin/qhelpgenerator \
 			/usr/share/qt5/doc/$$subdir/$$subdir.qhp -o \
 			$(CURDIR)/debian/tmp/usr/share/qt5/doc/$$subdir.qch; \
