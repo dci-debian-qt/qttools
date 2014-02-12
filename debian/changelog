@@ -2,6 +2,8 @@ qttools-opensource-src (5.2.1-4) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/libqt5designer5.symbols from buildds’ logs.
+  * Build qtxmlpatterns5-doc package from this source.
+    This should finally solve the dependency loop problem.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Feb 2014 10:51:16 +0400
 

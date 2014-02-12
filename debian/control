@@ -16,7 +16,9 @@ Build-Depends: debhelper (>= 9),
                qtbase5-private-dev (>= 5.2.1+dfsg-1~),
                qtdeclarative5-private-dev (>= 5.2.1~),
                zlib1g-dev
-Build-Depends-Indep: qtbase5-doc-html, qtdeclarative5-doc-html
+Build-Depends-Indep: qtbase5-doc-html,
+                     qtdeclarative5-doc-html,
+                     qtxmlpatterns5-doc-html
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qttools.git
@@ -217,3 +219,15 @@ Description: Qt 5 tools HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 tools
  libraries and binaries.
+
+Package: qtxmlpatterns5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 XML patterns documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 XML patterns
+ libraries.
