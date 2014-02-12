@@ -1,5 +1,7 @@
 qttools-opensource-src (5.2.1-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update debian/libqt5designer5.symbols from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Feb 2014 10:51:16 +0400
 
