@@ -1198,11 +1198,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16AddActionCommandD1Ev@Base 5.0.2
  _ZN18qdesigner_internal16AddActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal16DesignerMetaEnumC1ERK7QStringS3_S3_@Base 5.0.2
- (arch=sparc)_ZN18qdesigner_internal16DesignerMetaEnumC1ERKS0_@Base 5.2.1
  _ZN18qdesigner_internal16DesignerMetaEnumC2ERK7QStringS3_S3_@Base 5.0.2
- (arch=sparc)_ZN18qdesigner_internal16DesignerMetaEnumC2ERKS0_@Base 5.2.1
- (arch=sparc)_ZN18qdesigner_internal16DesignerMetaEnumD1Ev@Base 5.2.1
- (arch=sparc)_ZN18qdesigner_internal16DesignerMetaEnumD2Ev@Base 5.2.1
  _ZN18qdesigner_internal16LayoutProperties17fromPropertySheetEPK28QDesignerFormEditorInterfaceP7QLayouti@Base 5.0.2
  _ZN18qdesigner_internal16LayoutProperties17visiblePropertiesEPK7QLayout@Base 5.0.2
  _ZN18qdesigner_internal16LayoutProperties5clearEv@Base 5.0.2
@@ -1285,11 +1281,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17DesignerIconCacheD1Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCacheD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerMetaFlagsC1ERK7QStringS3_S3_@Base 5.0.2
- (arch=sparc)_ZN18qdesigner_internal17DesignerMetaFlagsC1ERKS0_@Base 5.2.1
  _ZN18qdesigner_internal17DesignerMetaFlagsC2ERK7QStringS3_S3_@Base 5.0.2
- (arch=sparc)_ZN18qdesigner_internal17DesignerMetaFlagsC2ERKS0_@Base 5.2.1
- (arch=sparc)_ZN18qdesigner_internal17DesignerMetaFlagsD1Ev@Base 5.2.1
- (arch=sparc)_ZN18qdesigner_internal17DesignerMetaFlagsD2Ev@Base 5.2.1
  _ZN18qdesigner_internal17DockWidgetCommand4initEP11QDockWidget@Base 5.0.2
  _ZN18qdesigner_internal17DockWidgetCommandC1ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal17DockWidgetCommandC2ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
@@ -3081,9 +3073,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (arch=!sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
- (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.2.1
+ _ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal28PropertySheetStringListValueEEES_RKT_@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal29PropertySheetKeySequenceValueEEES_RKT_@Base 5.0.2
@@ -3179,7 +3169,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN9DomWidgetC2Ev@Base 5.0.2
  _ZN9DomWidgetD1Ev@Base 5.0.2
  _ZN9DomWidgetD2Ev@Base 5.0.2
- (arch=!sparc)_ZN9QGradientaSERKS_@Base 5.2.1
+ _ZN9QGradientaSERKS_@Base 5.2.1
  _ZNK10DomInclude5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK10DomPalette5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK11DomDateTime5writeER16QXmlStreamWriterRK7QString@Base 5.0.2

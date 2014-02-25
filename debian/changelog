@@ -1,8 +1,5 @@
 qttools-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
 
-  [ Dmitry Shachnev ]
-  * Update libqt5designer5.symbols for sparc and libqt5designercomponents5.symbols
-    for other architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Feb 2014 16:02:20 +0400
 
