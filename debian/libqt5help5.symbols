@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64 sparc
+# SymbolsHelper-Confirmed: 5.2.1 amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390x sparc
 libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN11QHelpEngine11indexWidgetEv@Base 5.0.2
  _ZN11QHelpEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -24,8 +24,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN14QHelpGenerator14insertMetaDataERK4QMapI7QString8QVariantE@Base 5.0.2
  _ZN14QHelpGenerator15progressChangedEd@Base 5.0.2
  _ZN14QHelpGenerator16staticMetaObjectE@Base 5.0.2
- (arch=!amd64)_ZN14QHelpGenerator17FileNameTableDataD1Ev@Base 5.2.1
- (arch=!amd64)_ZN14QHelpGenerator17FileNameTableDataD2Ev@Base 5.2.1
  _ZN14QHelpGenerator20registerCustomFilterERK7QStringRK11QStringListb@Base 5.0.2
  _ZN14QHelpGenerator21registerVirtualFolderERK7QStringS2_@Base 5.0.2
  _ZN14QHelpGenerator22insertFileNotFoundFileEv@Base 5.0.2
@@ -106,11 +104,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN16QHelpProjectDataD0Ev@Base 5.0.2
  _ZN16QHelpProjectDataD1Ev@Base 5.0.2
  _ZN16QHelpProjectDataD2Ev@Base 5.0.2
- (arch=!amd64)_ZN16QHelpSearchQueryD1Ev@Base 5.2.1
- (arch=!amd64)_ZN16QHelpSearchQueryD2Ev@Base 5.2.1
- (arch=!amd64)_ZN16QStringListModelD0Ev@Base 5.2.1
- (arch=!amd64)_ZN16QStringListModelD1Ev@Base 5.2.1
- (arch=!amd64)_ZN16QStringListModelD2Ev@Base 5.2.1
  _ZN17QHelpContentModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QHelpContentModel11qt_metacastEPKc@Base 5.0.2
  _ZN17QHelpContentModel14createContentsERK7QString@Base 5.0.2
@@ -161,8 +154,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN20QHelpDataContentItemC2EPS_RK7QStringS3_@Base 5.0.2
  _ZN20QHelpDataContentItemD1Ev@Base 5.0.2
  _ZN20QHelpDataContentItemD2Ev@Base 5.0.2
- (arch=!amd64)_ZN21QHelpDataCustomFilterD1Ev@Base 5.2.1
- (arch=!amd64)_ZN21QHelpDataCustomFilterD2Ev@Base 5.2.1
  _ZN22QHelpDataFilterSection10addContentEP20QHelpDataContentItem@Base 5.0.2
  _ZN22QHelpDataFilterSection10setIndicesERK5QListI18QHelpDataIndexItemE@Base 5.0.2
  _ZN22QHelpDataFilterSection11setContentsERK5QListIP20QHelpDataContentItemE@Base 5.0.2
