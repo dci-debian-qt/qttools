@@ -1,5 +1,7 @@
 qttools-opensource-src (5.2.1-7) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildd's logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Mar 2014 18:19:35 +0400
 
