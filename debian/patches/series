@@ -1,2 +1,3 @@
 lrelease-zlib.patch
 hurd-path_max.diff
+fix_path_to_lrelease.patch
