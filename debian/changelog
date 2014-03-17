@@ -7,8 +7,7 @@ qttools-opensource-src (5.2.1-7) UNRELEASED; urgency=medium
   * Simplify list of archs in symbols files: only mark sparc when suitable.
 
   [ Dmitry Shachnev ]
-  * Update libqt5designer5.symbols to make sure it also works on arm64
-    and ppc64el.
+  * Update symbols files to support arm64 and ppc64el.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Mar 2014 18:19:35 +0400
 
