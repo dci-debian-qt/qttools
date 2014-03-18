@@ -1,5 +1,7 @@
 qttools-opensource-src (5.2.1-8) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Simplify libqt5designercomponents5.symbols a bit more.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Mar 2014 10:22:06 +0400
 
