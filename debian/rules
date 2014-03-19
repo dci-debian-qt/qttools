@@ -57,10 +57,12 @@ override_dh_install:
 
 override_dh_installdocs-indep:
 	dh_installdocs -i
-	# We want to use the qtbase copyright in qtbase5-doc
-	rm -v debian/qtbase5-doc/usr/share/doc/qtbase5-doc/copyright
-	cp /usr/share/doc/qtbase5-doc-html/copyright \
-		debian/qtbase5-doc/usr/share/doc/qtbase5-doc/
+	# Use the correct copyright in external -doc packages
+	for source in qtbase5 qtdeclarative5 qtxmlpatterns5; do \
+		rm -v debian/$$source-doc/usr/share/doc/$$source-doc/copyright; \
+		cp /usr/share/doc/$$source-doc-html/copyright \
+			debian/$$source-doc/usr/share/doc/$$source-doc/; \
+	done
 	cp /usr/share/doc/qtbase5-doc-html/LGPL_EXCEPTION.txt \
 		debian/qtbase5-doc/usr/share/doc/qtbase5-doc/
 
