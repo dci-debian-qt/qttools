@@ -1,10 +1,13 @@
-qttools-opensource-src (5.2.1-8) UNRELEASED; urgency=medium
+qttools-opensource-src (5.2.1-8) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Simplify libqt5designercomponents5.symbols a bit more.
   * Update copyright files for all external docs, not just for qtbase.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Mar 2014 10:22:06 +0400
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 22:00:57 -0300
 
 qttools-opensource-src (5.2.1-7) experimental; urgency=medium
 
