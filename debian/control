@@ -18,6 +18,7 @@ Build-Depends: debhelper (>= 9),
                zlib1g-dev
 Build-Depends-Indep: qtbase5-doc-html,
                      qtdeclarative5-doc-html,
+                     qtwebkit5-doc-html,
                      qtxmlpatterns5-doc-html
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
@@ -231,3 +232,14 @@ Description: Qt 5 XML patterns documentation
  .
  This package contains the documentation for the Qt 5 XML patterns
  libraries.
+
+Package: qtwebkit5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 webkit documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webkit libraries.
