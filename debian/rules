@@ -45,8 +45,9 @@ override_dh_auto_install-arch:
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 	set -ex; for subdir in qdoc qmake qtconcurrent qtcore qtdbus qtgui qtnetwork \
-	                       qtopengl qtprintsupport qtsql qttestlib qtwidgets qtxml \
-	                       qtqml qtquick qtquickdialogs qtxmlpatterns qtwebkit; do \
+	                       qtopengl qtprintsupport qtscript qtscripttools qtsql \
+	                       qttestlib qtwidgets qtxml qtqml qtquick \
+	                       qtquickdialogs qtxmlpatterns qtwebkit; do \
 		LD_LIBRARY_PATH=$(CURDIR)/lib $(CURDIR)/bin/qhelpgenerator \
 			/usr/share/qt5/doc/$$subdir/$$subdir.qhp -o \
 			$(CURDIR)/debian/tmp/usr/share/qt5/doc/$$subdir.qch; \
@@ -58,7 +59,7 @@ override_dh_install:
 override_dh_installdocs-indep:
 	dh_installdocs -i
 	# Use the correct copyright in external -doc packages
-	for source in qtbase5 qtdeclarative5 qtxmlpatterns5 qtwebkit5; do \
+	for source in qtbase5 qtdeclarative5 qtscript5 qtxmlpatterns5 qtwebkit5; do \
 		rm -v debian/$$source-doc/usr/share/doc/$$source-doc/copyright; \
 		cp /usr/share/doc/$$source-doc-html/copyright \
 			debian/$$source-doc/usr/share/doc/$$source-doc/; \
