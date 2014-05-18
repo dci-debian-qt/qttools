@@ -3,9 +3,10 @@ qttools-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Don't force dh_builddeb to use xz compression: it's already the default.
-  * Build against qtwebkit to fix assistant:
+  * Build against qtwebkit to fix assistant (Closes: #742396):
     - Build qtwebkit5-doc from this source thus allowing us to avoid a
       circular dependency.
+    - Build depend upon libqt5webkit5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2014 23:02:27 -0300
 
