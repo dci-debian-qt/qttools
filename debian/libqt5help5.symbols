@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390x sparc
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN11QHelpEngine11indexWidgetEv@Base 5.0.2
  _ZN11QHelpEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -176,6 +176,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN22QHelpSearchQueryWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN22QHelpSearchQueryWidget11qt_metacastEPKc@Base 5.0.2
  _ZN22QHelpSearchQueryWidget12focusInEventEP11QFocusEvent@Base 5.0.2
+ _ZN22QHelpSearchQueryWidget14setCompactModeEb@Base 5.3.0
  _ZN22QHelpSearchQueryWidget16staticMetaObjectE@Base 5.0.2
  _ZN22QHelpSearchQueryWidget20expandExtendedSearchEv@Base 5.0.2
  _ZN22QHelpSearchQueryWidget22collapseExtendedSearchEv@Base 5.0.2
@@ -257,6 +258,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK22QHelpDataFilterSection7indicesEv@Base 5.0.2
  _ZNK22QHelpDataFilterSection8contentsEv@Base 5.0.2
  _ZNK22QHelpSearchQueryWidget10metaObjectEv@Base 5.0.2
+ _ZNK22QHelpSearchQueryWidget13isCompactModeEv@Base 5.3.0
  _ZNK22QHelpSearchQueryWidget5queryEv@Base 5.0.2
  _ZNK23QHelpSearchResultWidget10metaObjectEv@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZSt10__pop_heapIPN14QtHelpInternal12DocumentInfoEEvT_S3_S3_@Base 5.2.0
