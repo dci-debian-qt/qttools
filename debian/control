@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
                libqt5webkit5-dev,
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.3.0+dfsg~),
-               qtdeclarative5-private-dev (>= 5.3.0~),
+               qtdeclarative5-private-dev (>= 5.3.0-3~),
                zlib1g-dev
 Build-Depends-Indep: qtbase5-doc-html (>= 5.3.0+dfsg~),
                      qtdeclarative5-doc-html (>= 5.3.0~),
