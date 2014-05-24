@@ -13,6 +13,8 @@ qttools-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Remove fix_path_to_lrelease.patch, applied upstream.
   * Require qtdeclarative >= 5.3.0-3~, it includes a fix in the development
     package that we need.
+  * QuickDialogs are not part of Declarative anymore, so we don't build it's
+    documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2014 23:02:27 -0300
 

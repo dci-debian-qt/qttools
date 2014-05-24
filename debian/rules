@@ -47,7 +47,7 @@ override_dh_auto_install-indep:
 	set -ex; for subdir in qdoc qmake qtconcurrent qtcore qtdbus qtgui qtnetwork \
 	                       qtopengl qtprintsupport qtscript qtscripttools qtsql \
 	                       qttestlib qtwidgets qtxml qtqml qtquick \
-	                       qtquickdialogs qtxmlpatterns qtwebkit; do \
+	                       qtxmlpatterns qtwebkit; do \
 		LD_LIBRARY_PATH=$(CURDIR)/lib $(CURDIR)/bin/qhelpgenerator \
 			/usr/share/qt5/doc/$$subdir/$$subdir.qhp -o \
 			$(CURDIR)/debian/tmp/usr/share/qt5/doc/$$subdir.qch; \
