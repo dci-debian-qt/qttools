@@ -11,6 +11,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@gmail.com>
 Build-Depends: debhelper (>= 9),
+               libqt5opengl5-dev (>= 5.3.0+dfsg~),
                libqt5sql5-sqlite (>= 5.3.0+dfsg~),
                libqt5webkit5-dev,
                pkg-kde-tools,

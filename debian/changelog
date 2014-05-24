@@ -16,6 +16,8 @@ qttools-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * QuickDialogs are not part of Declarative anymore, so we don't build it's
     documentation.
   * Modify install files to install new files in this version.
+  * Build depend upon libqt5opengl5-dev (>= 5.3.0+dfsg~), we need to link
+    against it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2014 23:02:27 -0300
 
