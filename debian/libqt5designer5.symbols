@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 powerpc s390x
+# SymbolsHelper-Confirmed: 5.3.0 amd64 powerpc s390x
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -2162,7 +2162,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.2.0
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Base 5.0.2
- _ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.3.0
+ (arch=!amd64)_ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.3.0
  _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4initEP14QStackedWidget@Base 5.0.2
  _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4undoEv@Base 5.0.2
@@ -2504,9 +2504,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
- (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.2.0~beta1
- (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
@@ -2602,9 +2602,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN27QToolBoxWidgetPropertySheet23toolBoxPropertyFromNameERK7QString@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet5resetEi@Base 5.0.2
  (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mipsel powerpc ppc64 ppc64el s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (optional=gccinternal)_ZN27QToolBoxWidgetPropertySheet8PageDataC1Ev@Base 5.2.0
+ (optional=gccinternal|arch=!amd64)_ZN27QToolBoxWidgetPropertySheet8PageDataC1Ev@Base 5.2.0
  (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mipsel powerpc ppc64 ppc64el s390x)_ZN27QToolBoxWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
- (optional=gccinternal)_ZN27QToolBoxWidgetPropertySheet8PageDataC2Ev@Base 5.2.0
+ (optional=gccinternal|arch=!amd64)_ZN27QToolBoxWidgetPropertySheet8PageDataC2Ev@Base 5.2.0
  _ZN27QToolBoxWidgetPropertySheetC1EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC2EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetD0Ev@Base 5.0.2
@@ -3844,8 +3844,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst)_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIiEEPT_PKS3_S6_S4_@Base 5.3.0
- (optional=templinst)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
+ (optional=templinst|arch=!amd64)_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIiEEPT_PKS3_S6_S4_@Base 5.3.0
+ (optional=templinst|arch=!amd64)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  _ZSt11stable_sortIPiEvT_S1_@Base 5.2.0~alpha1
  _ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.2.0~alpha1
