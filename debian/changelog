@@ -1,5 +1,7 @@
 qttools-opensource-src (5.3.0-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Make qtwebkit build-dependency versioned.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2014 12:03:45 +0400
 
