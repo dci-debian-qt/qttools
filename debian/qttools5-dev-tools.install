@@ -11,6 +11,12 @@ usr/lib/*/qt5/bin/qhelpconverter
 usr/lib/*/qt5/bin/qhelpgenerator
 usr/lib/*/qt5/bin/qtdiag
 usr/lib/*/qt5/bin/qtpaths
+usr/lib/*/qt5/plugins/designer/libcontainerextension.so
+usr/lib/*/qt5/plugins/designer/libcustomwidgetplugin.so
+usr/lib/*/qt5/plugins/designer/libqquickwidget.so
+usr/lib/*/qt5/plugins/designer/libqwebview.so
+usr/lib/*/qt5/plugins/designer/libtaskmenuextension.so
+usr/lib/*/qt5/plugins/designer/libworldtimeclockplugin.so
 usr/share/qt5/phrasebooks/danish.qph
 usr/share/qt5/phrasebooks/dutch.qph
 usr/share/qt5/phrasebooks/finnish.qph
