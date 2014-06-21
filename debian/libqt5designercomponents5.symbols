@@ -1,8 +1,5 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 arm64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
- _ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18QEditorFormBuilderD2Ev@Base 5.0.2
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.2.1
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.2.1
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.2.0
