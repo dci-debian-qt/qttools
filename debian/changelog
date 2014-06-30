@@ -4,6 +4,7 @@ qttools-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update symbols files with buildds' logs.
   * Bump Qt build depends.
+  * Fix install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 30 Jun 2014 10:11:06 -0300
 
