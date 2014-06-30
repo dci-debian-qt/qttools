@@ -1,8 +1,5 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 kfreebsd-amd64 powerpc
+# SymbolsHelper-Confirmed: 5.3.1 armel hurd-i386 i386 kfreebsd-i386 mips mipsel s390x
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
- (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal18QEditorFormBuilderD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal18QEditorFormBuilderD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!amd64)_ZN18qdesigner_internal18QEditorFormBuilderD2Ev@Base 5.3.0
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueC1ERKS0_@Base 5.2.1
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueC2ERKS0_@Base 5.2.1
  (arch=sparc)_ZN18qdesigner_internal22PropertySheetEnumValueD1Ev@Base 5.2.0
