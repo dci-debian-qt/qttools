@@ -6,6 +6,9 @@ qttools-opensource-src (5.3.1-2) UNRELEASED; urgency=medium
     src/designer/src/plugins remain in qttools5-dev-tools package
     (really closes: #749336).
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' and mips64el's logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 11:17:54 +0400
 
 qttools-opensource-src (5.3.1-1) unstable; urgency=medium
