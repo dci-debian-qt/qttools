@@ -145,6 +145,8 @@ Multi-Arch: same
 Section: x11
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qttools5-dev-tools (<< 5.3.1-2~)
+Replaces: qttools5-dev-tools (<< 5.3.1-2~)
 Description: Qt 5 tools examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
