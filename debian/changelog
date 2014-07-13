@@ -1,4 +1,4 @@
-qttools-opensource-src (5.3.1-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.3.1-2) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Move designer plugins that are built from examples/designer back
@@ -9,7 +9,7 @@ qttools-opensource-src (5.3.1-2) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' and mips64el's logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Jul 2014 11:17:54 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 13 Jul 2014 15:16:30 -0300
 
 qttools-opensource-src (5.3.1-1) unstable; urgency=medium
 
