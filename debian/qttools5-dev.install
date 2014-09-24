@@ -15,6 +15,7 @@ usr/include/*/qt5/QtDesigner/QDesignerDynamicPropertySheetExtension
 usr/include/*/qt5/QtDesigner/QDesignerExportWidget
 usr/include/*/qt5/QtDesigner/QDesignerExtraInfoExtension
 usr/include/*/qt5/QtDesigner/QDesignerFormEditorInterface
+usr/include/*/qt5/QtDesigner/QDesignerFormEditorPluginInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowCursorInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowManagerInterface
