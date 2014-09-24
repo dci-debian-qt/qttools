@@ -1,10 +1,9 @@
-qttools-opensource-src (5.3.2-3) UNRELEASED; urgency=medium
+qttools-opensource-src (5.3.2-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove all CMake files for plugins, we should not be shipping them. They
     are only useful for people building their own installers.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Sep 2014 20:59:28 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Sep 2014 17:46:39 -0300
 
 qttools-opensource-src (5.3.2-2) unstable; urgency=medium
 
