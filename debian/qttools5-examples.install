@@ -1,7 +1,3 @@
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_AnalogClockPlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_MultiPageWidgetPlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_TicTacToePlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_WorldTimeClockPlugin.cmake
 usr/lib/*/qt5/examples/assistant/
 usr/lib/*/qt5/examples/designer/
 usr/lib/*/qt5/examples/help/

@@ -15,7 +15,6 @@ usr/include/*/qt5/QtDesigner/QDesignerDynamicPropertySheetExtension
 usr/include/*/qt5/QtDesigner/QDesignerExportWidget
 usr/include/*/qt5/QtDesigner/QDesignerExtraInfoExtension
 usr/include/*/qt5/QtDesigner/QDesignerFormEditorInterface
-usr/include/*/qt5/QtDesigner/QDesignerFormEditorPluginInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowCursorInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowInterface
 usr/include/*/qt5/QtDesigner/QDesignerFormWindowManagerInterface
@@ -123,8 +122,6 @@ usr/include/*/qt5/QtUiTools/qtuitoolsversion.h
 usr/include/*/qt5/QtUiTools/quiloader.h
 usr/lib/*/cmake/Qt5Designer/Qt5DesignerConfig.cmake
 usr/lib/*/cmake/Qt5Designer/Qt5DesignerConfigVersion.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_QQuickWidgetPlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_QWebViewPlugin.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfig.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigExtras.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigVersion.cmake
