@@ -1,5 +1,7 @@
 qttools-opensource-src (5.3.2-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Move CMake files for example Designer plugins to qttools5-examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Sep 2014 20:59:28 +0400
 

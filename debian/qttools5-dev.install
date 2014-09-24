@@ -123,12 +123,8 @@ usr/include/*/qt5/QtUiTools/qtuitoolsversion.h
 usr/include/*/qt5/QtUiTools/quiloader.h
 usr/lib/*/cmake/Qt5Designer/Qt5DesignerConfig.cmake
 usr/lib/*/cmake/Qt5Designer/Qt5DesignerConfigVersion.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_AnalogClockPlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_MultiPageWidgetPlugin.cmake
 usr/lib/*/cmake/Qt5Designer/Qt5Designer_QQuickWidgetPlugin.cmake
 usr/lib/*/cmake/Qt5Designer/Qt5Designer_QWebViewPlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_TicTacToePlugin.cmake
-usr/lib/*/cmake/Qt5Designer/Qt5Designer_WorldTimeClockPlugin.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfig.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigExtras.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigVersion.cmake
