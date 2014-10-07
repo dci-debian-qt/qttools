@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 alpha arm64 armhf hppa kfreebsd-amd64 mips64el powerpc ppc64 ppc64el sparc64
+# SymbolsHelper-Confirmed: 5.3.2 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -24,6 +24,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN10DomPaletteC2Ev@Base 5.0.2
  _ZN10DomPaletteD1Ev@Base 5.0.2
  _ZN10DomPaletteD2Ev@Base 5.0.2
+ _ZN10QByteArray7reserveEi@Base 5.3.2
  _ZN11DomDateTime13setElementDayEi@Base 5.0.2
  _ZN11DomDateTime14setElementHourEi@Base 5.0.2
  _ZN11DomDateTime14setElementYearEi@Base 5.0.2
@@ -941,6 +942,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal13WidgetFactory35disableStyleCustomPaintingPropertyCE@Base 5.0.2
  _ZN18qdesigner_internal13WidgetFactory7StringsC1Ev@Base 5.0.2
  _ZN18qdesigner_internal13WidgetFactory7StringsC2Ev@Base 5.0.2
+ _ZN18qdesigner_internal13WidgetFactory7StringsD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal13WidgetFactory7StringsD2Ev@Base 5.3.2
  _ZN18qdesigner_internal13WidgetFactory8getStyleERK7QString@Base 5.0.2
  _ZN18qdesigner_internal13WidgetFactoryC1EP28QDesignerFormEditorInterfaceP7QObject@Base 5.0.2
  _ZN18qdesigner_internal13WidgetFactoryC2EP28QDesignerFormEditorInterfaceP7QObject@Base 5.0.2
@@ -1208,6 +1211,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16LayoutProperties5clearEv@Base 5.0.2
  _ZN18qdesigner_internal16LayoutPropertiesC1Ev@Base 5.0.2
  _ZN18qdesigner_internal16LayoutPropertiesC2Ev@Base 5.0.2
+ _ZN18qdesigner_internal16LayoutPropertiesD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal16LayoutPropertiesD2Ev@Base 5.3.2
  _ZN18qdesigner_internal16MetaDataBaseItem10setEnabledEb@Base 5.0.2
  _ZN18qdesigner_internal16MetaDataBaseItem11setTabOrderERK5QListIP7QWidgetE@Base 5.0.2
  _ZN18qdesigner_internal16MetaDataBaseItem12setFakeSlotsERK11QStringList@Base 5.0.2
@@ -1417,6 +1422,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18QDesignerWidgetBox7xmlToUiERK7QStringS3_bPS1_@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerWidgetBoxC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerWidgetBoxC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN18qdesigner_internal18QDesignerWidgetBoxD0Ev@Base 5.3.2
+ _ZN18qdesigner_internal18QDesignerWidgetBoxD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal18QDesignerWidgetBoxD2Ev@Base 5.3.2
  _ZN18qdesigner_internal18RaiseWidgetCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal18RaiseWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal18RaiseWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
@@ -1494,6 +1502,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18TreeWidgetContents12ItemContentsC2EPK15QTreeWidgetItemb@Base 5.0.2
  _ZN18qdesigner_internal18TreeWidgetContents14fromTreeWidgetEPK11QTreeWidgetb@Base 5.0.2
  _ZN18qdesigner_internal18TreeWidgetContents5clearEv@Base 5.0.2
+ _ZN18qdesigner_internal18TreeWidgetContentsaSERKS0_@Base 5.3.2
  _ZN18qdesigner_internal18WidgetDataBaseItem10setExtendsERK7QString@Base 5.0.2
  _ZN18qdesigner_internal18WidgetDataBaseItem10setToolTipERK7QString@Base 5.0.2
  _ZN18qdesigner_internal18WidgetDataBaseItem11setPromotedEb@Base 5.0.2
@@ -1521,6 +1530,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19ChangeZOrderCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal19ChangeZOrderCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal19ChangeZOrderCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
+ _ZN18qdesigner_internal19ChangeZOrderCommandD0Ev@Base 5.3.2
+ _ZN18qdesigner_internal19ChangeZOrderCommandD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal19ChangeZOrderCommandD2Ev@Base 5.3.2
  _ZN18qdesigner_internal19DeleteWidgetCommand4initEP7QWidgetj@Base 5.0.2
  _ZN18qdesigner_internal19DeleteWidgetCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal19DeleteWidgetCommand4undoEv@Base 5.0.2
@@ -1554,6 +1566,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC1Ev@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2ERK7QStringP31QDesignerPropertySheetExtensioni@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionC2Ev@Base 5.0.2
+ _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal19PropertyListCommand19PropertyDescriptionD2Ev@Base 5.3.2
  _ZN18qdesigner_internal19PropertyListCommand19restoreDefaultValueEv@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand3addEP7QObjectRK7QString@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommand4undoEv@Base 5.0.2
@@ -1597,6 +1611,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19TableWidgetContents8nonEmptyEPK16QTableWidgetItemi@Base 5.0.2
  _ZN18qdesigner_internal19TableWidgetContentsC1Ev@Base 5.0.2
  _ZN18qdesigner_internal19TableWidgetContentsC2Ev@Base 5.0.2
+ _ZN18qdesigner_internal19TableWidgetContentsD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal19TableWidgetContentsD2Ev@Base 5.3.2
+ _ZN18qdesigner_internal19TableWidgetContentsaSERKS0_@Base 5.3.2
  _ZN18qdesigner_internal19formLayoutAddWidgetEP11QFormLayoutP7QWidgetRK5QRectb@Base 5.0.2
  _ZN18qdesigner_internal19preferredEditActionEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal19promotionCandidatesEPK32QDesignerWidgetDataBaseInterfaceRK7QString@Base 5.0.2
@@ -1897,6 +1914,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23QDesignerPropertyEditor26textPropertyValidationModeEP28QDesignerFormEditorInterfacePK7QObjectRK7QStringb@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerPropertyEditorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerPropertyEditorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN18qdesigner_internal23QDesignerPropertyEditorD0Ev@Base 5.3.2
+ _ZN18qdesigner_internal23QDesignerPropertyEditorD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal23QDesignerPropertyEditorD2Ev@Base 5.3.2
  _ZN18qdesigner_internal23QDesignerSharedSettings14setDefaultGridERKNS_4GridE@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerSharedSettings14setNewFormSizeERK5QSize@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerSharedSettings14setZoomEnabledEb@Base 5.0.2
@@ -1983,8 +2003,10 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24PropertySheetPixmapValue15getPixmapSourceEP28QDesignerFormEditorInterfaceRK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValue7setPathERK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValueC1ERK7QString@Base 5.0.2
+ _ZN18qdesigner_internal24PropertySheetPixmapValueC1ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal24PropertySheetPixmapValueC1Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValueC2ERK7QString@Base 5.0.2
+ _ZN18qdesigner_internal24PropertySheetPixmapValueC2ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal24PropertySheetPixmapValueC2Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValue8setValueERK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueC1ERK7QStringbS3_S3_@Base 5.0.2
@@ -1999,6 +2021,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24QDesignerObjectInspector20mainContainerChangedEv@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspectorC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspectorC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN18qdesigner_internal24QDesignerObjectInspectorD0Ev@Base 5.3.2
+ _ZN18qdesigner_internal24QDesignerObjectInspectorD1Ev@Base 5.3.2
+ _ZN18qdesigner_internal24QDesignerObjectInspectorD2Ev@Base 5.3.2
  _ZN18qdesigner_internal25AddDynamicPropertyCommand14setDescriptionEv@Base 5.0.2
  _ZN18qdesigner_internal25AddDynamicPropertyCommand4initERK5QListIP7QObjectES3_RK7QStringRK8QVariant@Base 5.0.2
  _ZN18qdesigner_internal25AddDynamicPropertyCommand4redoEv@Base 5.0.2
@@ -2106,9 +2131,12 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValue8setValueERK11QStringList@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValueC1ERK11QStringListbRK7QStringS6_@Base 5.0.2
+ _ZN18qdesigner_internal28PropertySheetStringListValueC1ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal28PropertySheetStringListValueC2ERK11QStringListbRK7QStringS6_@Base 5.0.2
+ _ZN18qdesigner_internal28PropertySheetStringListValueC2ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal28PropertySheetStringListValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValueD2Ev@Base 5.0.2
+ _ZN18qdesigner_internal28PropertySheetStringListValueaSERKS0_@Base 5.3.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstaller15m_instanceCountE@Base 5.0.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstallerC1Ev@Base 5.0.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstallerC2Ev@Base 5.0.2
@@ -2143,12 +2171,15 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29PropertySheetKeySequenceValue8setValueERK12QKeySequence@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERK12QKeySequencebRK7QStringS6_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
+ _ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERK12QKeySequencebRK7QStringS6_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
+ _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
- (arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.2.0
+ _ZN18qdesigner_internal29PropertySheetTranslatableDataC1ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
+ _ZN18qdesigner_internal29PropertySheetTranslatableDataC2ERKS0_@Base 5.3.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !arm64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.3.0
  _ZN18qdesigner_internal30DeleteStackedWidgetPageCommand4initEP14QStackedWidget@Base 5.0.2
@@ -2492,10 +2523,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.2.0~beta1
- (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
+ _ZN23QTabWidgetPropertySheet8PageDataaSERKS0_@Base 5.3.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
@@ -2807,6 +2839,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN37QDesignerAbstractPropertySheetFactory16staticMetaObjectE@Base 5.0.2
  _ZN37QDesignerAbstractPropertySheetFactory27PropertySheetFactoryPrivateC1Ev@Base 5.0.2
  _ZN37QDesignerAbstractPropertySheetFactory27PropertySheetFactoryPrivateC2Ev@Base 5.0.2
+ _ZN37QDesignerAbstractPropertySheetFactory27PropertySheetFactoryPrivateD1Ev@Base 5.3.2
+ _ZN37QDesignerAbstractPropertySheetFactory27PropertySheetFactoryPrivateD2Ev@Base 5.3.2
  _ZN37QDesignerAbstractPropertySheetFactoryC1EP17QExtensionManager@Base 5.0.2
  _ZN37QDesignerAbstractPropertySheetFactoryC2EP17QExtensionManager@Base 5.0.2
  _ZN37QDesignerAbstractPropertySheetFactoryD0Ev@Base 5.0.2
@@ -2992,6 +3026,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomTimeC2Ev@Base 5.0.2
  _ZN7DomTimeD1Ev@Base 5.0.2
  _ZN7DomTimeD2Ev@Base 5.0.2
+ _ZN7QString5clearEv@Base 5.3.2
  _ZN8DomBrush15setElementColorEP8DomColor@Base 5.0.2
  _ZN8DomBrush16takeElementColorEv@Base 5.0.2
  _ZN8DomBrush17setElementTextureEP11DomProperty@Base 5.0.2
@@ -3067,7 +3102,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (arch=!powerpc !sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
@@ -3165,6 +3199,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN9DomWidgetC2Ev@Base 5.0.2
  _ZN9DomWidgetD1Ev@Base 5.0.2
  _ZN9DomWidgetD2Ev@Base 5.0.2
+ _ZN9QHashData8willGrowEv@Base 5.3.2
+ _ZN9QHashData9hasShrunkEv@Base 5.3.2
  _ZNK10DomInclude5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK10DomPalette5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK11DomDateTime5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
@@ -3817,7 +3853,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK8DomRectF5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK8DomSizeF5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK8DomSlots5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst|arch=ia64)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.1.0
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetEnumValueEEEbv@Base 5.3.2
+ (optional=templinst|arch=amd64 ia64)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.1.0
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal24PropertySheetPixmapValueEEEbv@Base 5.3.2
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal28PropertySheetStringListValueEEEbv@Base 5.3.2
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal29PropertySheetKeySequenceValueEEEbv@Base 5.3.2
  _ZNK9DomAction5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomColumn5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomHeader5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
@@ -3831,27 +3871,39 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  (optional=templinst|arch=!amd64 !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst)_ZSt11stable_sortIPiEvT_S1_@Base 5.3.2
+ (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIN5QListIP11RCCFileInfoE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst)_ZSt13__adjust_heapIPiliEvT_T0_S2_T1_@Base 5.3.2
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt13__heap_selectIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__insertion_sortIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__insertion_sortIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0~beta1
+ (optional=templinst)_ZSt16__insertion_sortIPiEvT_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__introsort_loopIN5QListI11QModelIndexE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__introsort_loopIN5QListIP11RCCFileInfoE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.2.0~beta1
+ (optional=templinst)_ZSt16__introsort_loopIPilEvT_S1_T0_@Base 5.3.2
+ (optional=templinst)_ZSt16__merge_adaptiveIPilS0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.3.2
+ (optional=templinst)_ZSt17__merge_sort_loopIPiS0_lEvT_S1_T0_T1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt17__rotate_adaptiveIN5QListIP7QWidgetE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0~beta1
- (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt19__move_median_firstIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt19__move_median_firstIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0~beta1
  (optional=templinst|subst)_ZSt20get_temporary_bufferIP7QWidgetESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.2.0~alpha1
+ (optional=templinst)_ZSt20get_temporary_bufferIiESt4pairIPT_lEl@Base 5.3.2
+ (optional=templinst)_ZSt21__inplace_stable_sortIPiEvT_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt21__unguarded_partitionIN5QListI11QModelIndexE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt21__unguarded_partitionIN5QListIP11RCCFileInfoE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt22__final_insertion_sortIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0~beta1
+ (optional=templinst)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.3.2
+ (optional=templinst)_ZSt22__merge_without_bufferIPilEvT_S1_S1_T0_S2_@Base 5.3.2
+ (optional=templinst)_ZSt22__stable_sort_adaptiveIPiS0_lEvT_S1_T0_T1_@Base 5.3.2
+ (optional=templinst)_ZSt24__merge_sort_with_bufferIPiS0_EvT_S1_T0_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt25__unguarded_linear_insertIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !ia64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390 !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt6__findIPP7QWidgetS1_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt8__rotateIN5QListIP7QWidgetE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0~beta1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.0
  _ZTI12QFormBuilder@Base 5.0.2
  _ZTI12QTextBuilder@Base 5.0.2
  _ZTI13QDesignerMenu@Base 5.0.2
@@ -4464,8 +4516,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to qdesigner_internal::OrderDialog::~OrderDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::PlainTextEditorDialog::~PlainTextEditorDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::PreviewConfigurationWidget::~PreviewConfigurationWidget()@Base" 5.0.2
+ (c++)"non-virtual thunk to qdesigner_internal::QDesignerObjectInspector::~QDesignerObjectInspector()@Base" 5.3.2
+ (c++)"non-virtual thunk to qdesigner_internal::QDesignerPropertyEditor::~QDesignerPropertyEditor()@Base" 5.3.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerTaskMenu::taskActions() const@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerTaskMenu::~QDesignerTaskMenu()@Base" 5.0.2
+ (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetBox::~QDesignerWidgetBox()@Base" 5.3.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::minimumSize() const@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::sizeHint() const@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::~QDesignerWidgetItem()@Base" 5.0.2
