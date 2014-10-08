@@ -1,5 +1,7 @@
 qttools-opensource-src (5.3.2-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Use correct exception syntax in debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 21:59:06 +0400
 

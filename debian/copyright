@@ -4,7 +4,7 @@ Source: http://releases.qt-project.org/qt5/5.0.1/submodules_tar/
 
 Files: *
 Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies).
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -19,7 +19,7 @@ License: LGPL-2.1
 
 Files: tests/auto/cmake/test_translation_macros/myi18nobject.cpp tests/auto/cmake/test_translation_macros/some_dir/some_include.h
 Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: src/linguist/Qt5LinguistToolsMacros.cmake
 Copyright: 2005-2011 Kitware, Inc.
@@ -72,7 +72,7 @@ Copyright: 2003-2006 Ben van Klinken and the CLucene Team
            2012 Digia Plc and/or its subsidiary(-ies)
 License: LGPL-2.1
 
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
+License: LGPL-2.1 with Digia-1.1 exception
  GNU Lesser General Public License version 2.1:
  This file may be used under the terms of the GNU Lesser General Public
  License version 2.1 as published by the Free Software Foundation and
@@ -196,7 +196,7 @@ License: Apache-2.0
 
 Files: examples/designer/arthurplugin/plugin.cpp
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: *.qdoc
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
