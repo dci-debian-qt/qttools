@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 amd64
+# SymbolsHelper-Confirmed: 5.3.2 amd64 i386
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -2523,10 +2523,10 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet25tabWidgetPropertyFromNameERK7QString@Base 5.0.2
  _ZN23QTabWidgetPropertySheet5resetEi@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.2.0~beta1
- (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC1Ev@Base 5.2.0~beta1
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
  _ZN23QTabWidgetPropertySheet8PageDataaSERKS0_@Base 5.3.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
@@ -3854,7 +3854,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK8DomSizeF5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK8DomSlots5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetEnumValueEEEbv@Base 5.3.2
- (optional=templinst|arch=amd64 ia64)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.1.0
+ (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal22PropertySheetIconValueEEEbv@Base 5.1.0
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal24PropertySheetPixmapValueEEEbv@Base 5.3.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal28PropertySheetStringListValueEEEbv@Base 5.3.2
  (optional=templinst)_ZNK8QVariant10canConvertIN18qdesigner_internal29PropertySheetKeySequenceValueEEEbv@Base 5.3.2
@@ -3875,7 +3875,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIN5QListIP11RCCFileInfoE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
- (optional=templinst)_ZSt13__adjust_heapIPiliEvT_T0_S2_T1_@Base 5.3.2
+ (optional=templinst|subst)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.3.2
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt13__heap_selectIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__insertion_sortIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0~beta1
@@ -3883,27 +3883,27 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=templinst)_ZSt16__insertion_sortIPiEvT_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__introsort_loopIN5QListI11QModelIndexE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt16__introsort_loopIN5QListIP11RCCFileInfoE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.2.0~beta1
- (optional=templinst)_ZSt16__introsort_loopIPilEvT_S1_T0_@Base 5.3.2
- (optional=templinst)_ZSt16__merge_adaptiveIPilS0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.3.2
- (optional=templinst)_ZSt17__merge_sort_loopIPiS0_lEvT_S1_T0_T1_@Base 5.3.2
+ (optional=templinst|subst)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.3.2
+ (optional=templinst|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.3.2
+ (optional=templinst|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt17__rotate_adaptiveIN5QListIP7QWidgetE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt19__move_median_firstIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt19__move_median_firstIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0~beta1
  (optional=templinst|subst)_ZSt20get_temporary_bufferIP7QWidgetESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.2.0~alpha1
- (optional=templinst)_ZSt20get_temporary_bufferIiESt4pairIPT_lEl@Base 5.3.2
+ (optional=templinst|subst)_ZSt20get_temporary_bufferIiESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.3.2
  (optional=templinst)_ZSt21__inplace_stable_sortIPiEvT_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt21__unguarded_partitionIN5QListI11QModelIndexE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt21__unguarded_partitionIN5QListIP11RCCFileInfoE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt22__final_insertion_sortIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.2.0~beta1
  (optional=templinst)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.3.2
- (optional=templinst)_ZSt22__merge_without_bufferIPilEvT_S1_S1_T0_S2_@Base 5.3.2
- (optional=templinst)_ZSt22__stable_sort_adaptiveIPiS0_lEvT_S1_T0_T1_@Base 5.3.2
+ (optional=templinst|subst)_ZSt22__merge_without_bufferIPi{ssize_t}EvT_S1_S1_T0_S2_@Base 5.3.2
+ (optional=templinst|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.3.2
  (optional=templinst)_ZSt24__merge_sort_with_bufferIPiS0_EvT_S1_T0_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt25__unguarded_linear_insertIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !ia64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390 !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  (optional=templinst|arch=ia64 s390 sparc)_ZSt6__findIPP7QWidgetS1_ET_S3_S3_RKT0_St26random_access_iterator_tag@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 s390 sparc)_ZSt8__rotateIN5QListIP7QWidgetE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0~beta1
- (optional=gccinternal|arch=!alpha !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.0
+ (optional=gccinternal)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.0
  _ZTI12QFormBuilder@Base 5.0.2
  _ZTI12QTextBuilder@Base 5.0.2
  _ZTI13QDesignerMenu@Base 5.0.2
