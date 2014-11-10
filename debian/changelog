@@ -1,9 +1,8 @@
-qttools-opensource-src (5.3.2-3~bpo70+4) UNRELEASED; urgency=medium
+qttools-opensource-src (5.3.2-3~bpo70+4) wheezy-backports; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs... yet again.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Nov 2014 19:45:20 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 10 Nov 2014 19:49:08 -0300
 
 qttools-opensource-src (5.3.2-3~bpo70+3) wheezy-backports; urgency=medium
 
