@@ -1,3 +1,7 @@
+qttools-opensource-src (5.3.2-3~bpo70+5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Nov 2014 09:22:11 -0300
+
 qttools-opensource-src (5.3.2-3~bpo70+4) wheezy-backports; urgency=medium
 
   * Update symbols files with buildds' logs... yet again.
