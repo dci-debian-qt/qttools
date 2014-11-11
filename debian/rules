@@ -73,3 +73,7 @@ override_dh_installdocs-indep:
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
 	dh_strip --remaining-packages --dbg-package=qttools5-dbg
+
+override_dh_makeshlibs:
+	# Don't fail on symbols changes *just* on backports.
+	dh_makeshlibs -- -c0
