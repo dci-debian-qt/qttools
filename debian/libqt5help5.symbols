@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 amd64 i386
+# SymbolsHelper-Confirmed: 5.3.2 amd64 armel armhf i386 mipsel powerpc s390x sparc
 libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN11QHelpEngine11indexWidgetEv@Base 5.0.2
  _ZN11QHelpEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -198,7 +198,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN23QHelpSearchResultWidgetD0Ev@Base 5.0.2
  _ZN23QHelpSearchResultWidgetD1Ev@Base 5.0.2
  _ZN23QHelpSearchResultWidgetD2Ev@Base 5.0.2
- _ZN9QHashData8willGrowEv@Base 5.3.2
+ (arch=amd64 i386)_ZN9QHashData8willGrowEv@Base 5.3.2
  _ZNK11QHelpEngine10indexModelEv@Base 5.0.2
  _ZNK11QHelpEngine10metaObjectEv@Base 5.0.2
  _ZNK11QHelpEngine12contentModelEv@Base 5.0.2
@@ -262,39 +262,39 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK22QHelpSearchQueryWidget13isCompactModeEv@Base 5.3.0
  _ZNK22QHelpSearchQueryWidget5queryEv@Base 5.0.2
  _ZNK23QHelpSearchResultWidget10metaObjectEv@Base 5.0.2
- (optional=templinst|arch=ia64 sparc)_ZSt10__pop_heapIPN14QtHelpInternal12DocumentInfoEEvT_S3_S3_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt11__push_heapIPN14QtHelpInternal12DocumentInfoE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0
- (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal4TermEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.0~beta1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal4TermEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.0~beta1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPN14QtHelpInternal12DocumentInfoE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPN14QtHelpInternal12DocumentInfoEEvT_S3_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIN14QtHelpInternal4TermEE8iteratorEiEvT_S5_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEiEvT_S5_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPN14QtHelpInternal12DocumentInfoE{ssize_t}EvT_S3_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListIN14QtHelpInternal4TermEE8iteratorES2_ET_S5_S5_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListIN14QtHelpInternal8TermInfoEE8iteratorES2_ET_S5_S5_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIPN14QtHelpInternal12DocumentInfoEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9iter_swapIN5QListIN14QtHelpInternal4TermEE8iteratorES4_EvT_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9iter_swapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorES4_EvT_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIPN14QtHelpInternal12DocumentInfoEEvT_S3_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt10__pop_heapIPN14QtHelpInternal12DocumentInfoEEvT_S3_S3_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc|subst)_ZSt11__push_heapIPN14QtHelpInternal12DocumentInfoE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf mipsel powerpc sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
+ (optional=templinst|arch=armel armhf mipsel powerpc sparc)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal4TermEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal4TermEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf mipsel powerpc sparc)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc|subst)_ZSt13__adjust_heapIPN14QtHelpInternal12DocumentInfoE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__insertion_sortIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__insertion_sortIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__insertion_sortIPN14QtHelpInternal12DocumentInfoEEvT_S3_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__introsort_loopIN5QListIN14QtHelpInternal4TermEE8iteratorEiEvT_S5_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt16__introsort_loopIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEiEvT_S5_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc|subst)_ZSt16__introsort_loopIPN14QtHelpInternal12DocumentInfoE{ssize_t}EvT_S3_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt19__move_median_firstIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt19__move_median_firstIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt21__unguarded_partitionIN5QListIN14QtHelpInternal4TermEE8iteratorES2_ET_S5_S5_RKT0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt21__unguarded_partitionIN5QListIN14QtHelpInternal8TermInfoEE8iteratorES2_ET_S5_S5_RKT0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt25__unguarded_linear_insertIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt25__unguarded_linear_insertIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt25__unguarded_linear_insertIPN14QtHelpInternal12DocumentInfoEEvT_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9iter_swapIN5QListIN14QtHelpInternal4TermEE8iteratorES4_EvT_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9iter_swapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorES4_EvT_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9make_heapIN5QListIN14QtHelpInternal4TermEE8iteratorEEvT_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9make_heapIN5QListIN14QtHelpInternal8TermInfoEE8iteratorEEvT_S5_@Base 5.2.0
+ (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390x sparc)_ZSt9make_heapIPN14QtHelpInternal12DocumentInfoEEvT_S3_@Base 5.2.0
  _ZTI11QHelpEngine@Base 5.0.2
  _ZTI14QHelpGenerator@Base 5.0.2
  _ZTI15QHelpEngineCore@Base 5.0.2

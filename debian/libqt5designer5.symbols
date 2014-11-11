@@ -3869,7 +3869,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|subst|arch=armel armhf mipsel powerpc)_ZSt11__push_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
  (optional=templinst)_ZSt11stable_sortIPiEvT_S1_@Base 5.3.2
  (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.3.2
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIN5QListI11QModelIndexE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0~beta1
@@ -3885,7 +3885,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=templinst|subst)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.3.2
  (optional=templinst|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.3.2
  (optional=templinst|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.3.2
- (optional=templinst|subst|arch=armel armhf mipsel powerpc)_ZSt17__rotate_adaptiveIN5QListIP7QWidgetE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0~beta1
+ (optional=templinst|subst|arch=armel armhf mipsel powerpc sparc)_ZSt17__rotate_adaptiveIN5QListIP7QWidgetE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0~beta1
  (optional=templinst|arch=!amd64 !i386|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.3.2
  (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390 s390x sparc)_ZSt19__move_median_firstIN5QListI11QModelIndexE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=armel armhf ia64 mipsel powerpc s390 s390x sparc)_ZSt19__move_median_firstIN5QListIP11RCCFileInfoE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.2.0~beta1
