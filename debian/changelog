@@ -4,9 +4,9 @@ qttools-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * debian/copyright:
-    - Use correct syntax for exceptions.
-    - Make Unicode data license text readable, and give it
-      a short name without spaces (MIT-Unicode).
+    - Update for LGPL v3 addition, and use correct syntax for exceptions.
+    - Make Unicode data license text readable, and give it a short name
+      without spaces (MIT-Unicode).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 21:59:06 +0400
 
