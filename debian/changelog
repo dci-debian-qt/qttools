@@ -1,6 +1,8 @@
-qttools-opensource-src (5.3.2-4) UNRELEASED; urgency=medium
+qttools-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.4.0.
   * debian/copyright:
     - Use correct syntax for exceptions.
     - Make Unicode data license text readable, and give it
