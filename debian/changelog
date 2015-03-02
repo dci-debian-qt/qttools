@@ -4,6 +4,8 @@ qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
   * Update debian/copyright.
+  * Symbols files:
+    - Add support for powerpcspe (closes: #771913).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Mar 2015 18:01:55 +0300
 

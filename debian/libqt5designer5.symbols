@@ -2589,8 +2589,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN27QToolBoxWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet23toolBoxPropertyFromNameERK7QString@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet5resetEi@Base 5.0.2
- (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN27QToolBoxWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN27QToolBoxWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64)_ZN27QToolBoxWidgetPropertySheet8PageDataC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64)_ZN27QToolBoxWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC1EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC2EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetD0Ev@Base 5.0.2
@@ -3067,7 +3067,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (arch=!powerpc !sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
+ (arch=!powerpc !powerpcspe !sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
