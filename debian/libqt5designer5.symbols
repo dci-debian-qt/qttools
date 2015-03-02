@@ -325,9 +325,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13QLayoutWidget5eventEP6QEvent@Base 5.0.2
  _ZN13QLayoutWidgetC1EP28QDesignerFormWindowInterfaceP7QWidget@Base 5.0.2
  _ZN13QLayoutWidgetC2EP28QDesignerFormWindowInterfaceP7QWidget@Base 5.0.2
- _ZN13QLayoutWidgetD0Ev@Base 5.0.2
- _ZN13QLayoutWidgetD1Ev@Base 5.0.2
- _ZN13QLayoutWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN13QLayoutWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN13QLayoutWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN13QLayoutWidgetD2Ev@Base 5.0.2
  _ZN13QtResourceSet11setModifiedERK7QString@Base 5.0.2
  _ZN13QtResourceSet25activateResourceFilePathsERK11QStringListPiP7QString@Base 5.0.2
  _ZN13QtResourceSetC1EP15QtResourceModel@Base 5.0.2
@@ -375,9 +375,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN14QToolBoxHelper8helperOfEPK8QToolBox@Base 5.0.2
  _ZN14QToolBoxHelperC1EP8QToolBox@Base 5.0.2
  _ZN14QToolBoxHelperC2EP8QToolBox@Base 5.0.2
- _ZN14QToolBoxHelperD0Ev@Base 5.0.2
- _ZN14QToolBoxHelperD1Ev@Base 5.0.2
- _ZN14QToolBoxHelperD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN14QToolBoxHelperD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN14QToolBoxHelperD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN14QToolBoxHelperD2Ev@Base 5.0.2
  _ZN14QtResourceView11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QtResourceView11qt_metacastEPKc@Base 5.0.2
  _ZN14QtResourceView14decodeMimeDataEPK9QMimeDataPNS_12ResourceTypeEP7QString@Base 5.0.2
@@ -499,9 +499,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN15QDesignerDialog16staticMetaObjectE@Base 5.0.2
  _ZN15QDesignerDialogC1EP28QDesignerFormWindowInterfaceP7QWidget@Base 5.0.2
  _ZN15QDesignerDialogC2EP28QDesignerFormWindowInterfaceP7QWidget@Base 5.0.2
- _ZN15QDesignerDialogD0Ev@Base 5.0.2
- _ZN15QDesignerDialogD1Ev@Base 5.0.2
- _ZN15QDesignerDialogD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN15QDesignerDialogD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN15QDesignerDialogD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN15QDesignerDialogD2Ev@Base 5.0.2
  _ZN15QDesignerWidget10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN15QDesignerWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QDesignerWidget11qt_metacastEPKc@Base 5.0.2
@@ -634,9 +634,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QExtensionFactory16staticMetaObjectE@Base 5.0.2
  _ZN17QExtensionFactoryC1EP17QExtensionManager@Base 5.0.2
  _ZN17QExtensionFactoryC2EP17QExtensionManager@Base 5.0.2
- _ZN17QExtensionFactoryD0Ev@Base 5.0.2
- _ZN17QExtensionFactoryD1Ev@Base 5.0.2
- _ZN17QExtensionFactoryD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QExtensionFactoryD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QExtensionFactoryD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QExtensionFactoryD2Ev@Base 5.0.2
  _ZN17QExtensionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QExtensionManager11qt_metacastEPKc@Base 5.0.2
  _ZN17QExtensionManager16staticMetaObjectE@Base 5.0.2
@@ -695,9 +695,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18QDesignerQSettings8setValueERK7QStringRK8QVariant@Base 5.0.2
  _ZN18QDesignerQSettingsC1Ev@Base 5.0.2
  _ZN18QDesignerQSettingsC2Ev@Base 5.0.2
- _ZN18QDesignerQSettingsD0Ev@Base 5.0.2
- _ZN18QDesignerQSettingsD1Ev@Base 5.0.2
- _ZN18QDesignerQSettingsD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QDesignerQSettingsD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QDesignerQSettingsD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QDesignerQSettingsD2Ev@Base 5.0.2
  _ZN18qdesigner_internal10CodeDialog10slotSaveAsEv@Base 5.0.2
  _ZN18qdesigner_internal10CodeDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal10CodeDialog11qt_metacastEPKc@Base 5.0.2
@@ -753,9 +753,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal10ZoomWidget9setWidgetEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN18qdesigner_internal10ZoomWidgetC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal10ZoomWidgetC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal10ZoomWidgetD0Ev@Base 5.0.2
- _ZN18qdesigner_internal10ZoomWidgetD1Ev@Base 5.0.2
- _ZN18qdesigner_internal10ZoomWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal10ZoomWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal10ZoomWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal10ZoomWidgetD2Ev@Base 5.0.2
  _ZN18qdesigner_internal10isPromotedEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal11ActionModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal11ActionModel11qt_metacastEPKc@Base 5.0.2
@@ -772,9 +772,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal11ActionModel9addActionEP7QAction@Base 5.0.2
  _ZN18qdesigner_internal11ActionModelC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal11ActionModelC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal11ActionModelD0Ev@Base 5.0.2
- _ZN18qdesigner_internal11ActionModelD1Ev@Base 5.0.2
- _ZN18qdesigner_internal11ActionModelD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal11ActionModelD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal11ActionModelD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal11ActionModelD2Ev@Base 5.0.2
  _ZN18qdesigner_internal11OrderDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal11OrderDialog11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal11OrderDialog11setPageListERK5QListIP7QWidgetE@Base 5.0.2
@@ -914,9 +914,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal13SheetDelegate16staticMetaObjectE@Base 5.0.2
  _ZN18qdesigner_internal13SheetDelegateC1EP9QTreeViewP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal13SheetDelegateC2EP9QTreeViewP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal13SheetDelegateD0Ev@Base 5.0.2
- _ZN18qdesigner_internal13SheetDelegateD1Ev@Base 5.0.2
- _ZN18qdesigner_internal13SheetDelegateD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal13SheetDelegateD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal13SheetDelegateD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal13SheetDelegateD2Ev@Base 5.0.2
  _ZN18qdesigner_internal13UpdateBlockerC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal13UpdateBlockerC2EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal13UpdateBlockerD1Ev@Base 5.0.2
@@ -1009,9 +1009,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal14CssHighlighter9highlightERK7QStringiii@Base 5.0.2
  _ZN18qdesigner_internal14CssHighlighterC1EP13QTextDocument@Base 5.0.2
  _ZN18qdesigner_internal14CssHighlighterC2EP13QTextDocument@Base 5.0.2
- _ZN18qdesigner_internal14CssHighlighterD0Ev@Base 5.0.2
- _ZN18qdesigner_internal14CssHighlighterD1Ev@Base 5.0.2
- _ZN18qdesigner_internal14CssHighlighterD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14CssHighlighterD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14CssHighlighterD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14CssHighlighterD2Ev@Base 5.0.2
  _ZN18qdesigner_internal14FormLayoutMenu10slotAddRowEv@Base 5.0.2
  _ZN18qdesigner_internal14FormLayoutMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal14FormLayoutMenu11qt_metacastEPKc@Base 5.0.2
@@ -1020,9 +1020,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal14FormLayoutMenu8populateEP7QWidgetP28QDesignerFormWindowInterfaceR5QListIP7QActionE@Base 5.0.2
  _ZN18qdesigner_internal14FormLayoutMenuC1EP7QObject@Base 5.0.2
  _ZN18qdesigner_internal14FormLayoutMenuC2EP7QObject@Base 5.0.2
- _ZN18qdesigner_internal14FormLayoutMenuD0Ev@Base 5.0.2
- _ZN18qdesigner_internal14FormLayoutMenuD1Ev@Base 5.0.2
- _ZN18qdesigner_internal14FormLayoutMenuD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14FormLayoutMenuD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14FormLayoutMenuD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal14FormLayoutMenuD2Ev@Base 5.0.2
  _ZN18qdesigner_internal14FormWindowBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal14FormWindowBase11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal14FormWindowBase11setFeaturesE6QFlagsIN28QDesignerFormWindowInterface11FeatureFlagEE@Base 5.0.2
@@ -1151,9 +1151,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal15InvisibleWidget16staticMetaObjectE@Base 5.0.2
  _ZN18qdesigner_internal15InvisibleWidgetC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal15InvisibleWidgetC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal15InvisibleWidgetD0Ev@Base 5.0.2
- _ZN18qdesigner_internal15InvisibleWidgetD1Ev@Base 5.0.2
- _ZN18qdesigner_internal15InvisibleWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15InvisibleWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15InvisibleWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15InvisibleWidgetD2Ev@Base 5.0.2
  _ZN18qdesigner_internal15QSimpleResource10setupBrushEP8DomBrush@Base 5.0.2
  _ZN18qdesigner_internal15QSimpleResource12createScriptERK7QStringNS0_12ScriptSourceE@Base 5.0.2
  _ZN18qdesigner_internal15QSimpleResource14addFakeMethodsEPK8DomSlotsR11QStringListS5_@Base 5.0.2
@@ -1178,15 +1178,15 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal15TabOrderCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal15TabOrderCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal15TabOrderCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal15TabOrderCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal15TabOrderCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal15TabOrderCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15TabOrderCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15TabOrderCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15TabOrderCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal15ZoomProxyWidget10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@Base 5.0.2
  _ZN18qdesigner_internal15ZoomProxyWidgetC1EP13QGraphicsItem6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN18qdesigner_internal15ZoomProxyWidgetC2EP13QGraphicsItem6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN18qdesigner_internal15ZoomProxyWidgetD0Ev@Base 5.0.2
- _ZN18qdesigner_internal15ZoomProxyWidgetD1Ev@Base 5.0.2
- _ZN18qdesigner_internal15ZoomProxyWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15ZoomProxyWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15ZoomProxyWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal15ZoomProxyWidgetD2Ev@Base 5.0.2
  _ZN18qdesigner_internal15designerWarningERK7QString@Base 5.0.2
  _ZN18qdesigner_internal15promotedExtendsEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal16AddActionCommand4initEP7QAction@Base 5.0.2
@@ -1194,9 +1194,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16AddActionCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal16AddActionCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal16AddActionCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal16AddActionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal16AddActionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal16AddActionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16AddActionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16AddActionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16AddActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal16DesignerMetaEnumC1ERK7QStringS3_S3_@Base 5.0.2
  (arch=sparc)_ZN18qdesigner_internal16DesignerMetaEnumC1ERKS0_@Base 5.2.1
  _ZN18qdesigner_internal16DesignerMetaEnumC2ERK7QStringS3_S3_@Base 5.0.2
@@ -1245,9 +1245,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal16StyleSheetEditor16staticMetaObjectE@Base 5.0.2
  _ZN18qdesigner_internal16StyleSheetEditorC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal16StyleSheetEditorC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal16StyleSheetEditorD0Ev@Base 5.0.2
- _ZN18qdesigner_internal16StyleSheetEditorD1Ev@Base 5.0.2
- _ZN18qdesigner_internal16StyleSheetEditorD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16StyleSheetEditorD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16StyleSheetEditorD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal16StyleSheetEditorD2Ev@Base 5.0.2
  _ZN18qdesigner_internal16TabWidgetCommand10removePageEv@Base 5.0.2
  _ZN18qdesigner_internal16TabWidgetCommand4initEP10QTabWidget@Base 5.0.2
  _ZN18qdesigner_internal16TabWidgetCommand7addPageEv@Base 5.0.2
@@ -1271,9 +1271,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17AddToolBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal17AddToolBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal17AddToolBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal17AddToolBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal17AddToolBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal17AddToolBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17AddToolBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17AddToolBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17AddToolBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCache11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCache16staticMetaObjectE@Base 5.0.2
@@ -1281,9 +1281,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17DesignerIconCache8reloadedEv@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCacheC1EPNS_19DesignerPixmapCacheEP7QObject@Base 5.0.2
  _ZN18qdesigner_internal17DesignerIconCacheC2EPNS_19DesignerPixmapCacheEP7QObject@Base 5.0.2
- _ZN18qdesigner_internal17DesignerIconCacheD0Ev@Base 5.0.2
- _ZN18qdesigner_internal17DesignerIconCacheD1Ev@Base 5.0.2
- _ZN18qdesigner_internal17DesignerIconCacheD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17DesignerIconCacheD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17DesignerIconCacheD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17DesignerIconCacheD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17DesignerMetaFlagsC1ERK7QStringS3_S3_@Base 5.0.2
  (arch=sparc)_ZN18qdesigner_internal17DesignerMetaFlagsC1ERKS0_@Base 5.2.1
  _ZN18qdesigner_internal17DesignerMetaFlagsC2ERK7QStringS3_S3_@Base 5.0.2
@@ -1301,9 +1301,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17MenuActionCommand4initEP7QActionS2_P7QWidgetS4_@Base 5.0.2
  _ZN18qdesigner_internal17MenuActionCommandC1ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal17MenuActionCommandC2ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal17MenuActionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal17MenuActionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal17MenuActionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17MenuActionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17MenuActionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17MenuActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEP28QDesignerFormWindowInterfacejP5QMenu@Base 5.0.2
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEP28QDesignerFormWindowInterfacejR5QListIP7QActionE@Base 5.0.2
  _ZN18qdesigner_internal17PromotionTaskMenu10addActionsEjP5QMenu@Base 5.0.2
@@ -1326,9 +1326,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal17PromotionTaskMenu9setWidgetEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal17PromotionTaskMenuC1EP7QWidgetNS0_4ModeEP7QObject@Base 5.0.2
  _ZN18qdesigner_internal17PromotionTaskMenuC2EP7QWidgetNS0_4ModeEP7QObject@Base 5.0.2
- _ZN18qdesigner_internal17PromotionTaskMenuD0Ev@Base 5.0.2
- _ZN18qdesigner_internal17PromotionTaskMenuD1Ev@Base 5.0.2
- _ZN18qdesigner_internal17PromotionTaskMenuD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17PromotionTaskMenuD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17PromotionTaskMenuD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal17PromotionTaskMenuD2Ev@Base 5.0.2
  _ZN18qdesigner_internal17QDesignerMimeData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal17QDesignerMimeData11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal17QDesignerMimeData16staticMetaObjectE@Base 5.0.2
@@ -1377,9 +1377,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18LowerWidgetCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal18LowerWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal18LowerWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal18LowerWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18LowerWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18LowerWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18LowerWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18LowerWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18LowerWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18MorphLayoutCommand17formatDescriptionEP28QDesignerFormEditorInterfacePK7QWidgetii@Base 5.0.2
  _ZN18qdesigner_internal18MorphLayoutCommand4initEP7QWidgeti@Base 5.0.2
  _ZN18qdesigner_internal18MorphLayoutCommand4redoEv@Base 5.0.2
@@ -1405,9 +1405,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18QDesignerPromotion27setPromotedClassIncludeFileERK7QStringS3_PS1_@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerPromotionC1EP28QDesignerFormEditorInterface@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerPromotionC2EP28QDesignerFormEditorInterface@Base 5.0.2
- _ZN18qdesigner_internal18QDesignerPromotionD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18QDesignerPromotionD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18QDesignerPromotionD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18QDesignerPromotionD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18QDesignerPromotionD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18QDesignerPromotionD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerWidgetBox10findWidgetEPK27QDesignerWidgetBoxInterfaceRK7QStringS6_PNS1_6WidgetE@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerWidgetBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal18QDesignerWidgetBox11qt_metacastEPKc@Base 5.0.2
@@ -1420,9 +1420,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18RaiseWidgetCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal18RaiseWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal18RaiseWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal18RaiseWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18RaiseWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18RaiseWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18RaiseWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18RaiseWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18RaiseWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18SetPropertyCommand10mergeValueERK8QVariant@Base 5.0.2
  _ZN18qdesigner_internal18SetPropertyCommand14setDescriptionEv@Base 5.0.2
  _ZN18qdesigner_internal18SetPropertyCommand15subPropertyMaskERK8QVariantP7QObject@Base 5.0.2
@@ -1432,9 +1432,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18SetPropertyCommand9mergeWithEPK12QUndoCommand@Base 5.0.2
  _ZN18qdesigner_internal18SetPropertyCommandC1EP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
  _ZN18qdesigner_internal18SetPropertyCommandC2EP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
- _ZN18qdesigner_internal18SetPropertyCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18SetPropertyCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18SetPropertyCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18SetPropertyCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18SetPropertyCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18SetPropertyCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18TextPropertyEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal18TextPropertyEditor11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal18TextPropertyEditor11resizeEventEP12QResizeEvent@Base 5.0.2
@@ -1457,9 +1457,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18TextPropertyEditor9selectAllEv@Base 5.0.2
  _ZN18qdesigner_internal18TextPropertyEditorC1EP7QWidgetNS0_13EmbeddingModeENS_26TextPropertyValidationModeE@Base 5.0.2
  _ZN18qdesigner_internal18TextPropertyEditorC2EP7QWidgetNS0_13EmbeddingModeENS_26TextPropertyValidationModeE@Base 5.0.2
- _ZN18qdesigner_internal18TextPropertyEditorD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18TextPropertyEditorD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18TextPropertyEditorD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18TextPropertyEditorD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18TextPropertyEditorD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18TextPropertyEditorD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18ToolBarEventFilter10handleAreaEPK8QToolBar@Base 5.0.2
  _ZN18qdesigner_internal18ToolBarEventFilter11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN18qdesigner_internal18ToolBarEventFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -1487,9 +1487,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18ToolBarEventFilter9startDragERK6QPoint6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
  _ZN18qdesigner_internal18ToolBarEventFilterC1EP8QToolBar@Base 5.0.2
  _ZN18qdesigner_internal18ToolBarEventFilterC2EP8QToolBar@Base 5.0.2
- _ZN18qdesigner_internal18ToolBarEventFilterD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18ToolBarEventFilterD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18ToolBarEventFilterD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18ToolBarEventFilterD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18ToolBarEventFilterD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18ToolBarEventFilterD2Ev@Base 5.0.2
  _ZN18qdesigner_internal18TreeWidgetContents12ItemContentsC1EPK15QTreeWidgetItemb@Base 5.0.2
  _ZN18qdesigner_internal18TreeWidgetContents12ItemContentsC2EPK15QTreeWidgetItemb@Base 5.0.2
  _ZN18qdesigner_internal18TreeWidgetContents14fromTreeWidgetEPK11QTreeWidgetb@Base 5.0.2
@@ -1513,9 +1513,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18WidgetDataBaseItem9setCustomEb@Base 5.0.2
  _ZN18qdesigner_internal18WidgetDataBaseItemC1ERK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal18WidgetDataBaseItemC2ERK7QStringS3_@Base 5.0.2
- _ZN18qdesigner_internal18WidgetDataBaseItemD0Ev@Base 5.0.2
- _ZN18qdesigner_internal18WidgetDataBaseItemD1Ev@Base 5.0.2
- _ZN18qdesigner_internal18WidgetDataBaseItemD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18WidgetDataBaseItemD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18WidgetDataBaseItemD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal18WidgetDataBaseItemD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19ChangeZOrderCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal19ChangeZOrderCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal19ChangeZOrderCommand4undoEv@Base 5.0.2
@@ -1536,9 +1536,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19DesignerPixmapCache8reloadedEv@Base 5.0.2
  _ZN18qdesigner_internal19DesignerPixmapCacheC1EP7QObject@Base 5.0.2
  _ZN18qdesigner_internal19DesignerPixmapCacheC2EP7QObject@Base 5.0.2
- _ZN18qdesigner_internal19DesignerPixmapCacheD0Ev@Base 5.0.2
- _ZN18qdesigner_internal19DesignerPixmapCacheD1Ev@Base 5.0.2
- _ZN18qdesigner_internal19DesignerPixmapCacheD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19DesignerPixmapCacheD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19DesignerPixmapCacheD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19DesignerPixmapCacheD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19InsertWidgetCommand18refreshBuddyLabelsEv@Base 5.0.2
  _ZN18qdesigner_internal19InsertWidgetCommand4initEP7QWidgetbii@Base 5.0.2
  _ZN18qdesigner_internal19InsertWidgetCommand4redoEv@Base 5.0.2
@@ -1562,9 +1562,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19PropertyListCommand8setValueE8QVariantbj@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommandC1EP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
  _ZN18qdesigner_internal19PropertyListCommandC2EP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
- _ZN18qdesigner_internal19PropertyListCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal19PropertyListCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal19PropertyListCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19PropertyListCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19PropertyListCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19PropertyListCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19QDesignerWidgetItem11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN18qdesigner_internal19QDesignerWidgetItem11isContainerEPK28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal19QDesignerWidgetItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -1579,17 +1579,17 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal19QDesignerWidgetItem9deinstallEv@Base 5.0.2
  _ZN18qdesigner_internal19QDesignerWidgetItemC1EPK7QLayoutP7QWidget6QFlagsIN2Qt11OrientationEE@Base 5.0.2
  _ZN18qdesigner_internal19QDesignerWidgetItemC2EPK7QLayoutP7QWidget6QFlagsIN2Qt11OrientationEE@Base 5.0.2
- _ZN18qdesigner_internal19QDesignerWidgetItemD0Ev@Base 5.0.2
- _ZN18qdesigner_internal19QDesignerWidgetItemD1Ev@Base 5.0.2
- _ZN18qdesigner_internal19QDesignerWidgetItemD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19QDesignerWidgetItemD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19QDesignerWidgetItemD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19QDesignerWidgetItemD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19RemoveActionCommand4initEP7QAction@Base 5.0.2
  _ZN18qdesigner_internal19RemoveActionCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal19RemoveActionCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal19RemoveActionCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal19RemoveActionCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal19RemoveActionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal19RemoveActionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal19RemoveActionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19RemoveActionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19RemoveActionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal19RemoveActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal19TableWidgetContents15fromTableWidgetEPK12QTableWidgetb@Base 5.0.2
  _ZN18qdesigner_internal19TableWidgetContents16insertHeaderItemEPK16QTableWidgetItemiPNS_12ListContentsEb@Base 5.0.2
  _ZN18qdesigner_internal19TableWidgetContents17defaultHeaderTextEi@Base 5.0.2
@@ -1605,39 +1605,39 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20AddConnectionCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20AddConnectionCommandC1EPNS_14ConnectionEditEPNS_10ConnectionE@Base 5.0.2
  _ZN18qdesigner_internal20AddConnectionCommandC2EPNS_14ConnectionEditEPNS_10ConnectionE@Base 5.0.2
- _ZN18qdesigner_internal20AddConnectionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddConnectionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddConnectionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddConnectionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddConnectionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddConnectionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommand4initEP11QMainWindow@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommand4initEP11QMainWindowP11QDockWidget@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20AddDockWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20AddDockWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddDockWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddDockWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddDockWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddDockWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddDockWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20AddMenuActionCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20AddMenuActionCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20AddMenuActionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddMenuActionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20AddMenuActionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddMenuActionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddMenuActionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20AddMenuActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20CreateMenuBarCommand4initEP11QMainWindow@Base 5.0.2
  _ZN18qdesigner_internal20CreateMenuBarCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal20CreateMenuBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20CreateMenuBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20CreateMenuBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20CreateMenuBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20CreateMenuBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20CreateMenuBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateMenuBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateMenuBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateMenuBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20CreateSubmenuCommand4initEP13QDesignerMenuP7QActionP7QObject@Base 5.0.2
  _ZN18qdesigner_internal20CreateSubmenuCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal20CreateSubmenuCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20CreateSubmenuCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20CreateSubmenuCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20CreateSubmenuCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20CreateSubmenuCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20CreateSubmenuCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateSubmenuCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateSubmenuCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20CreateSubmenuCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20CursorSelectionState4saveEPK28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20CursorSelectionStateC1Ev@Base 5.0.2
  _ZN18qdesigner_internal20CursorSelectionStateC2Ev@Base 5.0.2
@@ -1646,9 +1646,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20DeleteMenuBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20DeleteMenuBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20DeleteMenuBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20DeleteMenuBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20DeleteMenuBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20DeleteMenuBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteMenuBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteMenuBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteMenuBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20DeleteTabPageCommand4initEP10QTabWidget@Base 5.0.2
  _ZN18qdesigner_internal20DeleteTabPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal20DeleteTabPageCommand4undoEv@Base 5.0.2
@@ -1662,9 +1662,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20DeleteToolBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal20DeleteToolBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20DeleteToolBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20DeleteToolBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20DeleteToolBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20DeleteToolBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteToolBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteToolBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20DeleteToolBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20FormBuilderClipboardC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal20FormBuilderClipboardC2EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal20PreviewConfiguration12fromSettingsERK7QStringPK26QDesignerSettingsInterface@Base 5.0.2
@@ -1700,18 +1700,18 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal20QDesignerFormBuilder9createDomEP7QWidgetP9DomWidgetb@Base 5.0.2
  _ZN18qdesigner_internal20QDesignerFormBuilderC1EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Base 5.0.2
  _ZN18qdesigner_internal20QDesignerFormBuilderC2EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Base 5.0.2
- _ZN18qdesigner_internal20QDesignerFormBuilderD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20QDesignerFormBuilderD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20QDesignerFormBuilderD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20QDesignerFormBuilderD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20QDesignerFormBuilderD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20QDesignerFormBuilderD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommand14setDescriptionEv@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommand4initEP7QObjectRK7QString@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommand4initERK5QListIP7QObjectERK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal20ResetPropertyCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal20ResetPropertyCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal20ResetPropertyCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal20ResetPropertyCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20ResetPropertyCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20ResetPropertyCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal20ResetPropertyCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal20RichTextEditorDialog10showDialogEv@Base 5.0.2
  _ZN18qdesigner_internal20RichTextEditorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal20RichTextEditorDialog11qt_metacastEPKc@Base 5.0.2
@@ -1760,9 +1760,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal21ReparentWidgetCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal21ReparentWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal21ReparentWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal21ReparentWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal21ReparentWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal21ReparentWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal21ReparentWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal21ReparentWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal21ReparentWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal21SimplifyLayoutCommand11canSimplifyEP28QDesignerFormEditorInterfacePK7QWidgetPi@Base 5.0.2
  _ZN18qdesigner_internal21SimplifyLayoutCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal21SimplifyLayoutCommand4redoEv@Base 5.0.2
@@ -1777,9 +1777,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22ActionInsertionCommand4initEP7QWidgetP7QActionS4_b@Base 5.0.2
  _ZN18qdesigner_internal22ActionInsertionCommandC1ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal22ActionInsertionCommandC2ERK7QStringP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal22ActionInsertionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal22ActionInsertionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal22ActionInsertionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22ActionInsertionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22ActionInsertionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22ActionInsertionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal22ContainerWidgetCommand10removePageEv@Base 5.0.2
  _ZN18qdesigner_internal22ContainerWidgetCommand4initEP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal22ContainerWidgetCommand7addPageEv@Base 5.0.2
@@ -1793,17 +1793,17 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal22CreateStatusBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal22CreateStatusBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal22CreateStatusBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal22CreateStatusBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal22CreateStatusBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal22CreateStatusBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22CreateStatusBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22CreateStatusBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22CreateStatusBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal22DeleteStatusBarCommand4initEP10QStatusBar@Base 5.0.2
  _ZN18qdesigner_internal22DeleteStatusBarCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal22DeleteStatusBarCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal22DeleteStatusBarCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal22DeleteStatusBarCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal22DeleteStatusBarCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal22DeleteStatusBarCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal22DeleteStatusBarCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22DeleteStatusBarCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22DeleteStatusBarCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal22DeleteStatusBarCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal22LanguageResourceDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal22LanguageResourceDialog11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal22LanguageResourceDialog14setCurrentPathERK7QString@Base 5.0.2
@@ -1875,14 +1875,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23AdjustWidgetSizeCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal23AdjustWidgetSizeCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal23AdjustWidgetSizeCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal23AdjustWidgetSizeCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal23AdjustWidgetSizeCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal23AdjustWidgetSizeCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23AdjustWidgetSizeCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23AdjustWidgetSizeCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23AdjustWidgetSizeCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal23InsertActionIntoCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal23InsertActionIntoCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal23InsertActionIntoCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal23InsertActionIntoCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal23InsertActionIntoCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23InsertActionIntoCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23InsertActionIntoCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23InsertActionIntoCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerPropertyEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerPropertyEditor11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal23QDesignerPropertyEditor12editorClosedEv@Base 5.0.2
@@ -1914,14 +1914,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal23QDesignerSharedSettingsC2EP28QDesignerFormEditorInterface@Base 5.0.2
  _ZN18qdesigner_internal23RemoveActionFromCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal23RemoveActionFromCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal23RemoveActionFromCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal23RemoveActionFromCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal23RemoveActionFromCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveActionFromCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveActionFromCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveActionFromCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal23RemoveMenuActionCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal23RemoveMenuActionCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal23RemoveMenuActionCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal23RemoveMenuActionCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal23RemoveMenuActionCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveMenuActionCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveMenuActionCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal23RemoveMenuActionCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal23promotedCustomClassNameEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal24ActionRepositoryMimeData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal24ActionRepositoryMimeData11qt_metacastEPKc@Base 5.0.2
@@ -1931,9 +1931,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24ActionRepositoryMimeDataC1ERK5QListIP7QActionEN2Qt10DropActionE@Base 5.0.2
  _ZN18qdesigner_internal24ActionRepositoryMimeDataC2EP7QActionN2Qt10DropActionE@Base 5.0.2
  _ZN18qdesigner_internal24ActionRepositoryMimeDataC2ERK5QListIP7QActionEN2Qt10DropActionE@Base 5.0.2
- _ZN18qdesigner_internal24ActionRepositoryMimeDataD0Ev@Base 5.0.2
- _ZN18qdesigner_internal24ActionRepositoryMimeDataD1Ev@Base 5.0.2
- _ZN18qdesigner_internal24ActionRepositoryMimeDataD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ActionRepositoryMimeDataD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ActionRepositoryMimeDataD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ActionRepositoryMimeDataD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24ChangeCurrentPageCommand4initEP7QWidgeti@Base 5.0.2
  _ZN18qdesigner_internal24ChangeCurrentPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal24ChangeCurrentPageCommand4undoEv@Base 5.0.2
@@ -1948,16 +1948,16 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24ChangeLayoutItemGeometry4undoEv@Base 5.0.2
  _ZN18qdesigner_internal24ChangeLayoutItemGeometryC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal24ChangeLayoutItemGeometryC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal24ChangeLayoutItemGeometryD0Ev@Base 5.0.2
- _ZN18qdesigner_internal24ChangeLayoutItemGeometryD1Ev@Base 5.0.2
- _ZN18qdesigner_internal24ChangeLayoutItemGeometryD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ChangeLayoutItemGeometryD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ChangeLayoutItemGeometryD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24ChangeLayoutItemGeometryD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24DeleteConnectionsCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal24DeleteConnectionsCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal24DeleteConnectionsCommandC1EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Base 5.0.2
  _ZN18qdesigner_internal24DeleteConnectionsCommandC2EPNS_14ConnectionEditERK5QListIPNS_10ConnectionEE@Base 5.0.2
- _ZN18qdesigner_internal24DeleteConnectionsCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal24DeleteConnectionsCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal24DeleteConnectionsCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24DeleteConnectionsCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24DeleteConnectionsCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24DeleteConnectionsCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24DeleteToolBoxPageCommand4initEP8QToolBox@Base 5.0.2
  _ZN18qdesigner_internal24DeleteToolBoxPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal24DeleteToolBoxPageCommand4undoEv@Base 5.0.2
@@ -1977,9 +1977,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal24NewFormWidgetFormBuilder19createCustomWidgetsEP16DomCustomWidgets@Base 5.0.2
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC1EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Base 5.0.2
  _ZN18qdesigner_internal24NewFormWidgetFormBuilderC2EP28QDesignerFormEditorInterfaceRKNS_13DeviceProfileE@Base 5.0.2
- _ZN18qdesigner_internal24NewFormWidgetFormBuilderD0Ev@Base 5.0.2
- _ZN18qdesigner_internal24NewFormWidgetFormBuilderD1Ev@Base 5.0.2
- _ZN18qdesigner_internal24NewFormWidgetFormBuilderD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24NewFormWidgetFormBuilderD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24NewFormWidgetFormBuilderD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24NewFormWidgetFormBuilderD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValue15getPixmapSourceEP28QDesignerFormEditorInterfaceRK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValue7setPathERK7QString@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetPixmapValueC1ERK7QString@Base 5.0.2
@@ -1991,8 +1991,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal24PropertySheetStringValueC1ERKS0_@Base 5.0.2
  _ZN18qdesigner_internal24PropertySheetStringValueC2ERK7QStringbS3_S3_@Base 5.0.2
  (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal24PropertySheetStringValueC2ERKS0_@Base 5.0.2
- _ZN18qdesigner_internal24PropertySheetStringValueD1Ev@Base 5.0.2
- _ZN18qdesigner_internal24PropertySheetStringValueD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24PropertySheetStringValueD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal24PropertySheetStringValueD2Ev@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspector11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspector11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal24QDesignerObjectInspector16staticMetaObjectE@Base 5.0.2
@@ -2005,26 +2005,26 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal25AddDynamicPropertyCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal25AddDynamicPropertyCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal25AddDynamicPropertyCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal25AddDynamicPropertyCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal25AddDynamicPropertyCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal25AddDynamicPropertyCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25AddDynamicPropertyCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25AddDynamicPropertyCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25AddDynamicPropertyCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommand4initEP11QListWidgetRKNS_12ListContentsES5_@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommand4initEP9QComboBoxRKNS_12ListContentsES5_@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal25ChangeListContentsCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal25ChangeListContentsCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal25ChangeListContentsCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal25ChangeListContentsCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeListContentsCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeListContentsCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeListContentsCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal25ChangeTreeContentsCommand4initEP11QTreeWidgetRKNS_18TreeWidgetContentsES5_@Base 5.0.2
  _ZN18qdesigner_internal25ChangeTreeContentsCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal25ChangeTreeContentsCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal25ChangeTreeContentsCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal25ChangeTreeContentsCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal25ChangeTreeContentsCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal25ChangeTreeContentsCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal25ChangeTreeContentsCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeTreeContentsCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeTreeContentsCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal25ChangeTreeContentsCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal25ManageWidgetCommandHelper4initEP7QWidgetRK7QVectorIS2_E@Base 5.0.2
  _ZN18qdesigner_internal25ManageWidgetCommandHelper4initEPK28QDesignerFormWindowInterfaceP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal25ManageWidgetCommandHelper6manageEP28QDesignerFormWindowInterface@Base 5.0.2
@@ -2038,9 +2038,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal26ChangeTableContentsCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal26ChangeTableContentsCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal26ChangeTableContentsCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal26ChangeTableContentsCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal26ChangeTableContentsCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal26ChangeTableContentsCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26ChangeTableContentsCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26ChangeTableContentsCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26ChangeTableContentsCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal26PreviewConfigurationWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal26PreviewConfigurationWidget11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal26PreviewConfigurationWidget15slotSkinChangedEi@Base 5.0.2
@@ -2064,9 +2064,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal26PreviewConfigurationWidgetD2Ev@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormEditorCommandC1ERK7QStringP28QDesignerFormEditorInterface@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormEditorCommandC2ERK7QStringP28QDesignerFormEditorInterface@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormEditorCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormEditorCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormEditorCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormEditorCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormEditorCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormEditorCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowCommand11cheapUpdateEv@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowCommand13updateBuddiesEP28QDesignerFormWindowInterfaceRK7QStringS5_@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowCommand21selectUnmanagedObjectEP7QObject@Base 5.0.2
@@ -2074,9 +2074,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal26QDesignerFormWindowCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowCommandC1ERK7QStringP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowCommandC2ERK7QStringP28QDesignerFormWindowInterfaceP12QUndoCommand@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormWindowCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormWindowCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal26QDesignerFormWindowCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormWindowCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormWindowCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal26QDesignerFormWindowCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowManager11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal26QDesignerFormWindowManager16showPluginDialogEv@Base 5.0.2
@@ -2101,14 +2101,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal28PromoteToCustomWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal28PromoteToCustomWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal28PromoteToCustomWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal28PromoteToCustomWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28PromoteToCustomWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28PromoteToCustomWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28PromoteToCustomWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValue8setValueERK11QStringList@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValueC1ERK11QStringListbRK7QStringS6_@Base 5.0.2
  _ZN18qdesigner_internal28PropertySheetStringListValueC2ERK11QStringListbRK7QStringS6_@Base 5.0.2
- _ZN18qdesigner_internal28PropertySheetStringListValueD1Ev@Base 5.0.2
- _ZN18qdesigner_internal28PropertySheetStringListValueD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28PropertySheetStringListValueD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28PropertySheetStringListValueD2Ev@Base 5.0.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstaller15m_instanceCountE@Base 5.0.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstallerC1Ev@Base 5.0.2
  _ZN18qdesigner_internal28QDesignerWidgetItemInstallerC2Ev@Base 5.0.2
@@ -2120,9 +2120,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal28RemoveDynamicPropertyCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal28RemoveDynamicPropertyCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal28RemoveDynamicPropertyCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal28RemoveDynamicPropertyCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal28RemoveDynamicPropertyCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal28RemoveDynamicPropertyCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28RemoveDynamicPropertyCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28RemoveDynamicPropertyCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal28RemoveDynamicPropertyCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal29AddContainerWidgetPageCommand4initEP7QWidgetNS_13ContainerTypeENS0_13InsertionModeE@Base 5.0.2
  _ZN18qdesigner_internal29AddContainerWidgetPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal29AddContainerWidgetPageCommand4undoEv@Base 5.0.2
@@ -2136,18 +2136,18 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal29DemoteFromCustomWidgetCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValue14setStandardKeyERKN12QKeySequence11StandardKeyE@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValue8setValueERK12QKeySequence@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERK12QKeySequencebRK7QStringS6_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC1ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERK12QKeySequencebRK7QStringS6_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetKeySequenceValueC2ERKN12QKeySequence11StandardKeyEbRK7QStringS7_@Base 5.0.2
- _ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
- _ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
- (arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.2.0
+ (optional=gccinternal)_ZN18qdesigner_internal29PropertySheetKeySequenceValueD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal29PropertySheetKeySequenceValueD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN18qdesigner_internal29PropertySheetKeySequenceValueaSERKS0_@Base 5.2.0
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC1EbRK7QStringS3_@Base 5.0.2
  _ZN18qdesigner_internal29PropertySheetTranslatableDataC2EbRK7QStringS3_@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !arm64 !armel !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc64)_ZN18qdesigner_internal29PropertySheetTranslatableDataaSERKS0_@Base 5.3.0
@@ -2165,9 +2165,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialog16staticMetaObjectE@Base 5.0.2
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialogC1EP7QWidgetP28QDesignerFormWindowInterfaceS2_@Base 5.0.2
  _ZN18qdesigner_internal30StyleSheetPropertyEditorDialogC2EP7QWidgetP28QDesignerFormWindowInterfaceS2_@Base 5.0.2
- _ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD0Ev@Base 5.0.2
- _ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD1Ev@Base 5.0.2
- _ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal30StyleSheetPropertyEditorDialogD2Ev@Base 5.0.2
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommand11doOperationENS0_9OperationE@Base 5.0.2
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommand16reverseOperationENS0_9OperationE@Base 5.0.2
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommand18possibleOperationsEP28QDesignerFormEditorInterfaceP7QWidget@Base 5.0.2
@@ -2177,9 +2177,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommand4undoEv@Base 5.0.2
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandC1EP28QDesignerFormWindowInterface@Base 5.0.2
  _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandC2EP28QDesignerFormWindowInterface@Base 5.0.2
- _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal31ChangeFormLayoutItemRoleCommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal32DeleteContainerWidgetPageCommand4initEP7QWidgetNS_13ContainerTypeE@Base 5.0.2
  _ZN18qdesigner_internal32DeleteContainerWidgetPageCommand4redoEv@Base 5.0.2
  _ZN18qdesigner_internal32DeleteContainerWidgetPageCommand4undoEv@Base 5.0.2
@@ -2227,9 +2227,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal8ZoomMenu7setZoomEi@Base 5.0.2
  _ZN18qdesigner_internal8ZoomMenuC1EP7QObject@Base 5.0.2
  _ZN18qdesigner_internal8ZoomMenuC2EP7QObject@Base 5.0.2
- _ZN18qdesigner_internal8ZoomMenuD0Ev@Base 5.0.2
- _ZN18qdesigner_internal8ZoomMenuD1Ev@Base 5.0.2
- _ZN18qdesigner_internal8ZoomMenuD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomMenuD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomMenuD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomMenuD2Ev@Base 5.0.2
  _ZN18qdesigner_internal8ZoomView11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18qdesigner_internal8ZoomView11qt_metacastEPKc@Base 5.0.2
  _ZN18qdesigner_internal8ZoomView14scrollToOriginEv@Base 5.0.2
@@ -2243,12 +2243,12 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal8ZoomView9applyZoomEv@Base 5.0.2
  _ZN18qdesigner_internal8ZoomViewC1EP7QWidget@Base 5.0.2
  _ZN18qdesigner_internal8ZoomViewC2EP7QWidget@Base 5.0.2
- _ZN18qdesigner_internal8ZoomViewD0Ev@Base 5.0.2
- _ZN18qdesigner_internal8ZoomViewD1Ev@Base 5.0.2
- _ZN18qdesigner_internal8ZoomViewD2Ev@Base 5.0.2
- _ZN18qdesigner_internal9CECommandD0Ev@Base 5.0.2
- _ZN18qdesigner_internal9CECommandD1Ev@Base 5.0.2
- _ZN18qdesigner_internal9CECommandD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomViewD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomViewD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal8ZoomViewD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9CECommandD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9CECommandD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9CECommandD2Ev@Base 5.0.2
  _ZN18qdesigner_internal9DialogGui15getOpenFileNameEP7QWidgetRK7QStringS5_S5_PS3_6QFlagsIN11QFileDialog6OptionEE@Base 5.0.2
  _ZN18qdesigner_internal9DialogGui15getSaveFileNameEP7QWidgetRK7QStringS5_S5_PS3_6QFlagsIN11QFileDialog6OptionEE@Base 5.0.2
  _ZN18qdesigner_internal9DialogGui16getOpenFileNamesEP7QWidgetRK7QStringS5_S5_PS3_6QFlagsIN11QFileDialog6OptionEE@Base 5.0.2
@@ -2288,9 +2288,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal9MorphMenu9slotMorphERK7QString@Base 5.0.2
  _ZN18qdesigner_internal9MorphMenuC1EP7QObject@Base 5.0.2
  _ZN18qdesigner_internal9MorphMenuC2EP7QObject@Base 5.0.2
- _ZN18qdesigner_internal9MorphMenuD0Ev@Base 5.0.2
- _ZN18qdesigner_internal9MorphMenuD1Ev@Base 5.0.2
- _ZN18qdesigner_internal9MorphMenuD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9MorphMenuD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9MorphMenuD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18qdesigner_internal9MorphMenuD2Ev@Base 5.0.2
  _ZN18qdesigner_internal9Selection5clearEv@Base 5.0.2
  _ZN18qdesigner_internal9emptyIconEv@Base 5.0.2
  _ZN18qdesigner_internaleqERKNS_20PreviewConfigurationES2_@Base 5.0.2
@@ -2310,8 +2310,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN19QFormBuilderStrings8instanceEv@Base 5.0.2
  _ZN19QFormBuilderStringsC1Ev@Base 5.0.2
  _ZN19QFormBuilderStringsC2Ev@Base 5.0.2
- _ZN19QFormBuilderStringsD1Ev@Base 5.0.2
- _ZN19QFormBuilderStringsD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN19QFormBuilderStringsD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN19QFormBuilderStringsD2Ev@Base 5.0.2
  _ZN20QAbstractFormBuilder10initializeEPK5DomUI@Base 5.0.2
  _ZN20QAbstractFormBuilder10layoutInfoEP9DomLayoutP7QObjectPiS4_@Base 5.0.2
  _ZN20QAbstractFormBuilder10setupBrushEP8DomBrush@Base 5.0.2
@@ -2498,9 +2498,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN23QTabWidgetPropertySheet8PageDataC2Ev@Base 5.2.0~beta1
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Base 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Base 5.0.2
- _ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
- _ZN23QTabWidgetPropertySheetD1Ev@Base 5.0.2
- _ZN23QTabWidgetPropertySheetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN23QTabWidgetPropertySheetD2Ev@Base 5.0.2
  _ZN25DomPropertySpecifications37setElementStringpropertyspecificationERK5QListIP30DomStringPropertySpecificationE@Base 5.0.2
  _ZN25DomPropertySpecifications4readER16QXmlStreamReader@Base 5.0.2
  _ZN25DomPropertySpecifications5clearEb@Base 5.0.2
@@ -2530,9 +2530,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN25QStackedWidgetEventFilter8gotoPageEi@Base 5.0.2
  _ZN25QStackedWidgetEventFilterC1EP14QStackedWidget@Base 5.0.2
  _ZN25QStackedWidgetEventFilterC2EP14QStackedWidget@Base 5.0.2
- _ZN25QStackedWidgetEventFilterD0Ev@Base 5.0.2
- _ZN25QStackedWidgetEventFilterD1Ev@Base 5.0.2
- _ZN25QStackedWidgetEventFilterD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN25QStackedWidgetEventFilterD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN25QStackedWidgetEventFilterD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN25QStackedWidgetEventFilterD2Ev@Base 5.0.2
  _ZN26QDesignerMetaEnumInterfaceC1Ev@Base 5.0.2
  _ZN26QDesignerMetaEnumInterfaceC2Ev@Base 5.0.2
  _ZN26QDesignerMetaEnumInterfaceD0Ev@Base 5.0.2
@@ -2551,9 +2551,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN27QDesignerMemberSheetFactory16staticMetaObjectE@Base 5.0.2
  _ZN27QDesignerMemberSheetFactoryC1EP17QExtensionManager@Base 5.0.2
  _ZN27QDesignerMemberSheetFactoryC2EP17QExtensionManager@Base 5.0.2
- _ZN27QDesignerMemberSheetFactoryD0Ev@Base 5.0.2
- _ZN27QDesignerMemberSheetFactoryD1Ev@Base 5.0.2
- _ZN27QDesignerMemberSheetFactoryD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QDesignerMemberSheetFactoryD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QDesignerMemberSheetFactoryD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QDesignerMemberSheetFactoryD2Ev@Base 5.0.2
  _ZN27QDesignerPromotionInterfaceD0Ev@Base 5.0.2
  _ZN27QDesignerPromotionInterfaceD1Ev@Base 5.0.2
  _ZN27QDesignerPromotionInterfaceD2Ev@Base 5.0.2
@@ -2582,9 +2582,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN27QStackedWidgetPropertySheet5resetEi@Base 5.0.2
  _ZN27QStackedWidgetPropertySheetC1EP14QStackedWidgetP7QObject@Base 5.0.2
  _ZN27QStackedWidgetPropertySheetC2EP14QStackedWidgetP7QObject@Base 5.0.2
- _ZN27QStackedWidgetPropertySheetD0Ev@Base 5.0.2
- _ZN27QStackedWidgetPropertySheetD1Ev@Base 5.0.2
- _ZN27QStackedWidgetPropertySheetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QStackedWidgetPropertySheetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QStackedWidgetPropertySheetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QStackedWidgetPropertySheetD2Ev@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet11setPropertyEiRK8QVariant@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet13checkPropertyERK7QString@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheet23toolBoxPropertyFromNameERK7QString@Base 5.0.2
@@ -2593,9 +2593,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (optional=gccinternal|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64)_ZN27QToolBoxWidgetPropertySheet8PageDataC2ERKS0_@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC1EP8QToolBoxP7QObject@Base 5.0.2
  _ZN27QToolBoxWidgetPropertySheetC2EP8QToolBoxP7QObject@Base 5.0.2
- _ZN27QToolBoxWidgetPropertySheetD0Ev@Base 5.0.2
- _ZN27QToolBoxWidgetPropertySheetD1Ev@Base 5.0.2
- _ZN27QToolBoxWidgetPropertySheetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QToolBoxWidgetPropertySheetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QToolBoxWidgetPropertySheetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QToolBoxWidgetPropertySheetD2Ev@Base 5.0.2
  _ZN28QDesignerFormEditorInterface10createIconERK7QString@Base 5.0.2
  _ZN28QDesignerFormEditorInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN28QDesignerFormEditorInterface11qt_metacastEPKc@Base 5.0.2
@@ -2768,9 +2768,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN32QStackedWidgetPreviewEventFilter8prevPageEv@Base 5.0.2
  _ZN32QStackedWidgetPreviewEventFilterC1EP14QStackedWidget@Base 5.0.2
  _ZN32QStackedWidgetPreviewEventFilterC2EP14QStackedWidget@Base 5.0.2
- _ZN32QStackedWidgetPreviewEventFilterD0Ev@Base 5.0.2
- _ZN32QStackedWidgetPreviewEventFilterD1Ev@Base 5.0.2
- _ZN32QStackedWidgetPreviewEventFilterD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QStackedWidgetPreviewEventFilterD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QStackedWidgetPreviewEventFilterD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QStackedWidgetPreviewEventFilterD2Ev@Base 5.0.2
  _ZN33QDesignerObjectInspectorInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN33QDesignerObjectInspectorInterface11qt_metacastEPKc@Base 5.0.2
  _ZN33QDesignerObjectInspectorInterface16staticMetaObjectE@Base 5.0.2
@@ -2815,9 +2815,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN4Line11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN4Line11qt_metacastEPKc@Base 5.0.2
  _ZN4Line16staticMetaObjectE@Base 5.0.2
- _ZN4LineD0Ev@Base 5.0.2
- _ZN4LineD1Ev@Base 5.0.2
- _ZN4LineD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN4LineD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN4LineD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN4LineD2Ev@Base 5.0.2
  _ZN5DomUI15setElementClassERK7QString@Base 5.0.2
  _ZN5DomUI15setElementSlotsEP8DomSlots@Base 5.0.2
  _ZN5DomUI16setElementAuthorERK7QString@Base 5.0.2
@@ -2899,9 +2899,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN6Spacer5eventEP6QEvent@Base 5.0.2
  _ZN6SpacerC1EP7QWidget@Base 5.0.2
  _ZN6SpacerC2EP7QWidget@Base 5.0.2
- _ZN6SpacerD0Ev@Base 5.0.2
- _ZN6SpacerD1Ev@Base 5.0.2
- _ZN6SpacerD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN6SpacerD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN6SpacerD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN6SpacerD2Ev@Base 5.0.2
  _ZN7DomChar17setElementUnicodeEi@Base 5.0.2
  _ZN7DomChar19clearElementUnicodeEv@Base 5.0.2
  _ZN7DomChar4readER16QXmlStreamReader@Base 5.0.2
@@ -3067,7 +3067,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (arch=!powerpc !powerpcspe !sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
+ (optional=inline|arch=!powerpc !powerpcspe !sparc)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetEnumValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=sparc)_ZN8QVariant8setValueIN18qdesigner_internal22PropertySheetFlagValueEEEvRKT_@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN18qdesigner_internal24PropertySheetStringValueEEES_RKT_@Base 5.0.2
@@ -4373,11 +4373,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZTVN18qdesigner_internal9DialogGuiE@Base 5.0.2
  _ZTVN18qdesigner_internal9GridPanelE@Base 5.0.2
  _ZTVN18qdesigner_internal9MorphMenuE@Base 5.0.2
- (c++)"non-virtual thunk to Line::~Line()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to Line::~Line()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerAbstractPropertySheetFactory::extension(QObject*, QString const&) const@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerAbstractPropertySheetFactory::~QDesignerAbstractPropertySheetFactory()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerActionEditorInterface::~QDesignerActionEditorInterface()@Base" 5.0.2
- (c++)"non-virtual thunk to QDesignerDialog::~QDesignerDialog()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QDesignerDialog::~QDesignerDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerDockWidget::~QDesignerDockWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerFormWindowInterface::~QDesignerFormWindowInterface()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerMemberSheet::count() const@Base" 5.0.2
@@ -4395,7 +4395,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to QDesignerMemberSheet::setVisible(int, bool)@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerMemberSheet::signature(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerMemberSheet::~QDesignerMemberSheet()@Base" 5.0.2
- (c++)"non-virtual thunk to QDesignerMemberSheetFactory::~QDesignerMemberSheetFactory()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QDesignerMemberSheetFactory::~QDesignerMemberSheetFactory()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerMenu::~QDesignerMenu()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerMenuBar::~QDesignerMenuBar()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerNewFormWidgetInterface::~QDesignerNewFormWidgetInterface()@Base" 5.0.2
@@ -4427,30 +4427,30 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to QDesignerWidget::~QDesignerWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to QDesignerWidgetBoxInterface::~QDesignerWidgetBoxInterface()@Base" 5.0.2
  (c++)"non-virtual thunk to QExtensionFactory::extension(QObject*, QString const&) const@Base" 5.0.2
- (c++)"non-virtual thunk to QExtensionFactory::~QExtensionFactory()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QExtensionFactory::~QExtensionFactory()@Base" 5.0.2
  (c++)"non-virtual thunk to QExtensionManager::extension(QObject*, QString const&) const@Base" 5.0.2
  (c++)"non-virtual thunk to QExtensionManager::registerExtensions(QAbstractExtensionFactory*, QString const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QExtensionManager::unregisterExtensions(QAbstractExtensionFactory*, QString const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QExtensionManager::~QExtensionManager()@Base" 5.0.2
- (c++)"non-virtual thunk to QLayoutWidget::~QLayoutWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QLayoutWidget::~QLayoutWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to QStackedWidgetPropertySheet::isEnabled(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QStackedWidgetPropertySheet::property(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QStackedWidgetPropertySheet::reset(int)@Base" 5.0.2
  (c++)"non-virtual thunk to QStackedWidgetPropertySheet::setProperty(int, QVariant const&)@Base" 5.0.2
- (c++)"non-virtual thunk to QStackedWidgetPropertySheet::~QStackedWidgetPropertySheet()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QStackedWidgetPropertySheet::~QStackedWidgetPropertySheet()@Base" 5.0.2
  (c++)"non-virtual thunk to QTabWidgetPropertySheet::isEnabled(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QTabWidgetPropertySheet::property(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QTabWidgetPropertySheet::reset(int)@Base" 5.0.2
  (c++)"non-virtual thunk to QTabWidgetPropertySheet::setProperty(int, QVariant const&)@Base" 5.0.2
- (c++)"non-virtual thunk to QTabWidgetPropertySheet::~QTabWidgetPropertySheet()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QTabWidgetPropertySheet::~QTabWidgetPropertySheet()@Base" 5.0.2
  (c++)"non-virtual thunk to QToolBoxWidgetPropertySheet::isEnabled(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QToolBoxWidgetPropertySheet::property(int) const@Base" 5.0.2
  (c++)"non-virtual thunk to QToolBoxWidgetPropertySheet::reset(int)@Base" 5.0.2
  (c++)"non-virtual thunk to QToolBoxWidgetPropertySheet::setProperty(int, QVariant const&)@Base" 5.0.2
- (c++)"non-virtual thunk to QToolBoxWidgetPropertySheet::~QToolBoxWidgetPropertySheet()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QToolBoxWidgetPropertySheet::~QToolBoxWidgetPropertySheet()@Base" 5.0.2
  (c++)"non-virtual thunk to QtResourceView::~QtResourceView()@Base" 5.0.2
  (c++)"non-virtual thunk to QtResourceViewDialog::~QtResourceViewDialog()@Base" 5.0.2
- (c++)"non-virtual thunk to Spacer::~Spacer()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to Spacer::~Spacer()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::ActionEditor::~ActionEditor()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::CodeDialog::~CodeDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::ConnectionEdit::~ConnectionEdit()@Base" 5.0.2
@@ -4458,7 +4458,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to qdesigner_internal::GridPanel::~GridPanel()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::IconSelector::~IconSelector()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::IconThemeEditor::~IconThemeEditor()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::InvisibleWidget::~InvisibleWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::InvisibleWidget::~InvisibleWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::LanguageResourceDialog::~LanguageResourceDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::NewFormWidget::~NewFormWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::OrderDialog::~OrderDialog()@Base" 5.0.2
@@ -4468,7 +4468,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerTaskMenu::~QDesignerTaskMenu()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::minimumSize() const@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::sizeHint() const@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::~QDesignerWidgetItem()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::QDesignerWidgetItem::~QDesignerWidgetItem()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QLayoutSupport::adjustIndicator(QPoint const&, int)@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QLayoutSupport::findItemAt(QPoint const&) const@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::QLayoutSupport::indexOf(QLayoutItem*) const@Base" 5.0.2
@@ -4478,11 +4478,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  (c++)"non-virtual thunk to qdesigner_internal::QLayoutSupport::~QLayoutSupport()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::RichTextEditorDialog::~RichTextEditorDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::SignalSlotDialog::~SignalSlotDialog()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::StyleSheetEditor::~StyleSheetEditor()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::StyleSheetEditor::~StyleSheetEditor()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::StyleSheetEditorDialog::~StyleSheetEditorDialog()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::StyleSheetPropertyEditorDialog::~StyleSheetPropertyEditorDialog()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::TextPropertyEditor::~TextPropertyEditor()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::StyleSheetPropertyEditorDialog::~StyleSheetPropertyEditorDialog()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::TextPropertyEditor::~TextPropertyEditor()@Base" 5.0.2
  (c++)"non-virtual thunk to qdesigner_internal::ZoomProxyWidget::itemChange(QGraphicsItem::GraphicsItemChange, QVariant const&)@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::ZoomProxyWidget::~ZoomProxyWidget()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::ZoomView::~ZoomView()@Base" 5.0.2
- (c++)"non-virtual thunk to qdesigner_internal::ZoomWidget::~ZoomWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::ZoomProxyWidget::~ZoomProxyWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::ZoomView::~ZoomView()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to qdesigner_internal::ZoomWidget::~ZoomWidget()@Base" 5.0.2
