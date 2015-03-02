@@ -3,6 +3,7 @@ qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Mar 2015 18:01:55 +0300
 
