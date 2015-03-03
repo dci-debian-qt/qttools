@@ -11,6 +11,10 @@ qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     - Remove references to sparc, Qt is not built there for a while.
   * Bump Qt build-dependencies to 5.4.1.
 
+  [ Rohan Garg ]
+  * Make sure we build depend on libdouble-conversion-dev, required
+    by the linker.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Mar 2015 18:01:55 +0300
 
 qttools-opensource-src (5.4.0-1) experimental; urgency=medium
