@@ -95,9 +95,9 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN16QHelpIndexWidget8showLinkERK11QModelIndex@Base 5.0.2
  _ZN16QHelpIndexWidgetC1Ev@Base 5.0.2
  _ZN16QHelpIndexWidgetC2Ev@Base 5.0.2
- _ZN16QHelpIndexWidgetD0Ev@Base 5.0.2
- _ZN16QHelpIndexWidgetD1Ev@Base 5.0.2
- _ZN16QHelpIndexWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN16QHelpIndexWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN16QHelpIndexWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN16QHelpIndexWidgetD2Ev@Base 5.0.2
  _ZN16QHelpProjectData8readDataERK7QString@Base 5.0.2
  _ZN16QHelpProjectDataC1Ev@Base 5.0.2
  _ZN16QHelpProjectDataC2Ev@Base 5.0.2
@@ -145,11 +145,11 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN18QHelpContentWidget8showLinkERK11QModelIndex@Base 5.0.2
  _ZN18QHelpContentWidgetC1Ev@Base 5.0.2
  _ZN18QHelpContentWidgetC2Ev@Base 5.0.2
- _ZN18QHelpContentWidgetD0Ev@Base 5.0.2
- _ZN18QHelpContentWidgetD1Ev@Base 5.0.2
- _ZN18QHelpContentWidgetD2Ev@Base 5.0.2
- _ZN18QHelpDataIndexItemD1Ev@Base 5.0.2
- _ZN18QHelpDataIndexItemD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QHelpContentWidgetD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QHelpContentWidgetD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QHelpContentWidgetD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QHelpDataIndexItemD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QHelpDataIndexItemD2Ev@Base 5.0.2
  _ZN20QHelpDataContentItemC1EPS_RK7QStringS3_@Base 5.0.2
  _ZN20QHelpDataContentItemC2EPS_RK7QStringS3_@Base 5.0.2
  _ZN20QHelpDataContentItemD1Ev@Base 5.0.2
@@ -288,7 +288,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZTV18QHelpDataInterface@Base 5.0.2
  _ZTV22QHelpSearchQueryWidget@Base 5.0.2
  _ZTV23QHelpSearchResultWidget@Base 5.0.2
- (c++)"non-virtual thunk to QHelpContentWidget::~QHelpContentWidget()@Base" 5.0.2
- (c++)"non-virtual thunk to QHelpIndexWidget::~QHelpIndexWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QHelpContentWidget::~QHelpContentWidget()@Base" 5.0.2
+ (c++|optional=gccinternal)"non-virtual thunk to QHelpIndexWidget::~QHelpIndexWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to QHelpSearchQueryWidget::~QHelpSearchQueryWidget()@Base" 5.0.2
  (c++)"non-virtual thunk to QHelpSearchResultWidget::~QHelpSearchResultWidget()@Base" 5.0.2
