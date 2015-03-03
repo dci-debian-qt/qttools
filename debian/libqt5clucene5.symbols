@@ -440,7 +440,7 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZNK21QCLuceneMultiSearcher6maxDocEv@Base 5.0.2
  _ZNK21QCLuceneMultiSearcher6subDocEi@Base 5.0.2
  (optional=templinst)_ZNSt6vectorIPKwSaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 5.0.2
- _ZNSt6vectorIPKwSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 5.2.0
+ (optional=templinst)_ZNSt6vectorIPKwSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 5.2.0
  (optional=templinst)_ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Base 5.0.2
  _ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 5.2.0
  (optional=templinst)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Base 5.0.2
