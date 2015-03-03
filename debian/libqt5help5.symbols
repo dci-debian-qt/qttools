@@ -55,6 +55,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN15QHelpEngineCore21documentationFileNameERK7QString@Base 5.0.2
  _ZN15QHelpEngineCore21registerDocumentationERK7QString@Base 5.0.2
  _ZN15QHelpEngineCore23unregisterDocumentationERK7QString@Base 5.0.2
+ _ZN15QHelpEngineCore27readersAboutToBeInvalidatedEv@Base 5.4.1
  _ZN15QHelpEngineCore5filesE7QStringRK11QStringListRKS0_@Base 5.0.2
  _ZN15QHelpEngineCore7warningERK7QString@Base 5.0.2
  _ZN15QHelpEngineCore8metaDataERK7QStringS2_@Base 5.0.2
