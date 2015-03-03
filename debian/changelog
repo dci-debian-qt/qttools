@@ -1,4 +1,4 @@
-qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.4.1-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -15,7 +15,7 @@ qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Make sure we build depend on libdouble-conversion-dev, required
     by the linker.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Mar 2015 18:01:55 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 03 Mar 2015 14:39:16 +0300
 
 qttools-opensource-src (5.4.0-1) experimental; urgency=medium
 
