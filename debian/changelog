@@ -9,6 +9,7 @@ qttools-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     - Mark symbols missing with GCC 5 as optional (closes: #778095).
     - Remove references to ia64 and s390 (build logs are no longer available).
     - Remove references to sparc, Qt is not built there for a while.
+  * Bump Qt build-dependencies to 5.4.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Mar 2015 18:01:55 +0300
 
