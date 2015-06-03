@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 alpha arm64 armhf hppa kfreebsd-amd64 mips64el powerpc ppc64 ppc64el sparc64
+# SymbolsHelper-Confirmed: 5.4.1 armel hppa powerpc ppc64 s390x
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Base 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Base 5.0.2
@@ -3055,7 +3055,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSlotsC2Ev@Base 5.0.2
  _ZN8DomSlotsD1Ev@Base 5.0.2
  _ZN8DomSlotsD2Ev@Base 5.0.2
- (optional=inline|arch=!powerpc !powerpcspe)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
+ (optional=inline)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 5.2.1
  _ZN9DomAction18setElementPropertyERK5QListIP11DomPropertyE@Base 5.0.2
  _ZN9DomAction19setElementAttributeERK5QListIP11DomPropertyE@Base 5.0.2
  _ZN9DomAction4readER16QXmlStreamReader@Base 5.0.2
@@ -3811,7 +3811,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64el)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.2.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.2.0~beta1
  (optional=templinst|subst)_ZSt20get_temporary_bufferIP7QWidgetESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.2.0~alpha1
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2

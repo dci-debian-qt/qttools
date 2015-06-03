@@ -9,6 +9,7 @@ qttools-opensource-src (5.4.1-2) UNRELEASED; urgency=medium
   * Clear up the list in Uploaders removing people who hasn't committed to the
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 18:44:55 +0300
 
