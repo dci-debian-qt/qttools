@@ -12,6 +12,7 @@ qttools-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
   * Update symbols files with buildds' logs.
+  * Expose HTML documentation (Closes: #751185).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 18:44:55 +0300
 
