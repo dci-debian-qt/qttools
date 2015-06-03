@@ -1,4 +1,4 @@
-qttools-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.4.2-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add one new symbol to debian/libqt5help5.symbols.
@@ -14,7 +14,7 @@ qttools-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
   * Expose HTML documentation (Closes: #751185).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 18:44:55 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 14:09:39 -0300
 
 qttools-opensource-src (5.4.1-1) experimental; urgency=medium
 
