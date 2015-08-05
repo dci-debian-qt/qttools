@@ -1,10 +1,9 @@
-qttools-opensource-src (5.4.2-3) UNRELEASED; urgency=medium
+qttools-opensource-src (5.4.2-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
   * Update symbols files with current build log against gcc5 (Closes: #791261).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Aug 2015 22:12:37 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 03 Aug 2015 23:19:15 -0300
 
 qttools-opensource-src (5.4.2-2) unstable; urgency=medium
 
