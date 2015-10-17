@@ -1,4 +1,4 @@
-qttools-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.5.1-1) experimental; urgency=medium
 
   [ Felix Geyer ]
   * Move Qt5LinguistTools cmake files from -dev to -dev-tools package.
@@ -8,7 +8,7 @@ qttools-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
 
- -- Felix Geyer <fgeyer@debian.org>  Thu, 27 Aug 2015 13:26:44 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 17 Oct 2015 16:13:49 -0300
 
 qttools-opensource-src (5.5.0-1) experimental; urgency=medium
 
