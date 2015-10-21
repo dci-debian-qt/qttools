@@ -22,14 +22,9 @@ override_dh_auto_clean:
 	dh_auto_clean
 	rm -fv .qmake.cache
 
-override_dh_auto_build-arch:
-	# This override may seem futile, but it helps us make sure that the tools
-	# needed for building the docs are built before calling them.
-	# If there's a better way, do not hesitate to tell us.
-	dh_auto_build
-	make qmake_all
-
 override_dh_auto_build-indep:
+	cd src/assistant; qmake; $(MAKE) sub-qhelpgenerator
+	cd src/assistant/help; qmake
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_install-arch:
