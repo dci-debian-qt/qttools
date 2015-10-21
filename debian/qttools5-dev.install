@@ -115,6 +115,15 @@ usr/include/*/qt5/QtHelp/qhelpsearchengine.h
 usr/include/*/qt5/QtHelp/qhelpsearchquerywidget.h
 usr/include/*/qt5/QtHelp/qhelpsearchresultwidget.h
 usr/include/*/qt5/QtHelp/qthelpversion.h
+usr/include/*/qt5/QtUiPlugin/QDesignerCustomWidgetCollectionInterface
+usr/include/*/qt5/QtUiPlugin/QDesignerCustomWidgetInterface
+usr/include/*/qt5/QtUiPlugin/QDesignerExportWidget
+usr/include/*/qt5/QtUiPlugin/QtUiPlugin
+usr/include/*/qt5/QtUiPlugin/QtUiPluginDepends
+usr/include/*/qt5/QtUiPlugin/QtUiPluginVersion
+usr/include/*/qt5/QtUiPlugin/customwidget.h
+usr/include/*/qt5/QtUiPlugin/qdesignerexportwidget.h
+usr/include/*/qt5/QtUiPlugin/qtuipluginversion.h
 usr/include/*/qt5/QtUiTools/QUiLoader
 usr/include/*/qt5/QtUiTools/QtUiTools
 usr/include/*/qt5/QtUiTools/QtUiToolsDepends
@@ -126,9 +135,8 @@ usr/lib/*/cmake/Qt5Designer/Qt5DesignerConfigVersion.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfig.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigExtras.cmake
 usr/lib/*/cmake/Qt5Help/Qt5HelpConfigVersion.cmake
-usr/lib/*/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake
-usr/lib/*/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake
-usr/lib/*/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake
+usr/lib/*/cmake/Qt5UiPlugin/Qt5UiPluginConfig.cmake
+usr/lib/*/cmake/Qt5UiPlugin/Qt5UiPluginConfigVersion.cmake
 usr/lib/*/cmake/Qt5UiTools/Qt5UiToolsConfig.cmake
 usr/lib/*/cmake/Qt5UiTools/Qt5UiToolsConfigVersion.cmake
 usr/lib/*/libQt5CLucene.prl
@@ -148,4 +156,5 @@ usr/lib/*/pkgconfig/Qt5Help.pc
 usr/lib/*/pkgconfig/Qt5UiTools.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_designer.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_help.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_uiplugin.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_uitools.pri
