@@ -5,6 +5,8 @@ qttools-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Install upstream manpages for lrelease and lupdate.
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
+  * Disable qtwebkit help viewer temporarily (until we get qtwebkit 5.6
+    tarballs).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2015 21:02:38 +0300
 
