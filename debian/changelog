@@ -2,6 +2,8 @@ qttools-opensource-src (5.5.1-4) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Install upstream manpages for lrelease and lupdate.
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2015 21:02:38 +0300
 
