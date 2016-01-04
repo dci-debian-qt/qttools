@@ -8,6 +8,8 @@ qttools-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Disable qtwebkit help viewer temporarily (until we get qtwebkit 5.6
     tarballs).
   * Bump other Qt build-dependencies to 5.6.0~beta.
+  * Disable building qch documentation for base Qt modules in this source, as
+    those modules can no longer provide the HTML documentation on their own.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2015 21:02:38 +0300
 
