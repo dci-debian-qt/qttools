@@ -11,6 +11,7 @@ qttools-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Disable building qch documentation for base Qt modules in this source, as
     those modules can no longer provide the HTML documentation on their own.
   * Build qdoc before building docs.
+  * Install qdoc documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Nov 2015 21:02:38 +0300
 
