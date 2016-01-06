@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QDesignerComponents14createTaskMenuEP28QDesignerFormEditorInterfaceP7QObject@Qt_5_PRIVATE_API 5.0.2
  _ZN19QDesignerComponents15createWidgetBoxEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.0.2
  _ZN19QDesignerComponents16createFormEditorEP7QObject@Qt_5_PRIVATE_API 5.0.2

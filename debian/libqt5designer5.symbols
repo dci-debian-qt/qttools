@@ -1,5 +1,14 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z20domPropertyToVariantP20QAbstractFormBuilderPK11QMetaObjectPK11DomProperty@Qt_5 5.0.2
  _Z20domPropertyToVariantPK11DomProperty@Qt_5 5.0.2
  _Z20variantToDomPropertyP20QAbstractFormBuilderPK11QMetaObjectRK7QStringRK8QVariant@Qt_5 5.0.2
@@ -676,6 +685,12 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18DomConnectionHintsC2Ev@Qt_5 5.0.2
  _ZN18DomConnectionHintsD1Ev@Qt_5 5.0.2
  _ZN18DomConnectionHintsD2Ev@Qt_5 5.0.2
+ _ZN18DomPropertyToolTip4readER16QXmlStreamReader@Qt_5 5.6.0~beta
+ _ZN18DomPropertyToolTip5clearEb@Qt_5 5.6.0~beta
+ _ZN18DomPropertyToolTipC1Ev@Qt_5 5.6.0~beta
+ _ZN18DomPropertyToolTipC2Ev@Qt_5 5.6.0~beta
+ _ZN18DomPropertyToolTipD1Ev@Qt_5 5.6.0~beta
+ _ZN18DomPropertyToolTipD2Ev@Qt_5 5.6.0~beta
  _ZN18QDesignerQSettings10beginGroupERK7QString@Qt_5 5.0.2
  _ZN18QDesignerQSettings23settingsApplicationNameEv@Qt_5 5.0.2
  _ZN18QDesignerQSettings6removeERK7QString@Qt_5 5.0.2
@@ -2272,6 +2287,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet5resetEi@Qt_5 5.0.2
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Qt_5 5.0.2
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Qt_5 5.0.2
+ _ZN25DomPropertySpecifications17setElementTooltipERK5QListIP18DomPropertyToolTipE@Qt_5 5.6.0~beta
  _ZN25DomPropertySpecifications37setElementStringpropertyspecificationERK5QListIP30DomStringPropertySpecificationE@Qt_5 5.0.2
  _ZN25DomPropertySpecifications4readER16QXmlStreamReader@Qt_5 5.0.2
  _ZN25DomPropertySpecifications5clearEb@Qt_5 5.0.2
@@ -3018,6 +3034,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK17QFormBuilderExtra23isCustomWidgetContainerERK7QString@Qt_5 5.0.2
  _ZNK17QFormBuilderExtra25customWidgetAddPageMethodERK7QString@Qt_5 5.0.2
  _ZNK18DomConnectionHints5writeER16QXmlStreamWriterRK7QString@Qt_5 5.0.2
+ _ZNK18DomPropertyToolTip5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK18QDesignerQSettings5valueERK7QStringRK8QVariant@Qt_5 5.0.2
  _ZNK18QDesignerQSettings8containsERK7QString@Qt_5 5.0.2
  _ZNK18qdesigner_internal10CodeDialog10metaObjectEv@Qt_5 5.0.2
@@ -3445,6 +3462,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK25QDesignerCustomWidgetData11xmlLanguageEv@Qt_5 5.0.2
  _ZNK25QDesignerCustomWidgetData12xmlClassNameEv@Qt_5 5.0.2
  _ZNK25QDesignerCustomWidgetData14xmlDisplayNameEv@Qt_5 5.0.2
+ _ZNK25QDesignerCustomWidgetData15propertyToolTipERK7QString@Qt_5 5.6.0~beta
  _ZNK25QDesignerCustomWidgetData16xmlAddPageMethodEv@Qt_5 5.0.2
  _ZNK25QDesignerCustomWidgetData21xmlStringPropertyTypeERK7QStringP5QPairIN18qdesigner_internal26TextPropertyValidationModeEbE@Qt_5 5.0.2
  _ZNK25QDesignerCustomWidgetData6isNullEv@Qt_5 5.0.2

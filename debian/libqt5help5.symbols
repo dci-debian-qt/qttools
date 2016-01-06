@@ -1,5 +1,14 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5Help.so.5 libqt5help5 #MINVER#
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN11QHelpEngine11indexWidgetEv@Qt_5 5.0.2
  _ZN11QHelpEngine11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN11QHelpEngine11qt_metacastEPKc@Qt_5 5.0.2
