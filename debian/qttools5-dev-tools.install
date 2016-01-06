@@ -10,6 +10,7 @@ usr/lib/*/qt5/bin/lupdate
 usr/lib/*/qt5/bin/pixeltool
 usr/lib/*/qt5/bin/qcollectiongenerator
 usr/lib/*/qt5/bin/qdbusviewer
+usr/lib/*/qt5/bin/qdoc
 usr/lib/*/qt5/bin/qhelpconverter
 usr/lib/*/qt5/bin/qhelpgenerator
 usr/lib/*/qt5/bin/qtdiag

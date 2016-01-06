@@ -149,9 +149,7 @@ usr/lib/*/libQt5Help.prl
 usr/lib/*/libQt5Help.so
 usr/lib/*/libQt5UiTools.a
 usr/lib/*/libQt5UiTools.prl
-usr/lib/*/pkgconfig/Qt5CLucene.pc
 usr/lib/*/pkgconfig/Qt5Designer.pc
-usr/lib/*/pkgconfig/Qt5DesignerComponents.pc
 usr/lib/*/pkgconfig/Qt5Help.pc
 usr/lib/*/pkgconfig/Qt5UiTools.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_designer.pri
