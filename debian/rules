@@ -25,6 +25,7 @@ override_dh_auto_clean:
 override_dh_auto_build-indep:
 	cd src; qmake; $(MAKE) sub-qdoc
 	cd src/assistant; qmake; $(MAKE) sub-qhelpgenerator
+	cd src/qdoc; qmake
 	cd src/assistant/help; qmake
 	dh_auto_build -Smakefile -- docs
 
