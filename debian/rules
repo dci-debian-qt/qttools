@@ -51,3 +51,5 @@ override_dh_install:
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbg-package=qttools5-examples-dbg
 	dh_strip --remaining-packages --dbg-package=qttools5-dbg
+
+override_dh_auto_test-indep:
