@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
 libQt5Designer.so.5 libqt5designer5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -3590,7 +3590,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Qt_5 5.0.2
  (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Qt_5 5.4.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Qt_5 5.2.0~beta1
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
  _ZTI12QFormBuilder@Qt_5 5.0.2
  _ZTI12QTextBuilder@Qt_5 5.0.2
  _ZTI13QDesignerMenu@Qt_5 5.0.2
