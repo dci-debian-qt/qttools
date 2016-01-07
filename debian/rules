@@ -23,11 +23,13 @@ override_dh_auto_clean:
 	rm -fv .qmake.cache
 
 override_dh_auto_build-indep:
-	cd src; qmake; $(MAKE) sub-qdoc
-	cd src/assistant; qmake; $(MAKE) sub-qhelpgenerator
+	cd src; qmake
+	dh_auto_build -- -Csrc sub-qdoc
+	cd src/assistant; qmake
+	dh_auto_build -- -Csrc/assistant sub-qhelpgenerator
 	cd src/qdoc; qmake
 	cd src/assistant/help; qmake
-	dh_auto_build -Smakefile -- docs
+	dh_auto_build -- docs
 
 override_dh_auto_install-arch:
 	dh_auto_install
@@ -43,7 +45,7 @@ override_dh_auto_install-arch:
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
 
 override_dh_auto_install-indep:
-	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	dh_install --fail-missing
