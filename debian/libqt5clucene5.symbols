@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5CLucene.so.5 libqt5clucene5 #MINVER#
 * Build-Depends-Package: qttools5-private-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
