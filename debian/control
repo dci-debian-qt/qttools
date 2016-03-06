@@ -20,8 +20,8 @@ Build-Depends: debhelper (>= 9),
 Build-Depends-Indep: qtbase5-doc-html (>= 5.6.0~rc+dfsg~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qttools.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qttools.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qttools.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qttools.git
 
 Package: libqt5clucene5
 Architecture: any
