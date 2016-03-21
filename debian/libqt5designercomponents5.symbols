@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0~rc arm64
 libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
 * Build-Depends-Package: qttools5-private-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
@@ -12,6 +12,7 @@ libQt5DesignerComponents.so.5 libqt5designercomponents5 #MINVER#
  _ZN19QDesignerComponents20createResourceEditorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QDesignerComponents21createObjectInspectorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QDesignerComponents22createSignalSlotEditorEP28QDesignerFormEditorInterfaceP7QWidget@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst|arch=arm64)_ZN7QObject7connectIM16QDialogButtonBoxFvvEM7QDialogFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Qt_5_PRIVATE_API 5.6.0~rc
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI29QDesignerOptionsPageInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI34QDesignerFormEditorPluginInterface@Qt_5_PRIVATE_API 5.6.0~beta
