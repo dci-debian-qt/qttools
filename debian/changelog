@@ -7,6 +7,7 @@ qttools-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Drop no longer needed hack to fix wrong path in pkgconfig files.
   * Update debian/README.source with actual information.
   * Drop some pre-Jessie Breaks/Replaces.
+  * Revert debian/watch to track final releases again.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Mar 2016 07:57:12 +0100
 
