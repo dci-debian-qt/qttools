@@ -1,6 +1,5 @@
-qttools-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.6.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update symbols files from buildds’ logs.
   * Bump Qt build-dependencies to 5.6.0.
@@ -9,7 +8,7 @@ qttools-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Drop some pre-Jessie Breaks/Replaces.
   * Revert debian/watch to track final releases again.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Mar 2016 07:57:12 +0100
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 22 Mar 2016 22:29:03 +0100
 
 qttools-opensource-src (5.6.0~rc-1) experimental; urgency=medium
 
