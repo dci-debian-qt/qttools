@@ -1,3 +1,66 @@
+qttools-opensource-src (5.6.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump Standards-Version to 3.9.8, no changes required.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 10 Jun 2016 18:28:37 -0300
+
+qttools-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update symbols files from buildds’ logs.
+  * Bump Qt build-dependencies to 5.6.0.
+  * Drop no longer needed hack to fix wrong path in pkgconfig files.
+  * Update debian/README.source with actual information.
+  * Drop some pre-Jessie Breaks/Replaces.
+  * Revert debian/watch to track final releases again.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 22 Mar 2016 22:29:03 +0100
+
+qttools-opensource-src (5.6.0~rc-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+  * Bump Qt build-dependencies to 5.6.0~rc.
+  * Re-enable QtWebKit support.
+  * Use recommended https URIs for Vcs fields.
+  * Update debian/libqt5clucene5.symbols from the current build log.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 06 Mar 2016 18:36:07 +0300
+
+qttools-opensource-src (5.6.0~beta-2) experimental; urgency=medium
+
+  * Add empty override_dh_auto_test-indep target (to prevent the whole qttools
+    source from being compiled during indep builds).
+  * Use dh_auto_build instead of plain make to parallelize the build.
+  * Add Build-Depends-Package field to all symbols files.
+  * Bump all symbols versions to 5.6.0~beta. Apps built against libraries from
+    qttools 5.6 will not work with earlier versions of these libraries (as they
+    will require Qt_5 version).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Jan 2016 22:30:12 +0300
+
+qttools-opensource-src (5.6.0~beta-1) experimental; urgency=medium
+
+  * New upstream beta release.
+  * Install upstream manpages for lrelease and lupdate.
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
+  * Disable qtwebkit help viewer temporarily (until we get qtwebkit 5.6
+    tarballs).
+  * Bump other Qt build-dependencies to 5.6.0~beta.
+  * Disable building qch documentation for base Qt modules in this source, as
+    those modules can no longer provide the HTML documentation on their own.
+  * Build qdoc before building docs.
+  * Install qdoc documentation.
+  * Update install files.
+  * Add necessary Breaks/Replaces for qdoc move.
+  * Update symbols files using migrate-symbols.py script.
+  * Add some new symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Jan 2016 09:35:24 +0300
+
 qttools-opensource-src (5.5.1-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
