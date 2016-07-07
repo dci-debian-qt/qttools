@@ -1,3 +1,7 @@
+qttools-opensource-src (5.6.1-2~bpo8+1) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2016 11:39:43 -0300
+
 qttools-opensource-src (5.6.1-2) unstable; urgency=medium
 
   * Upload to unstable.
