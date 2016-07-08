@@ -2,6 +2,7 @@ qttools-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Install upstream manpages for lrelease and lupdate.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jul 2016 11:27:42 +0300
 
@@ -57,7 +58,6 @@ qttools-opensource-src (5.6.0~beta-2) experimental; urgency=medium
 qttools-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
   * New upstream beta release.
-  * Install upstream manpages for lrelease and lupdate.
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
   * Disable qtwebkit help viewer temporarily (until we get qtwebkit 5.6
