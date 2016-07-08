@@ -7,6 +7,7 @@ qttools-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Drop lrelease-zlib.patch. We do not link with libQt5Bootstrap.a, and the
     build succeeds without it.
+  * Update symbols files from amd64 build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jul 2016 11:27:42 +0300
 
