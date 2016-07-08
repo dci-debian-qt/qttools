@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~rc arm64
+# SymbolsHelper-Confirmed: 5.6.1 arm64 hppa x32
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -2757,7 +2757,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomTimeC2Ev@Qt_5 5.6.0~beta
  _ZN7DomTimeD1Ev@Qt_5 5.6.0~beta
  _ZN7DomTimeD2Ev@Qt_5 5.6.0~beta
- (optional=templinst|arch=arm64)_ZN7QObject7connectIMS_FvPS_EM37QDesignerAbstractPropertySheetFactoryFvS1_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Qt_5 5.6.0~rc
+ (optional=templinst|arch=arm64 hppa x32)_ZN7QObject7connectIMS_FvPS_EM37QDesignerAbstractPropertySheetFactoryFvS1_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Qt_5 5.6.0~rc
  _ZN8DomBrush15setElementColorEP8DomColor@Qt_5 5.6.0~beta
  _ZN8DomBrush16takeElementColorEv@Qt_5 5.6.0~beta
  _ZN8DomBrush17setElementTextureEP11DomProperty@Qt_5 5.6.0~beta
