@@ -91,6 +91,7 @@ Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
          libqt5help5 (= ${binary:Version}),
          qtbase5-dev,
+         qttools5-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
