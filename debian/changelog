@@ -3,6 +3,13 @@ qttools-opensource-src (5.7.0-2) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Mark qttools5-dev-tools as M-A: same. The package is coinstallable and
     files shipped in /usr/share/qt5/ are really architecture-independent.
+  * Make qttools5-dev depend upon qttools5-dev-tools (Closes: #835295).
+    qtttools5-dev ships CMake files that both set variables for building
+    against the libs shipped in it and to use some of the tools shipped by
+    qttools5-dev-tools. If at some later point we need to break this
+    relationship the easiest way would be to split qttools5-dev-tools
+    into the necessary parts.
+    Thanks Harald Sitter for the bug report and the patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 11:54:10 -0300
 
