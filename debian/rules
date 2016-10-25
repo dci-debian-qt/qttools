@@ -10,6 +10,9 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
+# Archs that do not build depend on QtWebkit do not ship qwebview.
+no_qwebview_archs := sh4 m68k
+
 %:
 	dh $@ --with pkgkde_symbolshelper --parallel
 
@@ -21,6 +24,7 @@ override_dh_auto_configure:
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -fv .qmake.cache
+	rm -fv debian/qttools5-dev-tools.install
 
 override_dh_auto_build-indep:
 	cd src; qmake
@@ -44,6 +48,11 @@ override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_qwebview_archs)))
+	grep -v qwebview debian/qttools5-dev-tools.install.in >> debian/qttools5-dev-tools.install
+else
+	cp debian/qttools5-dev-tools.install.in debian/qttools5-dev-tools.install
+endif
 	dh_install --fail-missing
 
 override_dh_strip:
