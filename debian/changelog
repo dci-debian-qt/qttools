@@ -11,6 +11,7 @@ qttools-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
     relationship the easiest way would be to split qttools5-dev-tools
     into the necessary parts.
     Thanks Harald Sitter for the bug report and the patch.
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 11:54:10 -0300
 

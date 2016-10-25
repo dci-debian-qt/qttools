@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.7.1 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libQt5CLucene.so.5 libqt5clucene5 #MINVER#
 * Build-Depends-Package: qttools5-private-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
@@ -441,10 +441,15 @@ libQt5CLucene.so.5 libqt5clucene5 #MINVER#
  _ZNK21QCLuceneMultiSearcher13searcherIndexEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QCLuceneMultiSearcher6maxDocEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QCLuceneMultiSearcher6subDocEi@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst)_ZNSt6vectorIPKwSaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Qt_5_PRIVATE_API 5.7.1
  (optional=templinst)_ZNSt6vectorIPKwSaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst)_ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.7.1
  _ZNSt6vectorIPhSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.7.1
+ (optional=templinst)_ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIIS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.7.1
  _ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNSt6vectorIPwSaIS0_EE19_M_emplace_back_auxIJS0_EEEvDpOT_@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Qt_5_PRIVATE_API 5.7.1
  _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Qt_5_PRIVATE_API 5.6.0~beta
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI12QCLuceneHits@Qt_5_PRIVATE_API 5.6.0~beta
