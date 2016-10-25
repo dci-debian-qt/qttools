@@ -1,6 +1,5 @@
-qttools-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
   * Mark qttools5-dev-tools as M-A: same. The package is coinstallable and
@@ -14,7 +13,7 @@ qttools-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
     Thanks Harald Sitter for the bug report and the patch.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 11:54:10 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Oct 2016 19:12:23 -0300
 
 qttools-opensource-src (5.7.0-1) experimental; urgency=medium
 
