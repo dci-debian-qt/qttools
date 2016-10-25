@@ -1,6 +1,7 @@
-qttools-opensource-src (5.7.0-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream snapshot.
   * Mark qttools5-dev-tools as M-A: same. The package is coinstallable and
     files shipped in /usr/share/qt5/ are really architecture-independent.
   * Make qttools5-dev depend upon qttools5-dev-tools (Closes: #835295).
