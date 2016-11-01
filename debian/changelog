@@ -1,9 +1,9 @@
-qttools-opensource-src (5.7.1~20161021-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Release to unstable.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Nov 2016 15:40:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 15:51:51 -0300
 
 qttools-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
