@@ -4,6 +4,7 @@ qttools-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
   * New upstream final release.
   * Update some links from qt-project.org to qt.io.
   * Bump qtbase and qtwebkit build-dependencies to 5.7.1 final.
+  * Convert to automatic dbgsym packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Dec 2016 20:47:38 +0300
 
