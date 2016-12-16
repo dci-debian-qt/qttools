@@ -1,13 +1,12 @@
-qttools-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.7.1-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream final release.
   * Update some links from qt-project.org to qt.io.
   * Bump qtbase and qtwebkit build-dependencies to 5.7.1 final.
   * Convert to automatic dbgsym packages.
   * Update symbols files from the current amd64 and i386 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Dec 2016 20:47:38 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 16 Dec 2016 22:20:52 +0300
 
 qttools-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
