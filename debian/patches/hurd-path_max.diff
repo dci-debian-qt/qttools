@@ -1,5 +1,5 @@
 Author: Marc Dequènes <duck@duckcorp.org>
-Bug: https://bugreports.qt-project.org/browse/QTBUG-6960
+Bug: https://bugreports.qt.io/browse/QTBUG-6960
 Description: PATH_MAX fix
  Fix a POSIX incompatibility (as programs should not rely on having PATH_MAX
  defined on all systems) and causes FTBFS on Hurd.

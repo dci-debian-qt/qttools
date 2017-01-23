@@ -8,18 +8,17 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
-               libdouble-conversion-dev,
-               libqt5opengl5-dev (>= 5.6.1+dfsg~),
-               libqt5sql5-sqlite (>= 5.6.1+dfsg~),
-               libqt5webkit5-dev (>= 5.6.1+dfsg~),
+Build-Depends: debhelper (>= 9.20160114~),
+               libqt5opengl5-dev (>= 5.7.1+dfsg~),
+               libqt5sql5-sqlite (>= 5.7.1+dfsg~),
+               libqt5webkit5-dev (>= 5.7.1+dfsg~) [!m68k !sh4],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.6.1+dfsg~),
-               qtdeclarative5-private-dev (>= 5.6.1~),
+               qtbase5-private-dev (>= 5.7.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.7.1~20161021~),
                zlib1g-dev
-Build-Depends-Indep: qtbase5-doc-html (>= 5.6.1+dfsg~)
+Build-Depends-Indep: qtbase5-doc-html (>= 5.7.1+dfsg~)
 Standards-Version: 3.9.8
-Homepage: http://qt-project.org/
+Homepage: https://www.qt.io/developers/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qttools.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qttools.git
 
@@ -91,6 +90,7 @@ Depends: libqt5clucene5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
          libqt5help5 (= ${binary:Version}),
          qtbase5-dev,
+         qttools5-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 5 tools development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -114,13 +114,12 @@ Description: Qt 5 tools private development files
 
 Package: qttools5-dev-tools
 Architecture: any
+Multi-Arch: same
 Section: devel
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5sql5-sqlite
-Breaks: qtbase5-dev-tools (<< 5.6.0~),
-        qttools5-dev (<< 5.5.0-2~)
-Replaces: qtbase5-dev-tools (<< 5.6.0~),
-          qttools5-dev (<< 5.5.0-2~)
+Breaks: qtbase5-dev-tools (<< 5.6.0~), qttools5-dev (<< 5.5.0-2~)
+Replaces: qtbase5-dev-tools (<< 5.6.0~), qttools5-dev (<< 5.5.0-2~)
 Description: Qt 5 development tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -145,37 +144,6 @@ Description: Qt 5 tools examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains examples of the Qt 5 tools module.
-
-Package: qttools5-dbg
-Architecture: any
-Multi-Arch: same
-Priority: extra
-Section: debug
-Depends: libqt5clucene5 (= ${binary:Version}),
-         libqt5designer5 (= ${binary:Version}),
-         libqt5designercomponents5 (= ${binary:Version}),
-         libqt5help5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: Qt 5 tools debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 tools and tools
- libraries.
-
-Package: qttools5-examples-dbg
-Architecture: any
-Multi-Arch: same
-Priority: extra
-Section: debug
-Depends: qttools5-dbg (= ${binary:Version}),
-         qttools5-examples (= ${binary:Version}),
-         ${misc:Depends}
-Description: Qt 5 tools examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 tools examples.
 
 Package: qttools5-doc
 Priority: extra
