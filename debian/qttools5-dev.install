@@ -98,6 +98,7 @@ usr/include/*/qt5/QtHelp/QHelpIndexWidget
 usr/include/*/qt5/QtHelp/QHelpSearchEngine
 usr/include/*/qt5/QtHelp/QHelpSearchQuery
 usr/include/*/qt5/QtHelp/QHelpSearchQueryWidget
+usr/include/*/qt5/QtHelp/QHelpSearchResult
 usr/include/*/qt5/QtHelp/QHelpSearchResultWidget
 usr/include/*/qt5/QtHelp/QtHelp
 usr/include/*/qt5/QtHelp/QtHelpDepends

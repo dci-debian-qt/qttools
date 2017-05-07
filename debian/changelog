@@ -11,6 +11,7 @@ qttools-opensource-src (5.9.0~beta3-1) UNRELEASED; urgency=medium
   * Drop libqt5clucene5 package, upstream no longer uses a fork of CLucene.
     - Drop hurd-path_max.diff, no longer needed.
   * Build qtattributionsscanner before building the documentation.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Dec 2016 00:31:23 +0300
 

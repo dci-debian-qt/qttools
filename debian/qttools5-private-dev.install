@@ -91,7 +91,6 @@ usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpdbreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpengine_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpgenerator_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpprojectdata_p.h
-usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindex_default_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_default_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexreader_p.h
 usr/include/*/qt5/QtHelp/*/QtHelp/private/qhelpsearchindexwriter_default_p.h
