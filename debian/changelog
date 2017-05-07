@@ -1,8 +1,11 @@
-qttools-opensource-src (5.7.1-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.0~beta3-1) UNRELEASED; urgency=medium
 
   [ Alexander Volkov ]
   * Add and install desktop files for assistant, designer and linguist
     (closes: #775419).
+
+  [ Dmitry Shachnev ]
+  * New upstream beta release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Dec 2016 00:31:23 +0300
 
