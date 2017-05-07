@@ -1,7 +1,3 @@
-usr/include/*/qt5/QtCLucene/QtCLucene
-usr/include/*/qt5/QtCLucene/QtCLuceneDepends
-usr/include/*/qt5/QtCLucene/QtCLuceneVersion
-usr/include/*/qt5/QtCLucene/qtcluceneversion.h
 usr/include/*/qt5/QtDesigner/QAbstractExtensionFactory
 usr/include/*/qt5/QtDesigner/QAbstractExtensionManager
 usr/include/*/qt5/QtDesigner/QAbstractFormBuilder
@@ -139,8 +135,6 @@ usr/lib/*/cmake/Qt5UiPlugin/Qt5UiPluginConfig.cmake
 usr/lib/*/cmake/Qt5UiPlugin/Qt5UiPluginConfigVersion.cmake
 usr/lib/*/cmake/Qt5UiTools/Qt5UiToolsConfig.cmake
 usr/lib/*/cmake/Qt5UiTools/Qt5UiToolsConfigVersion.cmake
-usr/lib/*/libQt5CLucene.prl
-usr/lib/*/libQt5CLucene.so
 usr/lib/*/libQt5Designer.prl
 usr/lib/*/libQt5Designer.so
 usr/lib/*/libQt5DesignerComponents.prl

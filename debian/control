@@ -21,18 +21,6 @@ Homepage: https://www.qt.io/developers/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qttools.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qttools.git
 
-Package: libqt5clucene5
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 CLucene module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package includes the CLucene module. CLucene is a high-performance,
- scalable indexing and searching API.
-
 Package: libqt5designer5
 Architecture: any
 Multi-Arch: same
@@ -84,8 +72,7 @@ Package: qttools5-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: libqt5clucene5 (= ${binary:Version}),
-         libqt5designer5 (= ${binary:Version}),
+Depends: libqt5designer5 (= ${binary:Version}),
          libqt5designercomponents5 (= ${binary:Version}),
          libqt5help5 (= ${binary:Version}),
          qtbase5-dev,
