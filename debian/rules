@@ -28,7 +28,7 @@ override_dh_auto_clean:
 
 override_dh_auto_build-indep:
 	cd src; qmake
-	dh_auto_build -- -Csrc sub-qdoc
+	dh_auto_build -- -Csrc sub-qdoc sub-qtattributionsscanner
 	cd src/assistant; qmake
 	dh_auto_build -- -Csrc/assistant sub-qhelpgenerator
 	cd src/qdoc; qmake
