@@ -7,6 +7,7 @@ qttools-opensource-src (5.9.0~beta3-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream beta release.
   * Temporarily disable webkit support (there are no webkit 5.9 tarballs yet).
+  * Bump the other Qt build dependencies to 5.9.0 beta.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Dec 2016 00:31:23 +0300
 
