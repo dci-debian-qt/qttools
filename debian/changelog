@@ -13,6 +13,7 @@ qttools-opensource-src (5.9.0~beta3-1) UNRELEASED; urgency=medium
   * Build qtattributionsscanner before building the documentation.
   * Update install files.
   * Update symbols files from current amd64 and i386 build logs.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Dec 2016 00:31:23 +0300
 

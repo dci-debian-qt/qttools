@@ -21,7 +21,6 @@ License: LGPL-3 or GPL-2
 Files: src/assistant/help/*
        src/assistant/shared/*
        src/designer/src/lib/uilib/*
-       src/qtestlib/wince/*
        src/shared/*
        src/winrtrunner/*
 Copyright: 2015-2016 The Qt Company Ltd.
@@ -161,19 +160,6 @@ License: GPL-3 with Qt-1.0 exception
  source code to this application, excluding the source code of the
  independent modules, but including any changes you have made to this
  application, under the terms of this license.
-
-License: LGPL-2.1
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License version 2.1
- as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU Lesser General Public License for more details.
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 3 can be found in /usr/share/common-licenses/LGPL-2.1.
 
 License: LGPL-3
  This program is free software: you can redistribute it and/or modify
