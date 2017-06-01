@@ -1,3 +1,9 @@
+qttools-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+
+  * New release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+
 qttools-opensource-src (5.9.0~beta3-1) experimental; urgency=medium
 
   [ Alexander Volkov ]
