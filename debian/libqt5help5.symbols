@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~beta3 amd64
 libQt5Help.so.5 libqt5help5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -9,6 +9,8 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~beta3
+ Qt_5.9@Qt_5.9 5.9.0~beta3
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN11QHelpEngine11indexWidgetEv@Qt_5 5.6.0~beta
@@ -139,12 +141,22 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN17QHelpSearchEngine17searchingFinishedEi@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngine18indexDocumentationEv@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngine20reindexDocumentationEv@Qt_5 5.6.0~beta
+ _ZN17QHelpSearchEngine26scheduleIndexDocumentationEv@Qt_5 5.9.0~beta3
  _ZN17QHelpSearchEngine6searchERK5QListI16QHelpSearchQueryE@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineC1EP15QHelpEngineCoreP7QObject@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineC2EP15QHelpEngineCoreP7QObject@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineD0Ev@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineD1Ev@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineD2Ev@Qt_5 5.6.0~beta
+ _ZN17QHelpSearchResultC1ERK4QUrlRK7QStringS5_@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultC1ERKS_@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultC1Ev@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultC2ERK4QUrlRK7QStringS5_@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultC2ERKS_@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultC2Ev@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultD1Ev@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultD2Ev@Qt_5 5.9.0~beta3
+ _ZN17QHelpSearchResultaSERKS_@Qt_5 5.9.0~beta3
  _ZN18QHelpContentWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18QHelpContentWidget11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN18QHelpContentWidget13linkActivatedERK4QUrl@Qt_5 5.6.0~beta
@@ -239,10 +251,14 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK17QHelpContentModel6parentERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK17QHelpContentModel8rowCountERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine10metaObjectEv@Qt_5 5.6.0~beta
+ _ZNK17QHelpSearchEngine13searchResultsEii@Qt_5 5.9.0~beta3
  _ZNK17QHelpSearchEngine4hitsEii@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine5queryEv@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine8hitCountEv@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine9hitsCountEv@Qt_5 5.6.0~beta
+ _ZNK17QHelpSearchResult3urlEv@Qt_5 5.9.0~beta3
+ _ZNK17QHelpSearchResult5titleEv@Qt_5 5.9.0~beta3
+ _ZNK17QHelpSearchResult7snippetEv@Qt_5 5.9.0~beta3
  _ZNK18QHelpContentWidget10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QHelpDataIndexItemeqERKS_@Qt_5 5.6.0~beta
  _ZNK20QHelpDataContentItem5titleEv@Qt_5 5.6.0~beta

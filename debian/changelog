@@ -1,10 +1,21 @@
-qttools-opensource-src (5.7.1-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.0~beta3-1) experimental; urgency=medium
 
   [ Alexander Volkov ]
   * Add and install desktop files for assistant, designer and linguist
     (closes: #775419).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Dec 2016 00:31:23 +0300
+  [ Dmitry Shachnev ]
+  * New upstream beta release.
+  * Temporarily disable webkit support (there are no webkit 5.9 tarballs yet).
+  * Bump the other Qt build dependencies to 5.9.0 beta.
+  * Drop libqt5clucene5 package, upstream no longer uses a fork of CLucene.
+    - Drop hurd-path_max.diff, no longer needed.
+  * Build qtattributionsscanner before building the documentation.
+  * Update install files.
+  * Update symbols files from current amd64 and i386 build logs.
+  * Update debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 08 May 2017 15:37:21 +0300
 
 qttools-opensource-src (5.7.1-1) unstable; urgency=medium
 

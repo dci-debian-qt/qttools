@@ -21,7 +21,6 @@ License: LGPL-3 or GPL-2
 Files: src/assistant/help/*
        src/assistant/shared/*
        src/designer/src/lib/uilib/*
-       src/qtestlib/wince/*
        src/shared/*
        src/winrtrunner/*
 Copyright: 2015-2016 The Qt Company Ltd.
@@ -72,22 +71,6 @@ Files: examples/*
        src/shared/corecon/*
 Copyright: 2016 The Qt Company Ltd.
 License: BSD-3-clause
-
-Files: src/assistant/3rdparty/clucene/*
-Copyright: 2003-2006 Ben van Klinken and the CLucene Team
-           1999 Tom Tromey
-           2000 Red Hat, Inc.
-           1991, 1999 Free Software Foundation, Inc.
-           2003-2006 The Apache Software Foundation
-           2003-2006 Jos van den Oever
-           2003-2006 Matt J. Weinstein
-           2015 The Qt Company Ltd.
-License: Apache-2.0 or LGPL-2.1
-
-Files: src/assistant/clucene/*
-Copyright: 2003-2006 Ben van Klinken and the CLucene Team
-           2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
@@ -178,19 +161,6 @@ License: GPL-3 with Qt-1.0 exception
  independent modules, but including any changes you have made to this
  application, under the terms of this license.
 
-License: LGPL-2.1
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License version 2.1
- as published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU Lesser General Public License for more details.
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 3 can be found in /usr/share/common-licenses/LGPL-2.1.
-
 License: LGPL-3
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License version 3
@@ -203,22 +173,6 @@ License: LGPL-3
  .
  On Debian systems, the complete text of the GNU Lesser General Public
  License version 3 can be found in /usr/share/common-licenses/LGPL-3.
-
-License: Apache-2.0
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- .
-     http://www.apache.org/licenses/LICENSE-2.0
- .
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
- .
- On Debian systems, the complete text of the Apache License 2.0
- can be found in `/usr/share/common-licenses/Apache-2.0`.
 
 Files: *.qdoc
 Copyright: 2016 The Qt Company Ltd.
