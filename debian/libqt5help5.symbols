@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta3 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt5Help.so.5 libqt5help5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -94,7 +94,6 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN15QHelpIndexModelD0Ev@Qt_5 5.6.0~beta
  _ZN15QHelpIndexModelD1Ev@Qt_5 5.6.0~beta
  _ZN15QHelpIndexModelD2Ev@Qt_5 5.6.0~beta
- _ZN16QHelpContentItem11appendChildEPS_@Qt_5 5.6.0~beta
  _ZN16QHelpContentItemC1ERK7QStringS2_P13QHelpDBReaderPS_@Qt_5 5.6.0~beta
  _ZN16QHelpContentItemC2ERK7QStringS2_P13QHelpDBReaderPS_@Qt_5 5.6.0~beta
  _ZN16QHelpContentItemD1Ev@Qt_5 5.6.0~beta
@@ -143,6 +142,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN17QHelpSearchEngine20reindexDocumentationEv@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngine26scheduleIndexDocumentationEv@Qt_5 5.9.0~beta3
  _ZN17QHelpSearchEngine6searchERK5QListI16QHelpSearchQueryE@Qt_5 5.6.0~beta
+ _ZN17QHelpSearchEngine6searchERK7QString@Qt_5 5.9.0
  _ZN17QHelpSearchEngineC1EP15QHelpEngineCoreP7QObject@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineC2EP15QHelpEngineCoreP7QObject@Qt_5 5.6.0~beta
  _ZN17QHelpSearchEngineD0Ev@Qt_5 5.6.0~beta
@@ -184,6 +184,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZN22QHelpSearchQueryWidget11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget12focusInEventEP11QFocusEvent@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget14setCompactModeEb@Qt_5 5.6.0~beta
+ _ZN22QHelpSearchQueryWidget14setSearchInputERK7QString@Qt_5 5.9.0
  _ZN22QHelpSearchQueryWidget16staticMetaObjectE@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget20expandExtendedSearchEv@Qt_5 5.6.0~beta
  _ZN22QHelpSearchQueryWidget22collapseExtendedSearchEv@Qt_5 5.6.0~beta
@@ -216,6 +217,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK15QHelpEngineCore13customFiltersEv@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore14autoSaveFilterEv@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore14collectionFileEv@Qt_5 5.6.0~beta
+ _ZNK15QHelpEngineCore15linksForKeywordERK7QString@Qt_5 5.9.0
  _ZNK15QHelpEngineCore16filterAttributesERK7QString@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore16filterAttributesEv@Qt_5 5.6.0~beta
  _ZNK15QHelpEngineCore18linksForIdentifierERK7QString@Qt_5 5.6.0~beta
@@ -251,7 +253,9 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK17QHelpContentModel6parentERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK17QHelpContentModel8rowCountERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine10metaObjectEv@Qt_5 5.6.0~beta
+ _ZNK17QHelpSearchEngine11searchInputEv@Qt_5 5.9.0
  _ZNK17QHelpSearchEngine13searchResultsEii@Qt_5 5.9.0~beta3
+ _ZNK17QHelpSearchEngine17searchResultCountEv@Qt_5 5.9.0
  _ZNK17QHelpSearchEngine4hitsEii@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine5queryEv@Qt_5 5.6.0~beta
  _ZNK17QHelpSearchEngine8hitCountEv@Qt_5 5.6.0~beta
@@ -269,6 +273,7 @@ libQt5Help.so.5 libqt5help5 #MINVER#
  _ZNK22QHelpDataFilterSection7indicesEv@Qt_5 5.6.0~beta
  _ZNK22QHelpDataFilterSection8contentsEv@Qt_5 5.6.0~beta
  _ZNK22QHelpSearchQueryWidget10metaObjectEv@Qt_5 5.6.0~beta
+ _ZNK22QHelpSearchQueryWidget11searchInputEv@Qt_5 5.9.0
  _ZNK22QHelpSearchQueryWidget13isCompactModeEv@Qt_5 5.6.0~beta
  _ZNK22QHelpSearchQueryWidget5queryEv@Qt_5 5.6.0~beta
  _ZNK23QHelpSearchResultWidget10metaObjectEv@Qt_5 5.6.0~beta
