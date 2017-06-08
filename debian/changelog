@@ -1,4 +1,6 @@
-qttools-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.0-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Simon Quigley ]
   * New upstream release.
@@ -6,7 +8,7 @@ qttools-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Re-enable webkit support.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Jun 2017 18:18:06 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 08 Jun 2017 05:32:04 -0500
 
 qttools-opensource-src (5.9.0~beta3-1) experimental; urgency=medium
 
