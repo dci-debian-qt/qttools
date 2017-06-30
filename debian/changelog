@@ -1,8 +1,14 @@
-qttools-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  * New release
+  * Team upload.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+  [ Simon Quigley ]
+  * New upstream release.
+
+  [ Dmitry Shachnev ]
+  * Re-enable webkit support.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 08 Jun 2017 05:32:04 -0500
 
 qttools-opensource-src (5.9.0~beta3-1) experimental; urgency=medium
 
