@@ -4,6 +4,7 @@ qttools-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update symbols files from buildds’ logs.
   * Bump Qt build-dependencies to 5.9.1.
+  * Bump Standards-Version to 4.0.0, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 15:59:03 +0300
 
