@@ -1,9 +1,10 @@
-qttools-opensource-src (5.9.1-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.1-2) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files from the current build logs.
+  * Upload to unstable.
+    - Fixes build failure with GCC 7 (closes: #853633).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 12:15:55 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 16 Aug 2017 12:18:33 +0300
 
 qttools-opensource-src (5.9.1-1) experimental; urgency=medium
 
