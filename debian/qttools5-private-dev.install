@@ -71,6 +71,7 @@ usr/include/*/qt5/QtDesigner/*/QtDesigner/private/qtresourceview_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/rcc_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/resourcebuilder_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/richtexteditor_p.h
+usr/include/*/qt5/QtDesigner/*/QtDesigner/private/selectsignaldialog_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/shared_enums_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/shared_global_p.h
 usr/include/*/qt5/QtDesigner/*/QtDesigner/private/shared_settings_p.h
