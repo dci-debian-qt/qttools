@@ -58,6 +58,12 @@ override_dh_install:
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
 		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
 
+override_dh_link:
+	dh_link
+	ls debian/qttools5-dev-tools/usr/lib/qt5/bin | xargs -t -I {} \
+		dh_link -pqttools5-dev-tools usr/lib/qt5/bin/{} usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/{}
+	dh_link -pqdbus-qt5 usr/lib/qt5/bin/qdbus usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qdbus
+
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbgsym-migration='qttools5-examples-dbg (<< 5.7.1-1~)'
 	dh_strip --remaining-packages --dbgsym-migration='qttools5-dbg (<< 5.7.1-1~)'
