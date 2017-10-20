@@ -1,13 +1,12 @@
-qttools-opensource-src (5.9.2-2) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.2-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
     - Update .install files for qttools5-dev-tools and qdbus-qt5.
     - Make these packages Multi-Arch: foreign.
     - Provide compatibility symlinks for the old location.
     - Bump qtbase5-dev build-dependency to 5.9.2+dfsg-3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 22:49:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 20 Oct 2017 13:42:25 +0300
 
 qttools-opensource-src (5.9.2-1) experimental; urgency=medium
 
