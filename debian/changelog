@@ -1,3 +1,8 @@
+qttools-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 20:49:30 +0300
+
 qttools-opensource-src (5.9.2-2) experimental; urgency=medium
 
   * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
