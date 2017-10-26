@@ -1,10 +1,10 @@
-qttools-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Move Qt5LinguistTools*.cmake from qttools5-dev-tools to qttools5-dev.
   * Re-enable qtwebkit support again.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 20:49:30 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 00:35:11 +0300
 
 qttools-opensource-src (5.9.2-2) experimental; urgency=medium
 
