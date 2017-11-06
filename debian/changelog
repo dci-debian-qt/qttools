@@ -1,5 +1,8 @@
 qttools-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not override dh_auto_configure anymore.
+    Require debhelper >= 10.9.2~ (Closes: #880937).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:27:47 -0300
 
