@@ -1,3 +1,8 @@
+qttools-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:27:47 -0300
+
 qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
   * Move Qt5LinguistTools*.cmake from qttools5-dev-tools to qttools5-dev.
