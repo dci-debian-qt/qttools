@@ -1,3 +1,11 @@
+qttools-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
+
+  * New release
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
 qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
   * Move Qt5LinguistTools*.cmake from qttools5-dev-tools to qttools5-dev.
