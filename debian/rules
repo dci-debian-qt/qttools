@@ -49,7 +49,7 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	grep -v qwebview debian/qttools5-dev-tools.install.in >> debian/qttools5-dev-tools.install
-	dh_install --fail-missing
+	dh_install
 
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \
 		debian/qttools5-dev-tools/usr/share/pixmaps/assistant-qt5.png
@@ -57,6 +57,11 @@ override_dh_install:
 		debian/qttools5-dev-tools/usr/share/pixmaps/designer-qt5.png
 	install -D -p -m0644 src/linguist/linguist/images/icons/linguist-128-32.png \
 		debian/qttools5-dev-tools/usr/share/pixmaps/linguist-qt5.png
+
+override_dh_link:
+	dh_link
+	ls debian/qttools5-dev-tools/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin | xargs -t -I {} \
+	        dh_link -pqttools5-dev-tools usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/{} usr/lib/qt5/bin/{}
 
 override_dh_strip:
 	dh_strip -pqttools5-examples --dbgsym-migration='qttools5-examples-dbg (<< 5.7.1-1~)'
