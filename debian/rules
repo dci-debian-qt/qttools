@@ -14,7 +14,7 @@ export QT_SELECT := qt5
 no_qwebview_archs := sh4 m68k
 
 %:
-	dh $@ --with pkgkde_symbolshelper --parallel
+	dh $@ --with pkgkde_symbolshelper
 
 # We override qmake until https://bugreports.qt.io/browse/QTBUG-30735
 # gets solved (FTBFS with -nocache).
@@ -48,11 +48,7 @@ override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
-ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_qwebview_archs)))
 	grep -v qwebview debian/qttools5-dev-tools.install.in >> debian/qttools5-dev-tools.install
-else
-	cp debian/qttools5-dev-tools.install.in debian/qttools5-dev-tools.install
-endif
 	dh_install --fail-missing
 
 	install -D -p -m0644 src/assistant/assistant/images/assistant-128.png \
