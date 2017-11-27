@@ -106,8 +106,7 @@ Package: qttools5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqt5sql5-sqlite
+Depends: libqt5sql5-sqlite, qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtbase5-dev-tools (<< 5.6.0~), qttools5-dev (<< 5.5.0-2~)
 Replaces: qtbase5-dev-tools (<< 5.6.0~), qttools5-dev (<< 5.5.0-2~)
 Description: Qt 5 development tools
