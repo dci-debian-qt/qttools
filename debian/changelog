@@ -1,4 +1,4 @@
-qttools-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not override dh_auto_configure anymore.
@@ -12,7 +12,7 @@ qttools-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update Standards-version to 4.1.2, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:27:47 -0300
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 22:59:30 -0600
 
 qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
