@@ -10,6 +10,7 @@ qttools-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
+  * Update Standards-version to 4.1.2, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:27:47 -0300
 
