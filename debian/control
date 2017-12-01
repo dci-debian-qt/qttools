@@ -10,12 +10,12 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 10.9.2~),
-               libqt5opengl5-dev (>= 5.9.2+dfsg~),
-               libqt5sql5-sqlite (>= 5.9.2+dfsg~),
-               libqt5webkit5-dev (>= 5.9.2~) [!alpha !m68k !sh4],
+               libqt5opengl5-dev (>= 5.9.3+dfsg~),
+               libqt5sql5-sqlite (>= 5.9.3+dfsg~),
+               libqt5webkit5-dev (>= 5.9.3~) [!alpha !m68k !sh4],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.9.2+dfsg-3~),
-               qtdeclarative5-private-dev (>= 5.9.2~),
+               qtbase5-private-dev (>= 5.9.3~),
+               qtdeclarative5-private-dev (>= 5.9.3~),
                zlib1g-dev
 Build-Depends-Indep: qtbase5-doc-html (>= 5.9.2+dfsg~)
 Standards-Version: 4.1.1
