@@ -1,4 +1,4 @@
-qttools-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.2-4) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not override dh_auto_configure anymore.
@@ -8,7 +8,7 @@ qttools-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
   * Make qttools5-dev-tools depend on libqt5sql5-sqlite, it is needed by
     qhelpgenerator and Qt Assistant.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:27:47 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Dec 2017 13:28:41 +0300
 
 qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
