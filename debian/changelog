@@ -1,10 +1,12 @@
 qttools-opensource-src (5.9.3-0ubuntu2) bionic; urgency=medium
 
   * Lower build dep on qt5webkit.
+  * New upstream release.
+  * Update Standards-version to 4.1.2, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 23:08:20 -0600
 
-qttools-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
+qttools-opensource-src (5.9.2-4) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not override dh_auto_configure anymore.
@@ -14,11 +16,7 @@ qttools-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
   * Make qttools5-dev-tools depend on libqt5sql5-sqlite, it is needed by
     qhelpgenerator and Qt Assistant.
 
-  [ Simon Quigley ]
-  * New upstream release.
-  * Update Standards-version to 4.1.2, no changes needed.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 22:59:30 -0600
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Dec 2017 13:28:41 +0300
 
 qttools-opensource-src (5.9.2-3) unstable; urgency=medium
 
