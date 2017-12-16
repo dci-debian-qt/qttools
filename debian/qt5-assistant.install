@@ -1,2 +1,2 @@
-usr/lib/qt5/bin/assistant
 debian/desktop/assistant-qt5.desktop usr/share/applications/
+usr/lib/qt5/bin/assistant
