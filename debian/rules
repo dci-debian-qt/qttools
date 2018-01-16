@@ -29,6 +29,10 @@ override_dh_auto_build-indep:
 	cd src/qdoc; qmake
 	cd src/assistant/help; qmake
 	dh_auto_build -- docs
+	# Rebuild the internal assistant.qch which is used as a resource
+	cd src/assistant/assistant/doc/internal; qmake
+	dh_auto_build -- -Csrc/assistant/assistant/doc/internal docs
+	mv doc/assistant.qch src/assistant/assistant/assistant.qch
 
 override_dh_auto_install-arch:
 	dh_auto_install
