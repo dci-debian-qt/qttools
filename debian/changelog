@@ -4,6 +4,7 @@ qttools-opensource-src (5.9.2-6) UNRELEASED; urgency=medium
   * Update no_qwebview_archs: remove alpha and sh4, and add sparc64.
   * Bump copyright years for The Qt Company in debian/copyright.
   * Regenerate the internal assistant.qch during build (closes: #885484).
+  * Bump Standards-Version to 4.1.3, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Jan 2018 11:05:34 +0300
 
