@@ -21,16 +21,19 @@ override_dh_auto_clean:
 	rm -fv .qmake.cache
 	rm -fv debian/qttools5-dev-tools.install
 
-override_dh_auto_build-indep:
+build-doc-tools:
+	# Build qdoc, qhelpgenerator and qtattributionsscanner tools
 	cd src; qmake
 	dh_auto_build -- -Csrc sub-qdoc sub-qtattributionsscanner
 	cd src/assistant; qmake
 	dh_auto_build -- -Csrc/assistant sub-qhelpgenerator
+
+override_dh_auto_build-indep: build-doc-tools
 	cd src/qdoc; qmake
 	cd src/assistant/help; qmake
 	dh_auto_build -- docs
 
-override_dh_auto_build-arch:
+override_dh_auto_build-arch: build-doc-tools
 	# Rebuild the internal assistant.qch which is used as a resource
 	cd src/assistant/assistant/doc/internal; qmake
 	dh_auto_build -- -Csrc/assistant/assistant/doc/internal docs
