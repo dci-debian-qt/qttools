@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+include /usr/share/dpkg/architecture.mk
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -33,12 +33,14 @@ override_dh_auto_build-indep: build-doc-tools
 	cd src/assistant/help; qmake
 	dh_auto_build -- docs
 
+ifeq ($(DEB_HOST_ARCH),$(DEB_BUILD_ARCH))
 override_dh_auto_build-arch: build-doc-tools
 	# Rebuild the internal assistant.qch which is used as a resource
 	cd src/assistant/assistant/doc/internal; qmake
 	dh_auto_build -- -Csrc/assistant/assistant/doc/internal docs
 	mv doc/assistant.qch src/assistant/assistant/assistant.qch
 	dh_auto_build
+endif
 
 override_dh_auto_install-arch:
 	dh_auto_install
