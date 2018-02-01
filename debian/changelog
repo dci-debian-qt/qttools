@@ -1,3 +1,9 @@
+qttools-opensource-src (5.9.4-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 31 Jan 2018 21:56:40 -0600
+
 qttools-opensource-src (5.9.2-6) unstable; urgency=medium
 
   * Update no_qwebview_archs: remove alpha and sh4, and add sparc64.
