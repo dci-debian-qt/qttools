@@ -4,6 +4,43 @@ qttools-opensource-src (5.10.0~beta2-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:31 +0100
 
+qttools-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
+
+  * New release
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qttools-opensource-src (5.9.2-3) unstable; urgency=medium
+
+  * Move Qt5LinguistTools*.cmake from qttools5-dev-tools to qttools5-dev.
+  * Re-enable qtwebkit support again.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 00:35:11 +0300
+
+qttools-opensource-src (5.9.2-2) experimental; urgency=medium
+
+  * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
+    - Update .install files for qttools5-dev-tools and qdbus-qt5.
+    - Make these packages Multi-Arch: foreign.
+    - Provide compatibility symlinks for the old location.
+    - Bump qtbase5-dev build-dependency to 5.9.2+dfsg-3.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 20 Oct 2017 13:42:25 +0300
+
+qttools-opensource-src (5.9.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Temporarily disable webkit support.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Update symbols files from buildds’ logs.
+  * Update debhelper compatibility level to 10.
+  * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 18 Oct 2017 17:35:11 +0300
+
 qttools-opensource-src (5.9.1-2) unstable; urgency=medium
 
   * Update symbols files from the current build logs.
