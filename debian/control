@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9),
                libqt5sql5-sqlite (>= 5.10.0+dfsg~),
                libqt5webkit5-dev (>= 5.9.2~) [!alpha !m68k !sh4],
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.10.0+dfsg-3~),
+               qtbase5-private-dev (>= 5.10.0+dfsg),
                qtdeclarative5-private-dev (>= 5.10.0~),
                zlib1g-dev
 Build-Depends-Indep: qtbase5-doc-html (>= 5.10.0+dfsg)
