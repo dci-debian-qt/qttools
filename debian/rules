@@ -16,6 +16,9 @@ no_qwebview_archs := m68k sparc64
 %:
 	dh $@ --with pkgkde_symbolshelper
 
+override_dh_auto_configure:
+	qmake
+
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -fv .qmake.cache
