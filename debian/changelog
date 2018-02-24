@@ -4,6 +4,7 @@ qttools-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/watch for the new tarball names.
   * Drop compiler flags exports, not needed with debhelper configure.
+  * Bump Qt build-dependencies to 5.10.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:03:26 +0300
 
