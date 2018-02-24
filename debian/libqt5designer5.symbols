@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpcspe sh4 x32
+# SymbolsHelper-Confirmed: 5.10.1 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.10@Qt_5.10 5.10.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -17,9 +18,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _Z20domPropertyToVariantPK11DomProperty@Qt_5 5.6.0~beta
  _Z20variantToDomPropertyP20QAbstractFormBuilderPK11QMetaObjectRK7QStringRK8QVariant@Qt_5 5.6.0~beta
  _ZN10DomInclude4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN10DomInclude5clearEb@Qt_5 5.6.0~beta
- _ZN10DomIncludeC1Ev@Qt_5 5.6.0~beta
- _ZN10DomIncludeC2Ev@Qt_5 5.6.0~beta
  _ZN10DomIncludeD1Ev@Qt_5 5.6.0~beta
  _ZN10DomIncludeD2Ev@Qt_5 5.6.0~beta
  _ZN10DomPalette16setElementActiveEP13DomColorGroup@Qt_5 5.6.0~beta
@@ -32,9 +30,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN10DomPalette20clearElementDisabledEv@Qt_5 5.6.0~beta
  _ZN10DomPalette20clearElementInactiveEv@Qt_5 5.6.0~beta
  _ZN10DomPalette4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN10DomPalette5clearEb@Qt_5 5.6.0~beta
- _ZN10DomPaletteC1Ev@Qt_5 5.6.0~beta
- _ZN10DomPaletteC2Ev@Qt_5 5.6.0~beta
  _ZN10DomPaletteD1Ev@Qt_5 5.6.0~beta
  _ZN10DomPaletteD2Ev@Qt_5 5.6.0~beta
  _ZN11DomDateTime13setElementDayEi@Qt_5 5.6.0~beta
@@ -50,23 +45,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN11DomDateTime18clearElementMinuteEv@Qt_5 5.6.0~beta
  _ZN11DomDateTime18clearElementSecondEv@Qt_5 5.6.0~beta
  _ZN11DomDateTime4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomDateTime5clearEb@Qt_5 5.6.0~beta
- _ZN11DomDateTimeC1Ev@Qt_5 5.6.0~beta
- _ZN11DomDateTimeC2Ev@Qt_5 5.6.0~beta
  _ZN11DomDateTimeD1Ev@Qt_5 5.6.0~beta
  _ZN11DomDateTimeD2Ev@Qt_5 5.6.0~beta
- _ZN11DomGradient22setElementGradientStopERK5QListIP15DomGradientStopE@Qt_5 5.6.0~beta
+ _ZN11DomGradient22setElementGradientStopERK7QVectorIP15DomGradientStopE@Qt_5 5.10.1
  _ZN11DomGradient4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomGradient5clearEb@Qt_5 5.6.0~beta
- _ZN11DomGradientC1Ev@Qt_5 5.6.0~beta
- _ZN11DomGradientC2Ev@Qt_5 5.6.0~beta
  _ZN11DomGradientD1Ev@Qt_5 5.6.0~beta
  _ZN11DomGradientD2Ev@Qt_5 5.6.0~beta
- _ZN11DomIncludes17setElementIncludeERK5QListIP10DomIncludeE@Qt_5 5.6.0~beta
+ _ZN11DomIncludes17setElementIncludeERK7QVectorIP10DomIncludeE@Qt_5 5.10.1
  _ZN11DomIncludes4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomIncludes5clearEb@Qt_5 5.6.0~beta
- _ZN11DomIncludesC1Ev@Qt_5 5.6.0~beta
- _ZN11DomIncludesC2Ev@Qt_5 5.6.0~beta
  _ZN11DomIncludesD1Ev@Qt_5 5.6.0~beta
  _ZN11DomIncludesD2Ev@Qt_5 5.6.0~beta
  _ZN11DomProperty13setElementSetERK7QString@Qt_5 5.6.0~beta
@@ -124,50 +110,27 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN11DomProperty21takeElementSizePolicyEv@Qt_5 5.6.0~beta
  _ZN11DomProperty21takeElementStringListEv@Qt_5 5.6.0~beta
  _ZN11DomProperty4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomProperty5clearEb@Qt_5 5.6.0~beta
- _ZN11DomPropertyC1Ev@Qt_5 5.6.0~beta
- _ZN11DomPropertyC2Ev@Qt_5 5.6.0~beta
+ _ZN11DomProperty5clearEv@Qt_5 5.10.1
  _ZN11DomPropertyD1Ev@Qt_5 5.6.0~beta
  _ZN11DomPropertyD2Ev@Qt_5 5.6.0~beta
  _ZN11DomResource4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomResource5clearEb@Qt_5 5.6.0~beta
- _ZN11DomResourceC1Ev@Qt_5 5.6.0~beta
- _ZN11DomResourceC2Ev@Qt_5 5.6.0~beta
  _ZN11DomResourceD1Ev@Qt_5 5.6.0~beta
  _ZN11DomResourceD2Ev@Qt_5 5.6.0~beta
  _ZN11DomTabStops17setElementTabStopERK11QStringList@Qt_5 5.6.0~beta
  _ZN11DomTabStops4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN11DomTabStops5clearEb@Qt_5 5.6.0~beta
- _ZN11DomTabStopsC1Ev@Qt_5 5.6.0~beta
- _ZN11DomTabStopsC2Ev@Qt_5 5.6.0~beta
  _ZN11DomTabStopsD1Ev@Qt_5 5.6.0~beta
  _ZN11DomTabStopsD2Ev@Qt_5 5.6.0~beta
  _ZN12DomActionRef4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN12DomActionRef5clearEb@Qt_5 5.6.0~beta
- _ZN12DomActionRefC1Ev@Qt_5 5.6.0~beta
- _ZN12DomActionRefC2Ev@Qt_5 5.6.0~beta
  _ZN12DomActionRefD1Ev@Qt_5 5.6.0~beta
  _ZN12DomActionRefD2Ev@Qt_5 5.6.0~beta
  _ZN12DomColorRole15setElementBrushEP8DomBrush@Qt_5 5.6.0~beta
  _ZN12DomColorRole16takeElementBrushEv@Qt_5 5.6.0~beta
  _ZN12DomColorRole17clearElementBrushEv@Qt_5 5.6.0~beta
  _ZN12DomColorRole4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN12DomColorRole5clearEb@Qt_5 5.6.0~beta
- _ZN12DomColorRoleC1Ev@Qt_5 5.6.0~beta
- _ZN12DomColorRoleC2Ev@Qt_5 5.6.0~beta
  _ZN12DomColorRoleD1Ev@Qt_5 5.6.0~beta
  _ZN12DomColorRoleD2Ev@Qt_5 5.6.0~beta
- _ZN12DomImageData4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN12DomImageData5clearEb@Qt_5 5.6.0~beta
- _ZN12DomImageDataC1Ev@Qt_5 5.6.0~beta
- _ZN12DomImageDataC2Ev@Qt_5 5.6.0~beta
- _ZN12DomImageDataD1Ev@Qt_5 5.6.0~beta
- _ZN12DomImageDataD2Ev@Qt_5 5.6.0~beta
- _ZN12DomResources17setElementIncludeERK5QListIP11DomResourceE@Qt_5 5.6.0~beta
+ _ZN12DomResources17setElementIncludeERK7QVectorIP11DomResourceE@Qt_5 5.10.1
  _ZN12DomResources4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN12DomResources5clearEb@Qt_5 5.6.0~beta
- _ZN12DomResourcesC1Ev@Qt_5 5.6.0~beta
- _ZN12DomResourcesC2Ev@Qt_5 5.6.0~beta
  _ZN12DomResourcesD1Ev@Qt_5 5.6.0~beta
  _ZN12DomResourcesD2Ev@Qt_5 5.6.0~beta
  _ZN12QFormBuilder12createLayoutERK7QStringP7QObjectS2_@Qt_5 5.6.0~beta
@@ -197,12 +160,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN12QTextBuilderD0Ev@Qt_5 5.6.0~beta
  _ZN12QTextBuilderD1Ev@Qt_5 5.6.0~beta
  _ZN12QTextBuilderD2Ev@Qt_5 5.6.0~beta
- _ZN13DomColorGroup15setElementColorERK5QListIP8DomColorE@Qt_5 5.6.0~beta
- _ZN13DomColorGroup19setElementColorRoleERK5QListIP12DomColorRoleE@Qt_5 5.6.0~beta
+ _ZN13DomColorGroup15setElementColorERK7QVectorIP8DomColorE@Qt_5 5.10.1
+ _ZN13DomColorGroup19setElementColorRoleERK7QVectorIP12DomColorRoleE@Qt_5 5.10.1
  _ZN13DomColorGroup4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomColorGroup5clearEb@Qt_5 5.6.0~beta
- _ZN13DomColorGroupC1Ev@Qt_5 5.6.0~beta
- _ZN13DomColorGroupC2Ev@Qt_5 5.6.0~beta
  _ZN13DomColorGroupD1Ev@Qt_5 5.6.0~beta
  _ZN13DomColorGroupD2Ev@Qt_5 5.6.0~beta
  _ZN13DomConnection14setElementSlotERK7QString@Qt_5 5.6.0~beta
@@ -217,9 +177,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13DomConnection18setElementReceiverERK7QString@Qt_5 5.6.0~beta
  _ZN13DomConnection20clearElementReceiverEv@Qt_5 5.6.0~beta
  _ZN13DomConnection4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomConnection5clearEb@Qt_5 5.6.0~beta
- _ZN13DomConnectionC1Ev@Qt_5 5.6.0~beta
- _ZN13DomConnectionC2Ev@Qt_5 5.6.0~beta
  _ZN13DomConnectionD1Ev@Qt_5 5.6.0~beta
  _ZN13DomConnectionD2Ev@Qt_5 5.6.0~beta
  _ZN13DomLayoutItem16setElementLayoutEP9DomLayout@Qt_5 5.6.0~beta
@@ -229,18 +186,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13DomLayoutItem17takeElementSpacerEv@Qt_5 5.6.0~beta
  _ZN13DomLayoutItem17takeElementWidgetEv@Qt_5 5.6.0~beta
  _ZN13DomLayoutItem4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomLayoutItem5clearEb@Qt_5 5.6.0~beta
- _ZN13DomLayoutItemC1Ev@Qt_5 5.6.0~beta
- _ZN13DomLayoutItemC2Ev@Qt_5 5.6.0~beta
+ _ZN13DomLayoutItem5clearEv@Qt_5 5.10.1
  _ZN13DomLayoutItemD1Ev@Qt_5 5.6.0~beta
  _ZN13DomLayoutItemD2Ev@Qt_5 5.6.0~beta
- _ZN13DomProperties18setElementPropertyERK5QListIP15DomPropertyDataE@Qt_5 5.6.0~beta
- _ZN13DomProperties4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomProperties5clearEb@Qt_5 5.6.0~beta
- _ZN13DomPropertiesC1Ev@Qt_5 5.6.0~beta
- _ZN13DomPropertiesC2Ev@Qt_5 5.6.0~beta
- _ZN13DomPropertiesD1Ev@Qt_5 5.6.0~beta
- _ZN13DomPropertiesD2Ev@Qt_5 5.6.0~beta
  _ZN13DomSizePolicy19setElementHSizeTypeEi@Qt_5 5.6.0~beta
  _ZN13DomSizePolicy19setElementVSizeTypeEi@Qt_5 5.6.0~beta
  _ZN13DomSizePolicy20setElementHorStretchEi@Qt_5 5.6.0~beta
@@ -250,25 +198,12 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13DomSizePolicy22clearElementHorStretchEv@Qt_5 5.6.0~beta
  _ZN13DomSizePolicy22clearElementVerStretchEv@Qt_5 5.6.0~beta
  _ZN13DomSizePolicy4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomSizePolicy5clearEb@Qt_5 5.6.0~beta
- _ZN13DomSizePolicyC1Ev@Qt_5 5.6.0~beta
- _ZN13DomSizePolicyC2Ev@Qt_5 5.6.0~beta
  _ZN13DomSizePolicyD1Ev@Qt_5 5.6.0~beta
  _ZN13DomSizePolicyD2Ev@Qt_5 5.6.0~beta
  _ZN13DomStringList16setElementStringERK11QStringList@Qt_5 5.6.0~beta
  _ZN13DomStringList4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomStringList5clearEb@Qt_5 5.6.0~beta
- _ZN13DomStringListC1Ev@Qt_5 5.6.0~beta
- _ZN13DomStringListC2Ev@Qt_5 5.6.0~beta
  _ZN13DomStringListD1Ev@Qt_5 5.6.0~beta
  _ZN13DomStringListD2Ev@Qt_5 5.6.0~beta
- _ZN13DomWidgetData18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
- _ZN13DomWidgetData4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN13DomWidgetData5clearEb@Qt_5 5.6.0~beta
- _ZN13DomWidgetDataC1Ev@Qt_5 5.6.0~beta
- _ZN13DomWidgetDataC2Ev@Qt_5 5.6.0~beta
- _ZN13DomWidgetDataD1Ev@Qt_5 5.6.0~beta
- _ZN13DomWidgetDataD2Ev@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu10paintEventEP11QPaintEvent@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu10setVisibleEb@Qt_5 5.6.0~beta
  _ZN13QDesignerMenu11actionEventEP12QActionEvent@Qt_5 5.6.0~beta
@@ -346,29 +281,20 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN13QtResourceSetC2Ev@Qt_5 5.6.0~beta
  _ZN13QtResourceSetD1Ev@Qt_5 5.6.0~beta
  _ZN13QtResourceSetD2Ev@Qt_5 5.6.0~beta
- _ZN14DomActionGroup16setElementActionERK5QListIP9DomActionE@Qt_5 5.6.0~beta
+ _ZN14DomActionGroup16setElementActionERK7QVectorIP9DomActionE@Qt_5 5.10.1
  _ZN14DomActionGroup18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN14DomActionGroup19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
- _ZN14DomActionGroup21setElementActionGroupERK5QListIPS_E@Qt_5 5.6.0~beta
+ _ZN14DomActionGroup21setElementActionGroupERK7QVectorIPS_E@Qt_5 5.10.1
  _ZN14DomActionGroup4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN14DomActionGroup5clearEb@Qt_5 5.6.0~beta
- _ZN14DomActionGroupC1Ev@Qt_5 5.6.0~beta
- _ZN14DomActionGroupC2Ev@Qt_5 5.6.0~beta
  _ZN14DomActionGroupD1Ev@Qt_5 5.6.0~beta
  _ZN14DomActionGroupD2Ev@Qt_5 5.6.0~beta
  _ZN14DomButtonGroup18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN14DomButtonGroup19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN14DomButtonGroup4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN14DomButtonGroup5clearEb@Qt_5 5.6.0~beta
- _ZN14DomButtonGroupC1Ev@Qt_5 5.6.0~beta
- _ZN14DomButtonGroupC2Ev@Qt_5 5.6.0~beta
  _ZN14DomButtonGroupD1Ev@Qt_5 5.6.0~beta
  _ZN14DomButtonGroupD2Ev@Qt_5 5.6.0~beta
- _ZN14DomConnections20setElementConnectionERK5QListIP13DomConnectionE@Qt_5 5.6.0~beta
+ _ZN14DomConnections20setElementConnectionERK7QVectorIP13DomConnectionE@Qt_5 5.10.1
  _ZN14DomConnections4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN14DomConnections5clearEb@Qt_5 5.6.0~beta
- _ZN14DomConnectionsC1Ev@Qt_5 5.6.0~beta
- _ZN14DomConnectionsC2Ev@Qt_5 5.6.0~beta
  _ZN14DomConnectionsD1Ev@Qt_5 5.6.0~beta
  _ZN14DomConnectionsD2Ev@Qt_5 5.6.0~beta
  _ZN14QToolBoxHelper11changeOrderEv@Qt_5 5.6.0~beta
@@ -404,72 +330,45 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN14QtResourceViewD0Ev@Qt_5 5.6.0~beta
  _ZN14QtResourceViewD1Ev@Qt_5 5.6.0~beta
  _ZN14QtResourceViewD2Ev@Qt_5 5.6.0~beta
- _ZN15DomButtonGroups21setElementButtonGroupERK5QListIP14DomButtonGroupE@Qt_5 5.6.0~beta
+ _ZN15DomButtonGroups21setElementButtonGroupERK7QVectorIP14DomButtonGroupE@Qt_5 5.10.1
  _ZN15DomButtonGroups4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomButtonGroups5clearEb@Qt_5 5.6.0~beta
- _ZN15DomButtonGroupsC1Ev@Qt_5 5.6.0~beta
- _ZN15DomButtonGroupsC2Ev@Qt_5 5.6.0~beta
  _ZN15DomButtonGroupsD1Ev@Qt_5 5.6.0~beta
  _ZN15DomButtonGroupsD2Ev@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget15setElementClassERK7QString@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget15setElementSlotsEP8DomSlots@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget16setElementHeaderEP9DomHeader@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget16setElementPixmapERK7QString@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget16setElementScriptEP9DomScript@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget16takeElementSlotsEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget17clearElementClassEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget17clearElementSlotsEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget17setElementExtendsERK7QString@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget17takeElementHeaderEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget17takeElementScriptEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget18clearElementHeaderEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget18clearElementPixmapEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget18clearElementScriptEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget18setElementSizeHintEP7DomSize@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget19clearElementExtendsEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget19setElementContainerEi@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget19takeElementSizeHintEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget20clearElementSizeHintEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget20setElementPropertiesEP13DomProperties@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget20setElementSizePolicyEP17DomSizePolicyData@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget21clearElementContainerEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget21takeElementPropertiesEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget21takeElementSizePolicyEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget22clearElementPropertiesEv@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget22clearElementSizePolicyEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget23setElementAddPageMethodERK7QString@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget25clearElementAddPageMethodEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget32setElementPropertyspecificationsEP25DomPropertySpecifications@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget33takeElementPropertyspecificationsEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget34clearElementPropertyspecificationsEv@Qt_5 5.6.0~beta
  _ZN15DomCustomWidget4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomCustomWidget5clearEb@Qt_5 5.6.0~beta
- _ZN15DomCustomWidgetC1Ev@Qt_5 5.6.0~beta
- _ZN15DomCustomWidgetC2Ev@Qt_5 5.6.0~beta
  _ZN15DomCustomWidgetD1Ev@Qt_5 5.6.0~beta
  _ZN15DomCustomWidgetD2Ev@Qt_5 5.6.0~beta
  _ZN15DomDesignerData18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN15DomDesignerData4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomDesignerData5clearEb@Qt_5 5.6.0~beta
- _ZN15DomDesignerDataC1Ev@Qt_5 5.6.0~beta
- _ZN15DomDesignerDataC2Ev@Qt_5 5.6.0~beta
  _ZN15DomDesignerDataD1Ev@Qt_5 5.6.0~beta
  _ZN15DomDesignerDataD2Ev@Qt_5 5.6.0~beta
  _ZN15DomGradientStop15setElementColorEP8DomColor@Qt_5 5.6.0~beta
  _ZN15DomGradientStop16takeElementColorEv@Qt_5 5.6.0~beta
  _ZN15DomGradientStop17clearElementColorEv@Qt_5 5.6.0~beta
  _ZN15DomGradientStop4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomGradientStop5clearEb@Qt_5 5.6.0~beta
- _ZN15DomGradientStopC1Ev@Qt_5 5.6.0~beta
- _ZN15DomGradientStopC2Ev@Qt_5 5.6.0~beta
  _ZN15DomGradientStopD1Ev@Qt_5 5.6.0~beta
  _ZN15DomGradientStopD2Ev@Qt_5 5.6.0~beta
- _ZN15DomPropertyData4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomPropertyData5clearEb@Qt_5 5.6.0~beta
- _ZN15DomPropertyDataC1Ev@Qt_5 5.6.0~beta
- _ZN15DomPropertyDataC2Ev@Qt_5 5.6.0~beta
- _ZN15DomPropertyDataD1Ev@Qt_5 5.6.0~beta
- _ZN15DomPropertyDataD2Ev@Qt_5 5.6.0~beta
  _ZN15DomResourceIcon18setElementActiveOnEP17DomResourcePixmap@Qt_5 5.6.0~beta
  _ZN15DomResourceIcon18setElementNormalOnEP17DomResourcePixmap@Qt_5 5.6.0~beta
  _ZN15DomResourceIcon19setElementActiveOffEP17DomResourcePixmap@Qt_5 5.6.0~beta
@@ -495,9 +394,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN15DomResourceIcon23clearElementDisabledOffEv@Qt_5 5.6.0~beta
  _ZN15DomResourceIcon23clearElementSelectedOffEv@Qt_5 5.6.0~beta
  _ZN15DomResourceIcon4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN15DomResourceIcon5clearEb@Qt_5 5.6.0~beta
- _ZN15DomResourceIconC1Ev@Qt_5 5.6.0~beta
- _ZN15DomResourceIconC2Ev@Qt_5 5.6.0~beta
  _ZN15DomResourceIconD1Ev@Qt_5 5.6.0~beta
  _ZN15DomResourceIconD2Ev@Qt_5 5.6.0~beta
  _ZN15QDesignerDialog10paintEventEP11QPaintEvent@Qt_5 5.6.0~beta
@@ -534,17 +430,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN15QtResourceModelD0Ev@Qt_5 5.6.0~beta
  _ZN15QtResourceModelD1Ev@Qt_5 5.6.0~beta
  _ZN15QtResourceModelD2Ev@Qt_5 5.6.0~beta
- _ZN16DomCustomWidgets22setElementCustomWidgetERK5QListIP15DomCustomWidgetE@Qt_5 5.6.0~beta
+ _ZN16DomCustomWidgets22setElementCustomWidgetERK7QVectorIP15DomCustomWidgetE@Qt_5 5.10.1
  _ZN16DomCustomWidgets4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN16DomCustomWidgets5clearEb@Qt_5 5.6.0~beta
- _ZN16DomCustomWidgetsC1Ev@Qt_5 5.6.0~beta
- _ZN16DomCustomWidgetsC2Ev@Qt_5 5.6.0~beta
  _ZN16DomCustomWidgetsD1Ev@Qt_5 5.6.0~beta
  _ZN16DomCustomWidgetsD2Ev@Qt_5 5.6.0~beta
  _ZN16DomLayoutDefault4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN16DomLayoutDefault5clearEb@Qt_5 5.6.0~beta
- _ZN16DomLayoutDefaultC1Ev@Qt_5 5.6.0~beta
- _ZN16DomLayoutDefaultC2Ev@Qt_5 5.6.0~beta
  _ZN16DomLayoutDefaultD1Ev@Qt_5 5.6.0~beta
  _ZN16DomLayoutDefaultD2Ev@Qt_5 5.6.0~beta
  _ZN16QDesignerMenuBar10deleteMenuEv@Qt_5 5.6.0~beta
@@ -605,33 +495,14 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17DomConnectionHint13clearElementXEv@Qt_5 5.6.0~beta
  _ZN17DomConnectionHint13clearElementYEv@Qt_5 5.6.0~beta
  _ZN17DomConnectionHint4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN17DomConnectionHint5clearEb@Qt_5 5.6.0~beta
- _ZN17DomConnectionHintC1Ev@Qt_5 5.6.0~beta
- _ZN17DomConnectionHintC2Ev@Qt_5 5.6.0~beta
  _ZN17DomConnectionHintD1Ev@Qt_5 5.6.0~beta
  _ZN17DomConnectionHintD2Ev@Qt_5 5.6.0~beta
  _ZN17DomLayoutFunction4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN17DomLayoutFunction5clearEb@Qt_5 5.6.0~beta
- _ZN17DomLayoutFunctionC1Ev@Qt_5 5.6.0~beta
- _ZN17DomLayoutFunctionC2Ev@Qt_5 5.6.0~beta
  _ZN17DomLayoutFunctionD1Ev@Qt_5 5.6.0~beta
  _ZN17DomLayoutFunctionD2Ev@Qt_5 5.6.0~beta
  _ZN17DomResourcePixmap4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN17DomResourcePixmap5clearEb@Qt_5 5.6.0~beta
- _ZN17DomResourcePixmapC1Ev@Qt_5 5.6.0~beta
- _ZN17DomResourcePixmapC2Ev@Qt_5 5.6.0~beta
  _ZN17DomResourcePixmapD1Ev@Qt_5 5.6.0~beta
  _ZN17DomResourcePixmapD2Ev@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData17setElementHorDataEi@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData17setElementVerDataEi@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData19clearElementHorDataEv@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData19clearElementVerDataEv@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyData5clearEb@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyDataC1Ev@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyDataC2Ev@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyDataD1Ev@Qt_5 5.6.0~beta
- _ZN17DomSizePolicyDataD2Ev@Qt_5 5.6.0~beta
  _ZN17QExtensionFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN17QExtensionFactory11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN17QExtensionFactory15objectDestroyedEP7QObject@Qt_5 5.6.0~beta
@@ -682,17 +553,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QFormBuilderExtraC2Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraD1Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraD2Ev@Qt_5 5.6.0~beta
- _ZN18DomConnectionHints14setElementHintERK5QListIP17DomConnectionHintE@Qt_5 5.6.0~beta
+ _ZN18DomConnectionHints14setElementHintERK7QVectorIP17DomConnectionHintE@Qt_5 5.10.1
  _ZN18DomConnectionHints4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN18DomConnectionHints5clearEb@Qt_5 5.6.0~beta
- _ZN18DomConnectionHintsC1Ev@Qt_5 5.6.0~beta
- _ZN18DomConnectionHintsC2Ev@Qt_5 5.6.0~beta
  _ZN18DomConnectionHintsD1Ev@Qt_5 5.6.0~beta
  _ZN18DomConnectionHintsD2Ev@Qt_5 5.6.0~beta
  _ZN18DomPropertyToolTip4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN18DomPropertyToolTip5clearEb@Qt_5 5.6.0~beta
- _ZN18DomPropertyToolTipC1Ev@Qt_5 5.6.0~beta
- _ZN18DomPropertyToolTipC2Ev@Qt_5 5.6.0~beta
  _ZN18DomPropertyToolTipD1Ev@Qt_5 5.6.0~beta
  _ZN18DomPropertyToolTipD2Ev@Qt_5 5.6.0~beta
  _ZN18QDesignerQSettings10beginGroupERK7QString@Qt_5 5.6.0~beta
@@ -1145,7 +1010,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal15InvisibleWidgetC1EP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15InvisibleWidgetC2EP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource10setupBrushEP8DomBrush@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal15QSimpleResource12createScriptERK7QStringNS0_12ScriptSourceE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource14addFakeMethodsEPK8DomSlotsR11QStringListS5_@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource17m_warningsEnabledE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource18customWidgetScriptEP28QDesignerFormEditorInterfaceP7QObject@Qt_5 5.6.0~beta
@@ -1155,8 +1019,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal15QSimpleResource22handleDomCustomWidgetsEPK28QDesignerFormEditorInterfacePK16DomCustomWidgets@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource25applyExtensionDataFromDOMEP20QAbstractFormBuilderP28QDesignerFormEditorInterfaceP9DomWidgetP7QWidget@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResource30addFakeMethodsToWidgetDataBaseEPK15DomCustomWidgetPNS_18WidgetDataBaseItemE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal15QSimpleResource32addCustomWidgetsToWidgetDatabaseEPK28QDesignerFormEditorInterfaceR5QListIP15DomCustomWidgetE@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal15QSimpleResource9addScriptERK7QStringNS0_12ScriptSourceER5QListIP9DomScriptE@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal15QSimpleResource32addCustomWidgetsToWidgetDatabaseEPK28QDesignerFormEditorInterfaceR7QVectorIP15DomCustomWidgetE@Qt_5 5.10.1
  _ZN18qdesigner_internal15QSimpleResource9saveBrushERK6QBrush@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResourceC1EP28QDesignerFormEditorInterface@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal15QSimpleResourceC2EP28QDesignerFormEditorInterface@Qt_5 5.6.0~beta
@@ -1391,11 +1254,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal18TextPropertyEditor15slotTextChangedERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor16staticMetaObjectE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor18installEventFilterEP7QObject@Qt_5 5.6.0~beta
- _ZN18qdesigner_internal18TextPropertyEditor18setRegExpValidatorERK7QString@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor19slotEditingFinishedEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor20editorStringToStringERK7QStringNS_26TextPropertyValidationModeE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor20stringToEditorStringERK7QStringNS_26TextPropertyValidationModeE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor21markIntermediateStateEv@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal18TextPropertyEditor29setRegularExpressionValidatorERK7QString@Qt_5 5.10.1
  _ZN18qdesigner_internal18TextPropertyEditor29setTextPropertyValidationModeENS_26TextPropertyValidationModeE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor5clearEv@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal18TextPropertyEditor7setTextERK7QString@Qt_5 5.6.0~beta
@@ -2296,12 +2159,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN23QTabWidgetPropertySheet5resetEi@Qt_5 5.6.0~beta
  _ZN23QTabWidgetPropertySheetC1EP10QTabWidgetP7QObject@Qt_5 5.6.0~beta
  _ZN23QTabWidgetPropertySheetC2EP10QTabWidgetP7QObject@Qt_5 5.6.0~beta
- _ZN25DomPropertySpecifications17setElementTooltipERK5QListIP18DomPropertyToolTipE@Qt_5 5.6.0~beta
- _ZN25DomPropertySpecifications37setElementStringpropertyspecificationERK5QListIP30DomStringPropertySpecificationE@Qt_5 5.6.0~beta
+ _ZN25DomPropertySpecifications17setElementTooltipERK7QVectorIP18DomPropertyToolTipE@Qt_5 5.10.1
+ _ZN25DomPropertySpecifications37setElementStringpropertyspecificationERK7QVectorIP30DomStringPropertySpecificationE@Qt_5 5.10.1
  _ZN25DomPropertySpecifications4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN25DomPropertySpecifications5clearEb@Qt_5 5.6.0~beta
- _ZN25DomPropertySpecificationsC1Ev@Qt_5 5.6.0~beta
- _ZN25DomPropertySpecificationsC2Ev@Qt_5 5.6.0~beta
  _ZN25DomPropertySpecificationsD1Ev@Qt_5 5.6.0~beta
  _ZN25DomPropertySpecificationsD2Ev@Qt_5 5.6.0~beta
  _ZN25QDesignerCustomWidgetData8parseXmlERK7QStringS2_PS0_@Qt_5 5.6.0~beta
@@ -2459,9 +2319,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN29QDesignerIntegrationInterfaceD1Ev@Qt_5 5.6.0~beta
  _ZN29QDesignerIntegrationInterfaceD2Ev@Qt_5 5.6.0~beta
  _ZN30DomStringPropertySpecification4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN30DomStringPropertySpecification5clearEb@Qt_5 5.6.0~beta
- _ZN30DomStringPropertySpecificationC1Ev@Qt_5 5.6.0~beta
- _ZN30DomStringPropertySpecificationC2Ev@Qt_5 5.6.0~beta
  _ZN30DomStringPropertySpecificationD1Ev@Qt_5 5.6.0~beta
  _ZN30DomStringPropertySpecificationD2Ev@Qt_5 5.6.0~beta
  _ZN30QDesignerActionEditorInterface11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
@@ -2597,16 +2454,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN5DomUI15setElementClassERK7QString@Qt_5 5.6.0~beta
  _ZN5DomUI15setElementSlotsEP8DomSlots@Qt_5 5.6.0~beta
  _ZN5DomUI16setElementAuthorERK7QString@Qt_5 5.6.0~beta
- _ZN5DomUI16setElementImagesEP9DomImages@Qt_5 5.6.0~beta
  _ZN5DomUI16setElementWidgetEP9DomWidget@Qt_5 5.6.0~beta
  _ZN5DomUI16takeElementSlotsEv@Qt_5 5.6.0~beta
  _ZN5DomUI17clearElementClassEv@Qt_5 5.6.0~beta
  _ZN5DomUI17clearElementSlotsEv@Qt_5 5.6.0~beta
  _ZN5DomUI17setElementCommentERK7QString@Qt_5 5.6.0~beta
- _ZN5DomUI17takeElementImagesEv@Qt_5 5.6.0~beta
  _ZN5DomUI17takeElementWidgetEv@Qt_5 5.6.0~beta
  _ZN5DomUI18clearElementAuthorEv@Qt_5 5.6.0~beta
- _ZN5DomUI18clearElementImagesEv@Qt_5 5.6.0~beta
  _ZN5DomUI18clearElementWidgetEv@Qt_5 5.6.0~beta
  _ZN5DomUI18setElementIncludesEP11DomIncludes@Qt_5 5.6.0~beta
  _ZN5DomUI18setElementTabStopsEP11DomTabStops@Qt_5 5.6.0~beta
@@ -2641,25 +2495,16 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN5DomUI26clearElementLayoutFunctionEv@Qt_5 5.6.0~beta
  _ZN5DomUI26clearElementPixmapFunctionEv@Qt_5 5.6.0~beta
  _ZN5DomUI4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN5DomUI5clearEb@Qt_5 5.6.0~beta
- _ZN5DomUIC1Ev@Qt_5 5.6.0~beta
- _ZN5DomUIC2Ev@Qt_5 5.6.0~beta
  _ZN5DomUID1Ev@Qt_5 5.6.0~beta
  _ZN5DomUID2Ev@Qt_5 5.6.0~beta
  _ZN6DomRow18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN6DomRow4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN6DomRow5clearEb@Qt_5 5.6.0~beta
- _ZN6DomRowC1Ev@Qt_5 5.6.0~beta
- _ZN6DomRowC2Ev@Qt_5 5.6.0~beta
  _ZN6DomRowD1Ev@Qt_5 5.6.0~beta
  _ZN6DomRowD2Ev@Qt_5 5.6.0~beta
  _ZN6DomUrl16setElementStringEP9DomString@Qt_5 5.6.0~beta
  _ZN6DomUrl17takeElementStringEv@Qt_5 5.6.0~beta
  _ZN6DomUrl18clearElementStringEv@Qt_5 5.6.0~beta
  _ZN6DomUrl4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN6DomUrl5clearEb@Qt_5 5.6.0~beta
- _ZN6DomUrlC1Ev@Qt_5 5.6.0~beta
- _ZN6DomUrlC2Ev@Qt_5 5.6.0~beta
  _ZN6DomUrlD1Ev@Qt_5 5.6.0~beta
  _ZN6DomUrlD2Ev@Qt_5 5.6.0~beta
  _ZN6Spacer10paintEventEP11QPaintEvent@Qt_5 5.6.0~beta
@@ -2678,9 +2523,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomChar17setElementUnicodeEi@Qt_5 5.6.0~beta
  _ZN7DomChar19clearElementUnicodeEv@Qt_5 5.6.0~beta
  _ZN7DomChar4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomChar5clearEb@Qt_5 5.6.0~beta
- _ZN7DomCharC1Ev@Qt_5 5.6.0~beta
- _ZN7DomCharC2Ev@Qt_5 5.6.0~beta
  _ZN7DomCharD1Ev@Qt_5 5.6.0~beta
  _ZN7DomCharD2Ev@Qt_5 5.6.0~beta
  _ZN7DomDate13setElementDayEi@Qt_5 5.6.0~beta
@@ -2690,9 +2532,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomDate16clearElementYearEv@Qt_5 5.6.0~beta
  _ZN7DomDate17clearElementMonthEv@Qt_5 5.6.0~beta
  _ZN7DomDate4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomDate5clearEb@Qt_5 5.6.0~beta
- _ZN7DomDateC1Ev@Qt_5 5.6.0~beta
- _ZN7DomDateC2Ev@Qt_5 5.6.0~beta
  _ZN7DomDateD1Ev@Qt_5 5.6.0~beta
  _ZN7DomDateD2Ev@Qt_5 5.6.0~beta
  _ZN7DomFont14setElementBoldEb@Qt_5 5.6.0~beta
@@ -2716,17 +2555,11 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomFont24clearElementAntialiasingEv@Qt_5 5.6.0~beta
  _ZN7DomFont25clearElementStyleStrategyEv@Qt_5 5.6.0~beta
  _ZN7DomFont4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomFont5clearEb@Qt_5 5.6.0~beta
- _ZN7DomFontC1Ev@Qt_5 5.6.0~beta
- _ZN7DomFontC2Ev@Qt_5 5.6.0~beta
  _ZN7DomFontD1Ev@Qt_5 5.6.0~beta
  _ZN7DomFontD2Ev@Qt_5 5.6.0~beta
- _ZN7DomItem14setElementItemERK5QListIPS_E@Qt_5 5.6.0~beta
+ _ZN7DomItem14setElementItemERK7QVectorIPS_E@Qt_5 5.10.1
  _ZN7DomItem18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN7DomItem4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomItem5clearEb@Qt_5 5.6.0~beta
- _ZN7DomItemC1Ev@Qt_5 5.6.0~beta
- _ZN7DomItemC2Ev@Qt_5 5.6.0~beta
  _ZN7DomItemD1Ev@Qt_5 5.6.0~beta
  _ZN7DomItemD2Ev@Qt_5 5.6.0~beta
  _ZN7DomRect11setElementXEi@Qt_5 5.6.0~beta
@@ -2738,9 +2571,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomRect17clearElementWidthEv@Qt_5 5.6.0~beta
  _ZN7DomRect18clearElementHeightEv@Qt_5 5.6.0~beta
  _ZN7DomRect4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomRect5clearEb@Qt_5 5.6.0~beta
- _ZN7DomRectC1Ev@Qt_5 5.6.0~beta
- _ZN7DomRectC2Ev@Qt_5 5.6.0~beta
  _ZN7DomRectD1Ev@Qt_5 5.6.0~beta
  _ZN7DomRectD2Ev@Qt_5 5.6.0~beta
  _ZN7DomSize15setElementWidthEi@Qt_5 5.6.0~beta
@@ -2748,9 +2578,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomSize17clearElementWidthEv@Qt_5 5.6.0~beta
  _ZN7DomSize18clearElementHeightEv@Qt_5 5.6.0~beta
  _ZN7DomSize4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomSize5clearEb@Qt_5 5.6.0~beta
- _ZN7DomSizeC1Ev@Qt_5 5.6.0~beta
- _ZN7DomSizeC2Ev@Qt_5 5.6.0~beta
  _ZN7DomSizeD1Ev@Qt_5 5.6.0~beta
  _ZN7DomSizeD2Ev@Qt_5 5.6.0~beta
  _ZN7DomTime14setElementHourEi@Qt_5 5.6.0~beta
@@ -2760,9 +2587,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN7DomTime18clearElementMinuteEv@Qt_5 5.6.0~beta
  _ZN7DomTime18clearElementSecondEv@Qt_5 5.6.0~beta
  _ZN7DomTime4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN7DomTime5clearEb@Qt_5 5.6.0~beta
- _ZN7DomTimeC1Ev@Qt_5 5.6.0~beta
- _ZN7DomTimeC2Ev@Qt_5 5.6.0~beta
  _ZN7DomTimeD1Ev@Qt_5 5.6.0~beta
  _ZN7DomTimeD2Ev@Qt_5 5.6.0~beta
  _ZN8DomBrush15setElementColorEP8DomColor@Qt_5 5.6.0~beta
@@ -2772,9 +2596,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomBrush18takeElementTextureEv@Qt_5 5.6.0~beta
  _ZN8DomBrush19takeElementGradientEv@Qt_5 5.6.0~beta
  _ZN8DomBrush4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomBrush5clearEb@Qt_5 5.6.0~beta
- _ZN8DomBrushC1Ev@Qt_5 5.6.0~beta
- _ZN8DomBrushC2Ev@Qt_5 5.6.0~beta
+ _ZN8DomBrush5clearEv@Qt_5 5.10.1
  _ZN8DomBrushD1Ev@Qt_5 5.6.0~beta
  _ZN8DomBrushD2Ev@Qt_5 5.6.0~beta
  _ZN8DomColor13setElementRedEi@Qt_5 5.6.0~beta
@@ -2784,28 +2606,13 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomColor16clearElementBlueEv@Qt_5 5.6.0~beta
  _ZN8DomColor17clearElementGreenEv@Qt_5 5.6.0~beta
  _ZN8DomColor4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomColor5clearEb@Qt_5 5.6.0~beta
- _ZN8DomColorC1Ev@Qt_5 5.6.0~beta
- _ZN8DomColorC2Ev@Qt_5 5.6.0~beta
  _ZN8DomColorD1Ev@Qt_5 5.6.0~beta
  _ZN8DomColorD2Ev@Qt_5 5.6.0~beta
- _ZN8DomImage14setElementDataEP12DomImageData@Qt_5 5.6.0~beta
- _ZN8DomImage15takeElementDataEv@Qt_5 5.6.0~beta
- _ZN8DomImage16clearElementDataEv@Qt_5 5.6.0~beta
- _ZN8DomImage4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomImage5clearEb@Qt_5 5.6.0~beta
- _ZN8DomImageC1Ev@Qt_5 5.6.0~beta
- _ZN8DomImageC2Ev@Qt_5 5.6.0~beta
- _ZN8DomImageD1Ev@Qt_5 5.6.0~beta
- _ZN8DomImageD2Ev@Qt_5 5.6.0~beta
  _ZN8DomPoint11setElementXEi@Qt_5 5.6.0~beta
  _ZN8DomPoint11setElementYEi@Qt_5 5.6.0~beta
  _ZN8DomPoint13clearElementXEv@Qt_5 5.6.0~beta
  _ZN8DomPoint13clearElementYEv@Qt_5 5.6.0~beta
  _ZN8DomPoint4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomPoint5clearEb@Qt_5 5.6.0~beta
- _ZN8DomPointC1Ev@Qt_5 5.6.0~beta
- _ZN8DomPointC2Ev@Qt_5 5.6.0~beta
  _ZN8DomPointD1Ev@Qt_5 5.6.0~beta
  _ZN8DomPointD2Ev@Qt_5 5.6.0~beta
  _ZN8DomRectF11setElementXEd@Qt_5 5.6.0~beta
@@ -2817,9 +2624,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomRectF17clearElementWidthEv@Qt_5 5.6.0~beta
  _ZN8DomRectF18clearElementHeightEv@Qt_5 5.6.0~beta
  _ZN8DomRectF4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomRectF5clearEb@Qt_5 5.6.0~beta
- _ZN8DomRectFC1Ev@Qt_5 5.6.0~beta
- _ZN8DomRectFC2Ev@Qt_5 5.6.0~beta
  _ZN8DomRectFD1Ev@Qt_5 5.6.0~beta
  _ZN8DomRectFD2Ev@Qt_5 5.6.0~beta
  _ZN8DomSizeF15setElementWidthEd@Qt_5 5.6.0~beta
@@ -2827,60 +2631,32 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN8DomSizeF17clearElementWidthEv@Qt_5 5.6.0~beta
  _ZN8DomSizeF18clearElementHeightEv@Qt_5 5.6.0~beta
  _ZN8DomSizeF4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomSizeF5clearEb@Qt_5 5.6.0~beta
- _ZN8DomSizeFC1Ev@Qt_5 5.6.0~beta
- _ZN8DomSizeFC2Ev@Qt_5 5.6.0~beta
  _ZN8DomSizeFD1Ev@Qt_5 5.6.0~beta
  _ZN8DomSizeFD2Ev@Qt_5 5.6.0~beta
  _ZN8DomSlots14setElementSlotERK11QStringList@Qt_5 5.6.0~beta
  _ZN8DomSlots16setElementSignalERK11QStringList@Qt_5 5.6.0~beta
  _ZN8DomSlots4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN8DomSlots5clearEb@Qt_5 5.6.0~beta
- _ZN8DomSlotsC1Ev@Qt_5 5.6.0~beta
- _ZN8DomSlotsC2Ev@Qt_5 5.6.0~beta
  _ZN8DomSlotsD1Ev@Qt_5 5.6.0~beta
  _ZN8DomSlotsD2Ev@Qt_5 5.6.0~beta
  _ZN9DomAction18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomAction4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomAction5clearEb@Qt_5 5.6.0~beta
- _ZN9DomActionC1Ev@Qt_5 5.6.0~beta
- _ZN9DomActionC2Ev@Qt_5 5.6.0~beta
  _ZN9DomActionD1Ev@Qt_5 5.6.0~beta
  _ZN9DomActionD2Ev@Qt_5 5.6.0~beta
  _ZN9DomColumn18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomColumn4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomColumn5clearEb@Qt_5 5.6.0~beta
- _ZN9DomColumnC1Ev@Qt_5 5.6.0~beta
- _ZN9DomColumnC2Ev@Qt_5 5.6.0~beta
  _ZN9DomColumnD1Ev@Qt_5 5.6.0~beta
  _ZN9DomColumnD2Ev@Qt_5 5.6.0~beta
  _ZN9DomHeader4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomHeader5clearEb@Qt_5 5.6.0~beta
- _ZN9DomHeaderC1Ev@Qt_5 5.6.0~beta
- _ZN9DomHeaderC2Ev@Qt_5 5.6.0~beta
  _ZN9DomHeaderD1Ev@Qt_5 5.6.0~beta
  _ZN9DomHeaderD2Ev@Qt_5 5.6.0~beta
- _ZN9DomImages15setElementImageERK5QListIP8DomImageE@Qt_5 5.6.0~beta
- _ZN9DomImages4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomImages5clearEb@Qt_5 5.6.0~beta
- _ZN9DomImagesC1Ev@Qt_5 5.6.0~beta
- _ZN9DomImagesC2Ev@Qt_5 5.6.0~beta
- _ZN9DomImagesD1Ev@Qt_5 5.6.0~beta
- _ZN9DomImagesD2Ev@Qt_5 5.6.0~beta
- _ZN9DomLayout14setElementItemERK5QListIP13DomLayoutItemE@Qt_5 5.6.0~beta
+ _ZN9DomLayout14setElementItemERK7QVectorIP13DomLayoutItemE@Qt_5 5.10.1
  _ZN9DomLayout18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomLayout19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomLayout4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomLayout5clearEb@Qt_5 5.6.0~beta
- _ZN9DomLayoutC1Ev@Qt_5 5.6.0~beta
- _ZN9DomLayoutC2Ev@Qt_5 5.6.0~beta
  _ZN9DomLayoutD1Ev@Qt_5 5.6.0~beta
  _ZN9DomLayoutD2Ev@Qt_5 5.6.0~beta
  _ZN9DomLocale4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomLocale5clearEb@Qt_5 5.6.0~beta
- _ZN9DomLocaleC1Ev@Qt_5 5.6.0~beta
- _ZN9DomLocaleC2Ev@Qt_5 5.6.0~beta
  _ZN9DomLocaleD1Ev@Qt_5 5.6.0~beta
  _ZN9DomLocaleD2Ev@Qt_5 5.6.0~beta
  _ZN9DomPointF11setElementXEd@Qt_5 5.6.0~beta
@@ -2888,52 +2664,33 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN9DomPointF13clearElementXEv@Qt_5 5.6.0~beta
  _ZN9DomPointF13clearElementYEv@Qt_5 5.6.0~beta
  _ZN9DomPointF4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomPointF5clearEb@Qt_5 5.6.0~beta
- _ZN9DomPointFC1Ev@Qt_5 5.6.0~beta
- _ZN9DomPointFC2Ev@Qt_5 5.6.0~beta
  _ZN9DomPointFD1Ev@Qt_5 5.6.0~beta
  _ZN9DomPointFD2Ev@Qt_5 5.6.0~beta
- _ZN9DomScript4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomScript5clearEb@Qt_5 5.6.0~beta
- _ZN9DomScriptC1Ev@Qt_5 5.6.0~beta
- _ZN9DomScriptC2Ev@Qt_5 5.6.0~beta
- _ZN9DomScriptD1Ev@Qt_5 5.6.0~beta
- _ZN9DomScriptD2Ev@Qt_5 5.6.0~beta
  _ZN9DomSpacer18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
  _ZN9DomSpacer4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomSpacer5clearEb@Qt_5 5.6.0~beta
- _ZN9DomSpacerC1Ev@Qt_5 5.6.0~beta
- _ZN9DomSpacerC2Ev@Qt_5 5.6.0~beta
  _ZN9DomSpacerD1Ev@Qt_5 5.6.0~beta
  _ZN9DomSpacerD2Ev@Qt_5 5.6.0~beta
  _ZN9DomString4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomString5clearEb@Qt_5 5.6.0~beta
- _ZN9DomStringC1Ev@Qt_5 5.6.0~beta
- _ZN9DomStringC2Ev@Qt_5 5.6.0~beta
  _ZN9DomStringD1Ev@Qt_5 5.6.0~beta
  _ZN9DomStringD2Ev@Qt_5 5.6.0~beta
- _ZN9DomWidget13setElementRowERK5QListIP6DomRowE@Qt_5 5.6.0~beta
- _ZN9DomWidget14setElementItemERK5QListIP7DomItemE@Qt_5 5.6.0~beta
+ _ZN9DomWidget13setElementRowERK7QVectorIP6DomRowE@Qt_5 5.10.1
+ _ZN9DomWidget14setElementItemERK7QVectorIP7DomItemE@Qt_5 5.10.1
  _ZN9DomWidget15setElementClassERK11QStringList@Qt_5 5.6.0~beta
- _ZN9DomWidget16setElementActionERK5QListIP9DomActionE@Qt_5 5.6.0~beta
- _ZN9DomWidget16setElementColumnERK5QListIP9DomColumnE@Qt_5 5.6.0~beta
- _ZN9DomWidget16setElementLayoutERK5QListIP9DomLayoutE@Qt_5 5.6.0~beta
- _ZN9DomWidget16setElementScriptERK5QListIP9DomScriptE@Qt_5 5.6.0~beta
- _ZN9DomWidget16setElementWidgetERK5QListIPS_E@Qt_5 5.6.0~beta
+ _ZN9DomWidget16setElementActionERK7QVectorIP9DomActionE@Qt_5 5.10.1
+ _ZN9DomWidget16setElementColumnERK7QVectorIP9DomColumnE@Qt_5 5.10.1
+ _ZN9DomWidget16setElementLayoutERK7QVectorIP9DomLayoutE@Qt_5 5.10.1
+ _ZN9DomWidget16setElementWidgetERK7QVectorIPS_E@Qt_5 5.10.1
  _ZN9DomWidget16setElementZOrderERK11QStringList@Qt_5 5.6.0~beta
  _ZN9DomWidget18setElementPropertyERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
- _ZN9DomWidget19setElementAddActionERK5QListIP12DomActionRefE@Qt_5 5.6.0~beta
+ _ZN9DomWidget19setElementAddActionERK7QVectorIP12DomActionRefE@Qt_5 5.10.1
  _ZN9DomWidget19setElementAttributeERK5QListIP11DomPropertyE@Qt_5 5.6.0~beta
- _ZN9DomWidget20setElementWidgetDataERK5QListIP13DomWidgetDataE@Qt_5 5.6.0~beta
- _ZN9DomWidget21setElementActionGroupERK5QListIP14DomActionGroupE@Qt_5 5.6.0~beta
+ _ZN9DomWidget21setElementActionGroupERK7QVectorIP14DomActionGroupE@Qt_5 5.10.1
  _ZN9DomWidget4readER16QXmlStreamReader@Qt_5 5.6.0~beta
- _ZN9DomWidget5clearEb@Qt_5 5.6.0~beta
- _ZN9DomWidgetC1Ev@Qt_5 5.6.0~beta
- _ZN9DomWidgetC2Ev@Qt_5 5.6.0~beta
  _ZN9DomWidgetD1Ev@Qt_5 5.6.0~beta
  _ZN9DomWidgetD2Ev@Qt_5 5.6.0~beta
  _ZNK10DomInclude5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK10DomPalette5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
+ _ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.10.1
  _ZNK11DomDateTime5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK11DomGradient5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK11DomIncludes5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
@@ -2942,7 +2699,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK11DomTabStops5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK12DomActionRef5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK12DomColorRole5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK12DomImageData5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK12DomResources5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK12QFormBuilder11pluginPathsEv@Qt_5 5.6.0~beta
  _ZNK12QFormBuilder13customWidgetsEv@Qt_5 5.6.0~beta
@@ -2952,10 +2708,8 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK13DomColorGroup5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK13DomConnection5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK13DomLayoutItem5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK13DomProperties5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK13DomSizePolicy5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK13DomStringList5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK13DomWidgetData5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK13QDesignerMenu10findActionERK6QPoint@Qt_5 5.6.0~beta
  _ZNK13QDesignerMenu10formWindowEv@Qt_5 5.6.0~beta
  _ZNK13QDesignerMenu10metaObjectEv@Qt_5 5.6.0~beta
@@ -2995,7 +2749,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK15DomCustomWidget5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK15DomDesignerData5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK15DomGradientStop5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK15DomPropertyData5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK15DomResourceIcon5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK15QDesignerDialog10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK15QDesignerWidget10formWindowEv@Qt_5 5.6.0~beta
@@ -3026,7 +2779,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK17DomConnectionHint5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK17DomLayoutFunction5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK17DomResourcePixmap5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK17DomSizePolicyData5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK17QExtensionFactory10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK17QExtensionFactory15createExtensionEP7QObjectRK7QStringS1_@Qt_5 5.6.0~beta
  _ZNK17QExtensionFactory16extensionManagerEv@Qt_5 5.6.0~beta
@@ -3582,7 +3334,6 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK7DomTime5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK8DomBrush5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK8DomColor5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK8DomImage5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK8DomPoint5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK8DomRectF5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK8DomSizeF5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
@@ -3590,11 +3341,9 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK9DomAction5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomColumn5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomHeader5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK9DomImages5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomLayout5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomLocale5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomPointF5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
- _ZNK9DomScript5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomSpacer5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomString5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
  _ZNK9DomWidget5writeER16QXmlStreamWriterRK7QString@Qt_5 5.6.0~beta
