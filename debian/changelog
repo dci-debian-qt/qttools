@@ -1,6 +1,5 @@
-qttools-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.10.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch for the new tarball names.
   * Drop compiler flags exports, not needed with debhelper configure.
@@ -10,7 +9,7 @@ qttools-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Add one new header file to qttools5-private-dev.install.
   * Update symbols files from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:03:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Feb 2018 22:06:56 +0300
 
 qttools-opensource-src (5.9.2-6) unstable; urgency=medium
 
