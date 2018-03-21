@@ -1,3 +1,16 @@
+qttools-opensource-src (5.10.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch for the new tarball names.
+  * Drop compiler flags exports, not needed with debhelper configure.
+  * Bump Qt build-dependencies to 5.10.1.
+  * Update Vcs fields for migration to salsa.debian.org.
+  * Update debian/copyright.
+  * Add one new header file to qttools5-private-dev.install.
+  * Update symbols files from the current build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Feb 2018 22:06:56 +0300
+
 qttools-opensource-src (5.10.0-0neon) UNRELEASED; urgency=medium
 
   * 5.10
