@@ -1,3 +1,9 @@
+qttools-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 14 Apr 2018 10:38:13 +0300
+
 qttools-opensource-src (5.9.4-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
