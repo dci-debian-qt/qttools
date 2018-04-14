@@ -1,6 +1,7 @@
 qttools-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump Qt build-dependencies to 5.9.5.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 14 Apr 2018 10:38:13 +0300
 
