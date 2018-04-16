@@ -1,4 +1,4 @@
-qttools-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.9.5-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.5.
