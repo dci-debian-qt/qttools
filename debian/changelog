@@ -1,3 +1,9 @@
+qttools-opensource-src (5.11.0-0neon) xenial; urgency=medium
+
+  * 5.11 in neon
+
+ -- Bhushan Shah <bshah@kde.org>  Fri, 25 May 2018 09:31:01 +0000
+
 qttools-opensource-src (5.10.1-2) unstable; urgency=medium
 
   * Release to unstable.
