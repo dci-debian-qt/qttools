@@ -1,3 +1,9 @@
+qttools-opensource-src (5.10.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 17:31:06 -0300
+
 qttools-opensource-src (5.10.1-1) experimental; urgency=medium
 
   * New upstream release.
