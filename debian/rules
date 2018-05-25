@@ -6,6 +6,7 @@
 include /usr/share/dpkg/architecture.mk
 
 export QT_SELECT := qt5
+export LLVM_INSTALL_DIR := /usr/lib/llvm-5.0
 
 # Archs that do not build depend on QtWebkit do not ship qwebview.
 no_qwebview_archs := m68k sparc64
