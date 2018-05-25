@@ -10,6 +10,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: clang-5.0,
                debhelper (>= 9),
+               libclang-5.0-dev,
                libqt5opengl5-dev (>= 5.11.0+dfsg~),
                libqt5sql5-sqlite (>= 5.11.0+dfsg~),
                libqt5webkit5-dev (>= 5.212.0~alpha2-9~) [!m68k !sparc64],
