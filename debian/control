@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 10.9.2~),
+Build-Depends: debhelper (>= 11),
                libqt5opengl5-dev (>= 5.11.0+dfsg~),
                libqt5sql5-sqlite (>= 5.11.0+dfsg~),
                libqt5webkit5-dev (>= 5.212.0~alpha2-8~) [!m68k !sparc64],

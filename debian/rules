@@ -41,7 +41,7 @@ endif
 
 override_dh_auto_install-arch:
 	dh_auto_install
-	
+
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
