@@ -4,6 +4,7 @@ qttools-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * Add my name to Uploaders.
   * New upstream release.
   * Bump build dependencies to 5.11.0.
+  * Bump Standards-version to 4.1.4, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:45:31 -0500
 
