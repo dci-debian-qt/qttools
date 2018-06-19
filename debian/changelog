@@ -8,6 +8,10 @@ qttools-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * Bump debhelper compat to 11, no changes needed.
   * Bump qtwebkit dependency to pick up the one in Experimental.
 
+  [ Dmitry Shachnev ]
+  * Build-depend on libclang-dev and llvm-dev, and export
+    LLVM_INSTALL_DIR environment variable, now needed for qdoc.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:45:31 -0500
 
 qttools-opensource-src (5.10.1-2) unstable; urgency=medium
