@@ -21,7 +21,7 @@ override_dh_auto_clean:
 
 build-doc-tools:
 	# Build qdoc, qhelpgenerator and qtattributionsscanner tools
-	cd src; qmake
+	cd src; qmake CONFIG+=disable_external_rpath
 	dh_auto_build -- -Csrc sub-qdoc sub-qtattributionsscanner
 	cd src/assistant; qmake
 	dh_auto_build -- -Csrc/assistant sub-qhelpgenerator
