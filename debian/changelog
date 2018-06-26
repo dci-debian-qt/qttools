@@ -1,3 +1,39 @@
+qttools-opensource-src (5.11.1-2) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Disable rpath when building qdoc.
+
+  [ Simon Quigley ]
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 23 Jun 2018 20:41:39 -0500
+
+qttools-opensource-src (5.11.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies to 5.11.1, and qtwebkit dependency to the
+    one built against 5.11.1.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 23:18:17 -0500
+
+qttools-opensource-src (5.11.0-1) experimental; urgency=medium
+
+  [ Simon Quigley ]
+  * Add my name to Uploaders.
+  * New upstream release.
+  * Bump build dependencies to 5.11.0.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump debhelper compat to 11, no changes needed.
+  * Bump qtwebkit dependency to pick up the one in Experimental.
+  * Update symbols from build logs.
+
+  [ Dmitry Shachnev ]
+  * Build-depend on libclang-dev and llvm-dev, and export
+    LLVM_INSTALL_DIR environment variable, now needed for qdoc.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 12:10:21 -0500
+
 qttools-opensource-src (5.11.0-0neon) xenial; urgency=medium
 
   * 5.11 in neon

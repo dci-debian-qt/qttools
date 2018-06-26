@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 5.10.1 amd64
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.1
+ Qt_5.11@Qt_5.11 5.11.0
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -906,6 +907,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN18qdesigner_internal14FormWindowBase23createExtensionTaskMenuEP28QDesignerFormWindowInterfaceP7QObjectb@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase23setResourceFileSaveModeEN28QDesignerFormWindowInterface20ResourceFileSaveModeE@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase24removeReloadablePropertyEP22QDesignerPropertySheeti@Qt_5 5.6.0~beta
+ _ZN18qdesigner_internal14FormWindowBase25setUseIdBasedTranslationsEb@Qt_5 5.11.0
  _ZN18qdesigner_internal14FormWindowBase26addReloadablePropertySheetEP22QDesignerPropertySheetP7QObject@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase7setGridERK6QPoint@Qt_5 5.6.0~beta
  _ZN18qdesigner_internal14FormWindowBase8formDataEv@Qt_5 5.6.0~beta
@@ -2903,6 +2905,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZNK18qdesigner_internal14FormWindowBase17deviceProfileNameEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase18lineTerminatorModeEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase20resourceFileSaveModeEv@Qt_5 5.6.0~beta
+ _ZNK18qdesigner_internal14FormWindowBase22useIdBasedTranslationsEv@Qt_5 5.11.0
  _ZNK18qdesigner_internal14FormWindowBase4gridEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase8featuresEv@Qt_5 5.6.0~beta
  _ZNK18qdesigner_internal14FormWindowBase9iconCacheEv@Qt_5 5.6.0~beta
