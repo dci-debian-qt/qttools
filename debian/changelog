@@ -1,5 +1,8 @@
 qttools-opensource-src (5.11.1-5) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * Add a missing epoch on the b-d versions in the previous upload.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Aug 2018 13:38:51 -0500
 
 qttools-opensource-src (5.11.1-4) unstable; urgency=medium
