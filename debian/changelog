@@ -1,3 +1,7 @@
+qttools-opensource-src (5.11.1-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Aug 2018 13:38:51 -0500
+
 qttools-opensource-src (5.11.1-4) unstable; urgency=medium
 
   * Make the build dependencies on libclang-dev and llvm-dev more strict
