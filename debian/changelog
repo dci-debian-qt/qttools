@@ -1,13 +1,12 @@
-qttools-opensource-src (5.11.1-6) UNRELEASED; urgency=medium
+qttools-opensource-src (5.11.1-6) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add GCC include dir to default clang arguments. This is needed to make
     qdoc work properly with libclang1-6.0 ≥ 1:6.0.1-4, where a patch doing
     the same thing has been dropped. See bug #908328 for details.
   * Update debian/libqt5designer5.symbols from buildds’ logs.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Sep 2018 21:21:06 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 11 Sep 2018 00:17:48 +0300
 
 qttools-opensource-src (5.11.1-5) unstable; urgency=medium
 
