@@ -1,0 +1,28 @@
+Description: add GCC include dir to default clang arguments
+ This will be a directory like /usr/lib/gcc/x86_64-linux-gnu/8/include.
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: no
+Last-Update: 2018-09-10
+
+--- a/src/qdoc/clangcodeparser.cpp
++++ b/src/qdoc/clangcodeparser.cpp
+@@ -1103,7 +1103,8 @@
+ #ifdef Q_OS_WIN
+     "-fms-compatibility-version=19",
+ #endif
+-    "-I" CLANG_RESOURCE_DIR
++    "-I" CLANG_RESOURCE_DIR,
++    "-I" GCC_RESOURCE_DIR
+ };
+ 
+ /*!
+--- a/src/qdoc/qdoc.pro
++++ b/src/qdoc/qdoc.pro
+@@ -26,6 +26,7 @@
+ 
+ !contains(QMAKE_DEFAULT_LIBDIRS, $$CLANG_LIBDIR):!disable_external_rpath: QMAKE_RPATHDIR += $$CLANG_LIBDIR
+ DEFINES += $$shell_quote(CLANG_RESOURCE_DIR=\"$${CLANG_LIBDIR}/clang/$${CLANG_VERSION}/include\")
++DEFINES += $$shell_quote(GCC_RESOURCE_DIR=\"$$member(QMAKE_DEFAULT_INCDIRS, 3)\")
+ 
+ DEFINES += \
+     QDOC2_COMPAT
