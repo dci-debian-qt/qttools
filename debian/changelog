@@ -1,3 +1,36 @@
+qttools-opensource-src (5.11.1-6) unstable; urgency=medium
+
+  * Add GCC include dir to default clang arguments. This is needed to make
+    qdoc work properly with libclang1-6.0 ≥ 1:6.0.1-4, where a patch doing
+    the same thing has been dropped. See bug #908328 for details.
+  * Update debian/libqt5designer5.symbols from buildds’ logs.
+  * Bump Standards-Version to 4.2.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 11 Sep 2018 00:17:48 +0300
+
+qttools-opensource-src (5.11.1-5) unstable; urgency=medium
+
+  * Add a missing epoch on the b-d versions in the previous upload.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 05 Aug 2018 13:39:46 -0500
+
+qttools-opensource-src (5.11.1-4) unstable; urgency=medium
+
+  * Make the build dependencies on libclang-dev and llvm-dev more strict
+    (Closes: #905537).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 05 Aug 2018 13:35:14 -0500
+
+qttools-opensource-src (5.11.1-3) unstable; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Add support for nodoc build profile.
+
+  [ Simon Quigley ]
+  * Upload to Sid.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 04:49:32 -0500
+
 qttools-opensource-src (5.11.1-2) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
