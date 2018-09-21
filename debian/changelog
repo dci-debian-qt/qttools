@@ -1,3 +1,9 @@
+qttools-opensource-src (5.11.2-0neon) UNRELEASED; urgency=medium
+
+  * new version
+
+ -- Jonathan Riddell <jr@jriddell.org>  Fri, 21 Sep 2018 13:31:34 +0100
+
 qttools-opensource-src (5.11.1-6) unstable; urgency=medium
 
   * Add GCC include dir to default clang arguments. This is needed to make
