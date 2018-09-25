@@ -1,13 +1,12 @@
-qttools-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
+qttools-opensource-src (5.11.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh qdoc_gcc_includepath.diff.
   * Bump Qt build-dependencies to 5.11.2.
   * Add two new symbols to debian/libqt5designer5.symbols.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 13:53:18 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 25 Sep 2018 16:54:06 +0300
 
 qttools-opensource-src (5.11.1-6) unstable; urgency=medium
 
