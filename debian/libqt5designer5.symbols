@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 arm64
+# SymbolsHelper-Confirmed: 5.11.2 amd64
 libQt5Designer.so.5 libqt5designer5 #MINVER#
 * Build-Depends-Package: qttools5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -529,6 +529,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QFormBuilderExtra16CustomWidgetDataC2Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16boxLayoutStretchEPK10QBoxLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra16clearTextBuilderEv@Qt_5 5.6.0~beta
+ _ZN17QFormBuilderExtra16msgInvalidUiFileEv@Qt_5 5.11.2
  _ZN17QFormBuilderExtra18setResourceBuilderEP16QResourceBuilder@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra19setBoxLayoutStretchERK7QStringP10QBoxLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra20clearResourceBuilderEv@Qt_5 5.6.0~beta
@@ -550,6 +551,7 @@ libQt5Designer.so.5 libqt5designer5 #MINVER#
  _ZN17QFormBuilderExtra31setGridLayoutColumnMinimumWidthERK7QStringP11QGridLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra33clearGridLayoutColumnMinimumWidthEP11QGridLayout@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtra5clearEv@Qt_5 5.6.0~beta
+ _ZN17QFormBuilderExtra6readUiEP9QIODevice@Qt_5 5.11.2
  _ZN17QFormBuilderExtraC1Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraC2Ev@Qt_5 5.6.0~beta
  _ZN17QFormBuilderExtraD1Ev@Qt_5 5.6.0~beta

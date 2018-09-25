@@ -4,6 +4,7 @@ qttools-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Refresh qdoc_gcc_includepath.diff.
   * Bump Qt build-dependencies to 5.11.2.
+  * Add two new symbols to debian/libqt5designer5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 13:53:18 +0300
 
