@@ -1,3 +1,10 @@
+qttools-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 13:53:18 +0300
+
 qttools-opensource-src (5.11.1-6) unstable; urgency=medium
 
   * Add GCC include dir to default clang arguments. This is needed to make
