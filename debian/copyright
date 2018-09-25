@@ -3,7 +3,7 @@ Upstream-Name: qttools-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2016-2017 The Qt Company Ltd.
+Copyright: 2016-2018 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: debian/*
@@ -20,7 +20,7 @@ License: LGPL-3 or GPL-2
 
 Files: src/assistant/help/*
        src/assistant/shared/*
-       src/designer/src/lib/uilib/*
+       src/qdoc/clangcodeparser.*
        src/shared/*
        src/winrtrunner/*
 Copyright: 2016-2017 The Qt Company Ltd.
@@ -66,7 +66,8 @@ Files: examples/*
        src/assistant/assistant/doc/snippets/*
        src/assistant/help/doc/snippets/*
        src/designer/src/designer/doc/snippets/*
-       src/designer/src/uitools/doc/snippets/*
+       src/designer/src/lib/uilib/*
+       src/designer/src/uitools/*
        src/linguist/linguist/doc/snippets/*
        src/shared/corecon/*
 Copyright: 2016-2017 The Qt Company Ltd.
@@ -175,13 +176,13 @@ License: LGPL-3
  License version 3 can be found in /usr/share/common-licenses/LGPL-3.
 
 Files: *.qdoc
-Copyright: 2016-2017 The Qt Company Ltd.
-License: GFDL-1.3
+Copyright: 2016-2018 The Qt Company Ltd.
+License: GFDL-NIV-1.3
 
 Files: src/designer/src/designer/doc/src/designer-manual.qdoc
 Copyright: 2005 Bjoern Bergstroem
            2016 The Qt Company Ltd.
-License: GFDL-1.3
+License: GFDL-NIV-1.3
 
 Files: src/makeqpf/Blocks.txt
 Copyright: 1991-2006 Unicode, Inc.
@@ -216,14 +217,11 @@ License: MIT-Unicode
  these Data Files or Software without prior written authorization of the
  copyright holder.
 
-License: GFDL-1.3
- GNU Free Documentation License Usage
- Alternatively, this file may be used under the terms of the GNU Free
- Documentation License version 1.3 as published by the Free Software
- Foundation and appearing in the file included in the packaging of
- this file.  Please review the following information to ensure
- the GNU Free Documentation License version 1.3 requirements
- will be met: http://www.gnu.org/copyleft/fdl.html.
+License: GFDL-NIV-1.3
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
  On Debian systems, the complete text of the GNU Free Documentation
  License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
