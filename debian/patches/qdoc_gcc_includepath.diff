@@ -18,7 +18,7 @@ Last-Update: 2018-09-10
  /*!
 --- a/src/qdoc/qdoc.pro
 +++ b/src/qdoc/qdoc.pro
-@@ -26,6 +26,7 @@
+@@ -17,6 +17,7 @@
  
  !contains(QMAKE_DEFAULT_LIBDIRS, $$CLANG_LIBDIR):!disable_external_rpath: QMAKE_RPATHDIR += $$CLANG_LIBDIR
  DEFINES += $$shell_quote(CLANG_RESOURCE_DIR=\"$${CLANG_LIBDIR}/clang/$${CLANG_VERSION}/include\")

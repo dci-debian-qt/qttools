@@ -2,6 +2,7 @@ qttools-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Refresh qdoc_gcc_includepath.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Sep 2018 13:53:18 +0300
 
