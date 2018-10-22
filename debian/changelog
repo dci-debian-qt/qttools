@@ -1,5 +1,8 @@
 qttools-opensource-src (5.11.2-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Drop libvulkan-dev build-dependency, new qtbase5-dev will depend
+    on it on linux (closes: #911618).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Oct 2018 20:06:54 +0300
 
