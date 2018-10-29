@@ -5,6 +5,7 @@ qttools-opensource-src (5.11.2-4) UNRELEASED; urgency=medium
     on it on linux (closes: #911618).
   * Drop qdoc_gcc_includepath.diff. The include directories will be passed
     to qdoc at run-time (by qt_docs.prf in qtbase).
+  * Update debian/libqt5designer5.symbols for hppa.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Oct 2018 20:06:54 +0300
 
