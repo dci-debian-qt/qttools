@@ -1,11 +1,10 @@
-qttools-opensource-src (5.11.2-5) UNRELEASED; urgency=medium
+qttools-opensource-src (5.11.2-5) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Build qdoc with QDOC_PASS_ISYSTEM defined. This is needed because qmake
     passes Qt include directories as -isystem flags, not as regular -I.
     See QTBUG-70896, LP: #1799111.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Nov 2018 10:45:24 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 15 Nov 2018 11:03:30 +0300
 
 qttools-opensource-src (5.11.2-4) unstable; urgency=medium
 
