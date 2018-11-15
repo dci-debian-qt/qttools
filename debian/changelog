@@ -1,5 +1,8 @@
 qttools-opensource-src (5.11.1-5ubuntu1) UNRELEASED; urgency=medium
 
+  * Build qdoc with QDOC_PASS_ISYSTEM defined. This is needed because qmake
+    passes Qt include directories as -isystem flags, not as regular -I (LP:
+    #1799111).
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 26 Nov 2018 11:48:25 +0300
 
