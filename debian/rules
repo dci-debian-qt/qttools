@@ -32,12 +32,14 @@ override_dh_auto_build-indep: build-doc-tools
 	dh_auto_build -- docs
 
 ifeq ($(DEB_HOST_ARCH),$(DEB_BUILD_ARCH))
+ifneq (,$(filter qdoc-qt5,$(shell dh_listpackages)))
 override_dh_auto_build-arch: build-doc-tools
 	# Rebuild the internal assistant.qch which is used as a resource
 	cd src/assistant/assistant/doc/internal; qmake
 	dh_auto_build -- -Csrc/assistant/assistant/doc/internal docs
 	mv doc/assistant.qch src/assistant/assistant/assistant.qch
 	dh_auto_build
+endif
 endif
 
 override_dh_auto_install-arch:
@@ -72,6 +74,7 @@ override_dh_link:
 	ls debian/qttools5-dev-tools/usr/lib/qt5/bin | xargs -t -I {} \
 		dh_link -pqttools5-dev-tools usr/lib/qt5/bin/{} usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/{}
 	dh_link -pqdbus-qt5 usr/lib/qt5/bin/qdbus usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qdbus
+	dh_link -pqdoc-qt5 usr/lib/qt5/bin/qdoc usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qdoc
 	dh_link -pqt5-assistant usr/lib/qt5/bin/assistant usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/assistant
 
 override_dh_auto_test-indep:

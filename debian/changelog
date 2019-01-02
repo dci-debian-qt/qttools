@@ -1,5 +1,8 @@
 qttools-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Split qdoc into a separate package (qdoc-qt5), build it only on
+    architectures where LLVM/clang is available (closes: #904688).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jan 2019 23:52:27 +0300
 
